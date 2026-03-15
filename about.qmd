@@ -2,8 +2,25 @@
 title: "About"
 ---
 
-About this site
+# About Me
 
-```{r}
-1 + 1
-```
+I am a veterinary researcher and graduate student at the **Department of Medicine, Faculty of Veterinary Science, [Bangladesh Agricultural University](https://bau.edu.bd/)**. My academic work focuses on **veterinary epidemiology, infectious diseases in livestock, and One Health research**, with an emphasis on understanding disease patterns in animal populations and generating evidence that can inform animal and public health decision-making.
+
+I work under the supervision of **[Prof. Dr. A.K.M. Anisur Rahman](https://bau.edu.bd/profile/VM1004)** in the **Epidemiology and Preventive Medicine Laboratory**, where I have been involved in research activities for the past **three years**. During this time, I have participated in several epidemiological studies on infectious diseases in livestock populations, gaining experience in field data collection, laboratory diagnostics, and epidemiological analysis.
+
+My research interests center on **epidemiological approaches to infectious diseases**, including disease prevalence estimation, risk factor analysis, and evidence synthesis. I am particularly interested in applying **quantitative and data-driven methods** to better understand the dynamics of livestock diseases and their implications for food systems and global health.
+
+## Research Interests
+
+My primary research interests include:
+
+- Veterinary epidemiology  
+- Infectious diseases in livestock  
+- One Health and zoonotic diseases  
+- Systematic review and meta-analysis  
+- Epidemiological study design and risk factor analysis  
+- Quantitative data analysis in health research  
+
+## Research Vision
+
+My long-term goal is to contribute to **high-quality research in infectious disease epidemiology and global animal health**. I aim to collaborate with international researchers and pursue advanced academic training that will allow me to develop stronger expertise in **epidemiological modeling, evidence synthesis, and data-driven health research**.
