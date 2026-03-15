@@ -3,4 +3,18 @@ project:
   output-dir: docs
 
 website:
-  title: "mdnazmulislam.github.io"
+  title: "Md Nazmul Islam"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: cv.qmd
+        text: CV
+      - href: projects.qmd
+        text: Projects
+      - href: publications.qmd
+        text: Publications
+      - href: teaching.qmd
+        text: Teaching
+      - href: blog.qmd
+        text: Blog
