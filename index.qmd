@@ -1,7 +1,13 @@
 ---
-title: "Md Nazmul Islam"
+title: ""
 ---
+
+![](images/myphoto.png){width="180px"}
+
+# Md Nazmul Islam
 
 ## Veterinary Epidemiology and Infectious Diseases
 
-Welcome to my academic portfolio website.
+I am a veterinary researcher and graduate student in the **Department of Medicine, Bangladesh Agricultural University**. My work focuses on **veterinary epidemiology, infectious diseases in livestock, and One Health research**, with interests in epidemiological data analysis and evidence synthesis.
+
+[About](about.qmd) \| [CV](cv.qmd) \| [Projects](projects.qmd) \| [Publications](publications.qmd) \| [Teaching](teaching.qmd) \| [Blog](blog.qmd)

@@ -4,10 +4,14 @@ project:
 
 website:
   title: "Md Nazmul Islam"
-  navbar:
-    left:
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
       - href: index.qmd
         text: Home
+      - href: about.qmd
+        text: About
       - href: cv.qmd
         text: CV
       - href: projects.qmd
@@ -18,3 +22,9 @@ website:
         text: Teaching
       - href: blog.qmd
         text: Blog
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
