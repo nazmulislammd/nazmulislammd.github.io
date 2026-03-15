@@ -1,7 +1,0 @@
----
-title: "Blog"
----
-
-# Blog and Research Notes
-
-This page will contain my blog posts, research notes, and updates.

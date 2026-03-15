@@ -1,7 +1,0 @@
----
-title: "Publications"
----
-
-# Publications
-
-This page will list my journal articles, conference papers, and working papers.

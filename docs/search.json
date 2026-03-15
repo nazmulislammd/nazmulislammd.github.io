@@ -1,10 +1,24 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Md Nazmul Islam",
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
     "section": "",
-    "text": "Welcome to my academic portfolio website."
+    "text": "Teaching and Work Experience\nThis page will contain my teaching, mentoring, and professional experience."
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Projects\nThis page will contain my research projects, data analysis work, and academic portfolio projects."
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "CV",
+    "section": "",
+    "text": "Curriculum Vitae\nThis page will contain my education, research experience, skills, and achievements."
   },
   {
     "objectID": "about.html",
@@ -14,6 +28,20 @@
     "text": "About this site\n\n1 + 1\n\n[1] 2"
   },
   {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Blog and Research Notes\nThis page will contain my blog posts, research notes, and updates."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Md Nazmul Islam",
+    "section": "",
+    "text": "Welcome to my academic portfolio website."
+  },
+  {
     "objectID": "index.html#veterinary-epidemiology-and-infectious-diseases",
     "href": "index.html#veterinary-epidemiology-and-infectious-diseases",
     "title": "Md Nazmul Islam",
@@ -21,10 +49,10 @@
     "text": "Welcome to my academic portfolio website."
   },
   {
-    "objectID": "Projects.html",
-    "href": "Projects.html",
-    "title": "Projects",
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
     "section": "",
-    "text": "Projects\nThis page will contain my research projects, data analysis work, and academic portfolio projects."
+    "text": "Publications\nThis page will list my journal articles, conference papers, and working papers."
   }
 ]

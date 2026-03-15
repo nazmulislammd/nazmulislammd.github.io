@@ -1,7 +1,0 @@
----
-title: "CV"
----
-
-# Curriculum Vitae
-
-This page will contain my education, research experience, skills, and achievements.
