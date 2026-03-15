@@ -1,7 +1,8 @@
 ---
-title: "CV"
+title: "Curriculum Vitae"
 ---
 
-# Curriculum Vitae
 
-This page will contain my education, research experience, skills, and achievements.
+You can download my full academic CV below.
+
+[Download CV (PDF)](files/Nazmul_Islam_CV.pdf)
