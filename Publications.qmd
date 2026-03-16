@@ -24,12 +24,12 @@ I have contributed significantly as first or equally contributing first author i
 
 <i class="fa-solid fa-check-circle" style="color: #28a745;"></i> **Published**
 
-- **Kibria, A.M.**, Islam, M.N., Alam, M.S., Adhikari, B.J., Islam, S., Rafeh, A.A., Hasan, R.S.M., Rahman, M.S., & Rahman, A.K.M.A. (2026).  
+- Kibria, A.M., **Islam, M.N.**, Alam, M.S., Adhikari, B.J., Islam, S., Rafeh, A.A., Hasan, R.S.M., Rahman, M.S., & Rahman, A.K.M.A. (2026).  
   True prevalence and associated risk factors of bovine paratuberculosis antibodies in dairy herds in Bangladesh. *PLOS ONE*.  
   [https://doi.org/10.1371/journal.pone.0334683](https://doi.org/10.1371/journal.pone.0334683)  
   **Equally contributing first author** — Contributed to study design, methodology development, Bayesian latent-class prevalence estimation, data analysis, visualization, and manuscript preparation.
 
-- **Mahmud Sajeeb, M.S.**, Alam, M.S., Islam, M.N., Islam, M.M., Adhikari, B.J., Islam, S., Rahman, M.S., & Rahman, A.K.M.A. (2025).  
+- Mahmud Sajeeb, M.S., Alam, M.S., **Islam, M.N.**, Islam, M.M., Adhikari, B.J., Islam, S., Rahman, M.S., & Rahman, A.K.M.A. (2025).  
   Prevalence and risk factors of bovine viral diarrhea virus antibodies in dairy herds of Bangladesh. *Veterinary Sciences*, 12(8), 739.  
   [https://doi.org/10.3390/vetsci12080739](https://doi.org/10.3390/vetsci12080739)  
   **Equally contributing first author** — Study design, field sampling, ELISA diagnostics, multivariable regression analysis, visualization, and manuscript preparation.
@@ -56,7 +56,7 @@ I have contributed significantly as first or equally contributing first author i
 - Aktaruzzaman, M., Ariful Islam, M., Shanta, S.A., Tahomina Akter, M., Hossain, M.T., **Islam, M.N.**, Alam, M.S., & Rahman, A.K.M.A. (2025).  
   Prevalence and cow-level risk factors for mild and severe subclinical mastitis in intensive and extensive dairy systems in Sirajganj, Bangladesh. *Veterinary Medicine International*.
 
-- **Saha, U.K.**, **Islam, M.N.** (equally contributing first author), Chaudhary, P., Hassan Alif, M.K., Mim, S.N., & Rahman, M.S. (2026).  
+- Saha, U.K., **Islam, M.N.** (equally contributing first author), Chaudhary, P., Hassan Alif, M.K., Mim, S.N., & Rahman, M.S. (2026).  
   Exploratory longitudinal ELISA antibody responses and hematological parameters after heat-inactivated *Brucella abortus* vaccination in cattle. *Acta Veterinaria Hungarica*.
 
 - Saif, M.A., **Islam, M.N.**, Ferdous, M.J., Rahman, A.K.M.A., & Bari, F.Y. (2026).  
