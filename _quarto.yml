@@ -3,28 +3,25 @@ project:
   output-dir: docs
 
 website:
-  title: "Md Nazmul Islam"
-  sidebar:
-    style: "docked"
-    search: true
-    contents:
-      - href: index.qmd
-        text: Home
-      - href: about.qmd
-        text: About
-      - href: cv.qmd
-        text: CV
-      - href: projects.qmd
-        text: Projects
+  title: "Md. Nazmul Islam"
+  navbar:
+    left:
       - href: publications.qmd
         text: Publications
-      - href: teaching.qmd
-        text: Teaching
+      - href: projects.qmd
+        text: Projects
+      - href: cv.qmd
+        text: CV
       - href: blog.qmd
         text: Blog
+      - href: timeline.qmd
+        text: Timeline
 
 format:
   html:
     theme: cosmo
     css: styles.css
-    toc: true
+    toc: false
+    include-in-header:
+      - text: |
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">

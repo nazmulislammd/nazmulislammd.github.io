@@ -2,12 +2,50 @@
 title: ""
 ---
 
-![](images/myphoto.png){width="180px"}
+::::: home-layout
+::: home-left
+       
+<img src="images/myphoto.png" alt="Md Nazmul Islam" class="profile-photo">
 
-# Md Nazmul Islam
+<h2>Md Nazmul Islam</h2>
+<p>MSc Student in Veterinary Epidemiology</p>
 
-## Veterinary Epidemiology and Infectious Diseases
+<div class="profile-links">
+  <p><i class="fa-solid fa-location-dot"></i> Bangladesh</p>
+  <p><a href="https://bau.edu.bd/" target="_blank"><i class="fa-solid fa-building-columns"></i> Bangladesh Agricultural University</a></p>
+  <p><a href="mailto:nazmul.1901007@bau.edu.bd"><i class="fa-solid fa-envelope"></i> Email</a></p>
+  <p><a href="https://orcid.org/0009-0002-1752-9210" target="_blank"><i class="fa-brands fa-orcid"></i> ORCID</a></p>
+  <p><a href="https://www.linkedin.com/in/md-nazmul-islam-edu/" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a></p>
+</div>
 
-I am a veterinary researcher and graduate student in the **Department of Medicine, Bangladesh Agricultural University**. My work focuses on **veterinary epidemiology, infectious diseases in livestock, and One Health research**, with interests in epidemiological data analysis and evidence synthesis.
+:::
 
-[About](about.qmd) \| [CV](cv.qmd) \| [Projects](projects.qmd) \| [Publications](publications.qmd) \| [Teaching](teaching.qmd) \| [Blog](blog.qmd)
+::: home-right
+<h1>Welcome to my personal website.</h1>
+
+<p>I am <strong>Md. Nazmul Islam</strong>, a DVM graduate and MS candidate in Medicine at Bangladesh Agricultural University.</p>
+
+<p>My research focuses on veterinary epidemiology, zoonotic infectious diseases in livestock, and One Health approaches, integrating Bayesian statistical modeling, field diagnostics, and epidemiological risk analysis to support improved disease surveillance and control in dairy production systems.</p>
+
+<p>Working under the supervision of <a href="https://bau.edu.bd/profile/VM1004" target="_blank"><strong>A.K.M. Anisur Rahman</strong></a>, I combine practical field and laboratory experience with advanced analytical tools such as R for Bayesian analysis, ELISA/qPCR diagnostics, and QGIS-based spatial analysis to produce robust, reproducible epidemiological evidence.</p>
+
+<p>You can explore my publications, working papers, research projects, public engagement activities, and teaching contributions by navigating the sections of this website.</p>
+
+<h2>Key Highlights</h2>
+<ul>
+  <li>Co-first author publications in <em>PLOS ONE</em> and <em>Veterinary Sciences</em>, with several additional manuscripts currently under peer review in international journals.</li>
+  <li>Conducted Bayesian prevalence estimation and risk-factor studies on brucellosis, paratuberculosis, Q fever, bovine viral diarrhea, and subclinical mastitis in Bangladeshi dairy herds.</li>
+  <li>Leading an independent global epidemiology project on human brucellosis, applying Bayesian meta-synthesis, spatiotemporal mapping, and One Health frameworks with a multidisciplinary research team.</li>
+  <li>Recipient of the National Science and Technology (NST) Fellowship 2026.</li>
+</ul>
+
+<h2>Research Interests</h2>
+<ul>
+  <li>Veterinary epidemiology and zoonotic disease modeling</li>
+  <li>Bayesian hierarchical and latent-class statistical methods</li>
+  <li>Dairy herd health and infectious disease surveillance</li>
+  <li>One Health approaches in low- and middle-income settings</li>
+  <li>Systematic reviews, meta-analysis, and geospatial epidemiology</li>
+</ul>
+:::
+:::::
