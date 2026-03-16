@@ -1,7 +1,51 @@
 ---
-title: "Projects"
+title: "Research Projects"
 ---
 
-# Projects
+## Current Research Projects
 
-This page will contain my research projects, data analysis work, and academic portfolio projects.
+I am passionate about applying advanced epidemiological and statistical tools to tackle zoonotic and infectious diseases at the human–animal–environment interface, with a focus on dairy cattle health in low-resource settings. My work integrates field diagnostics, Bayesian modeling, and One Health principles to generate actionable insights for disease control, antimicrobial stewardship, and sustainable livestock production. As an early-career researcher from Bangladesh Agricultural University, I am eager to collaborate with international teams to scale these approaches globally.
+
+### 1. Epidemiological Study of Infectious Diseases in Large Dairy Cattle Herds in Bangladesh  
+**Nov 2023 – Present**
+
+This ongoing project quantifies the true burden and transmission dynamics of priority zoonotic pathogens in intensive dairy systems — a critical yet understudied context in South Asia. Focus pathogens include brucellosis, paratuberculosis (Johne’s disease), bovine viral diarrhea (BVD), neosporosis, and Q fever (*Coxiella burnetii*). We use bulk milk screening and molecular diagnostics to address diagnostic imperfections and surveillance gaps.
+
+**Key contributions and outputs:**
+- Estimated herd- and cow-level true prevalence using indirect ELISA and real-time PCR on bulk milk samples.
+- Identified farm-level risk factors (management practices, biosecurity, environmental exposures) via multivariable and Bayesian approaches.
+- Performed multiplex qPCR on fetal membranes from abortion cases to detect *Brucella spp.*, *Coxiella burnetii*, *Neospora caninum*, *Leptospira spp.*, and others.
+- Presented findings at the BSVER Annual Scientific Conference (2024).
+- Contributing to multiple under-review manuscripts in high-impact journals (e.g., *PLOS ONE*, *Veterinary Sciences*).
+
+This work bridges local impact (improved herd health for Bangladeshi smallholders) with global relevance (zoonotic risk in emerging dairy economies).
+
+**Skills & Methods:** Indirect ELISA · Real-time qPCR · DNA extraction · Bayesian prevalence estimation · Risk factor analysis · Scientific visualization (R, BioRender, Adobe Illustrator) · Zoonotic disease surveillance · Dairy herd health monitoring
+
+### 2. Evaluating Locally Formulated Total Mixed Rations (TMR) for Beef Cattle  
+**Jan 2025 – Present**  
+*Supervisor: Prof. Dr. A.K.M. Anisur Rahman*
+
+This project develops cost-effective, nutritionally optimized TMR formulations using locally sourced feeds to enhance growth performance, health, and welfare in Bangladeshi beef cattle — addressing feed scarcity and sustainability in tropical smallholder systems.
+
+**Key contributions:**
+- Assisted in designing and executing controlled feeding trials with on-farm monitoring.
+- Applied laboratory diagnostics (ELISA, PCR) and statistical modeling (R) to evaluate impacts on growth metrics, immune response, and disease resistance.
+- Collaborated on practical recommendations for farmers, integrating veterinary medicine with food security and rural livelihoods.
+
+This initiative demonstrates scalable solutions for climate-resilient livestock production in resource-limited regions.
+
+**Skills & Methods:** Veterinary nutrition · Experimental trial design · Statistical analysis (R) · Laboratory techniques (ELISA, PCR) · Field data collection · One Health applications in livestock production
+
+### 3. Global Epidemiology of Human Brucellosis: Bayesian Test-Adjusted Evidence Synthesis, Spatiotemporal Mapping, and One Health Driver Modeling  
+**Self-initiated research program** (leading a team of 10 collaborators)
+
+This program addresses critical gaps in the global understanding of human brucellosis — a neglected zoonosis with massive underestimation due to imperfect diagnostics, heterogeneous surveillance, and non-specific symptoms. It comprises three interconnected, independently publishable studies:
+
+1. **Bayesian test-adjusted meta-analysis** — Synthesizing global seroprevalence while propagating uncertainty in diagnostic sensitivity/specificity (no perfect gold standard) to derive credible true prevalence estimates across regions.
+2. **Bayesian spatiotemporal disease mapping** — Inferring global hotspots, trends, and clusters under incomplete reporting, borrowing strength across space/time to overcome data sparsity.
+3. **One Health ecological driver modeling** — Quantifying environmental (climate, humidity), livestock density, and socioeconomic drivers while addressing spatial confounding and ecological inference biases.
+
+This builds on my expertise in Bayesian latent-class models and zoonotic epidemiology, with strong potential for high-impact outputs and international collaboration (diagnostics, spatial epi, One Health groups).
+
+**Skills & Methods:** Systematic review · Bayesian hierarchical modeling (latent class, spatiotemporal, ecological inference) · Advanced R programming · Geospatial analysis (QGIS) · One Health integration · Uncertainty propagation in diagnostics
