@@ -1,5 +1,7 @@
 ---
 title: ""
+title-block: false
+page-layout: full
 ---
 
 ::::: home-layout
@@ -8,22 +10,25 @@ title: ""
 <img src="images/myphoto.png" alt="Md Nazmul Islam" class="profile-photo">
 
 <h2>Md Nazmul Islam</h2>
-<p>MSc Student in Veterinary Epidemiology</p>
+<p>MS Student in Medicine</p>
 
 <div class="profile-links">
   <p><i class="fa-solid fa-location-dot"></i> Bangladesh</p>
   <p><a href="https://bau.edu.bd/" target="_blank"><i class="fa-solid fa-building-columns"></i> Bangladesh Agricultural University</a></p>
   <p><a href="mailto:nazmul.1901007@bau.edu.bd"><i class="fa-solid fa-envelope"></i> Email</a></p>
-  <p><a href="https://orcid.org/0009-0002-1752-9210" target="_blank"><i class="fa-brands fa-orcid"></i> ORCID</a></p>
   <p><a href="https://www.linkedin.com/in/md-nazmul-islam-edu/" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a></p>
+  <p><a href="https://github.com/nazmulislammd" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a></p>
+  <p><a href="https://scholar.google.com/citations?user=znn6vX8AAAAJ" target="_blank"><i class="fa-solid fa-graduation-cap"></i> Google Scholar</a></p>
+  <p><a href="https://www.researchgate.net/profile/Md-Nazmul-Islam-26" target="_blank"><i class="fa-solid fa-flask"></i> ResearchGate</a></p>
+  <p><a href="https://orcid.org/0009-0002-1752-9210" target="_blank"><i class="fa-brands fa-orcid"></i> ORCID</a></p>
 </div>
 
 :::
 
 ::: home-right
-<h1>Welcome to my personal website.</h1>
+<p class="hero-title">Welcome to my personal website.</p>
 
-<p>I am <strong>Md. Nazmul Islam</strong>, a DVM graduate and MS candidate in Medicine at Bangladesh Agricultural University.</p>
+<p>I am a Doctor of Veterinary Medicine (DVM) graduate and an MS candidate in Medicine at the Department of Medicine, Bangladesh Agricultural University.</p>
 
 <p>My research focuses on veterinary epidemiology, zoonotic infectious diseases in livestock, and One Health approaches, integrating Bayesian statistical modeling, field diagnostics, and epidemiological risk analysis to support improved disease surveillance and control in dairy production systems.</p>
 

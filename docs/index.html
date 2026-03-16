@@ -69,12 +69,52 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const nav = document.querySelector(".navbar-nav");
+  if (!nav) return;
+
+  const btn = document.createElement("button");
+  btn.id = "theme-toggle";
+  btn.type = "button";
+  btn.setAttribute("aria-label", "Toggle color mode");
+
+  const icon = document.createElement("img");
+  icon.id = "theme-toggle-icon";
+  icon.alt = "Toggle theme";
+  btn.appendChild(icon);
+
+  const item = document.createElement("li");
+  item.className = "nav-item";
+  item.appendChild(btn);
+  nav.appendChild(item);
+
+  function setTheme(mode) {
+    document.body.classList.toggle("dark-mode", mode === "dark");
+    localStorage.setItem("site-theme", mode);
+    icon.src = mode === "dark"
+      ? "images/moon-icon.png"
+      : "images/sun-icon.png";
+  }
+
+  const savedTheme =
+    localStorage.getItem("site-theme") === "dark" ? "dark" : "light";
+  setTheme(savedTheme);
+
+  btn.addEventListener("click", function () {
+    const newTheme = document.body.classList.contains("dark-mode")
+      ? "light"
+      : "dark";
+    setTheme(newTheme);
+  });
+});
+</script>
 
 
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -119,14 +159,12 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><h1 class="title display-7">
-Welcome to my personal website.
-</h1></header>
+<main class="content column-page" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
@@ -138,7 +176,7 @@ Welcome to my personal website.
 Md Nazmul Islam
 </h2>
 <p>
-MSc Student in Veterinary Epidemiology
+MS Student in Medicine
 </p>
 <div class="profile-links">
 <p>
@@ -151,17 +189,28 @@ MSc Student in Veterinary Epidemiology
 <a href="mailto:nazmul.1901007@bau.edu.bd"><i class="fa-solid fa-envelope"></i> Email</a>
 </p>
 <p>
-<a href="https://orcid.org/0009-0002-1752-9210" target="_blank"><i class="fa-brands fa-orcid"></i> ORCID</a>
+<a href="https://www.linkedin.com/in/md-nazmul-islam-edu/" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
 </p>
 <p>
-<a href="https://www.linkedin.com/in/md-nazmul-islam-edu/" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+<a href="https://github.com/nazmulislammd" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+</p>
+<p>
+<a href="https://scholar.google.com/citations?user=znn6vX8AAAAJ" target="_blank"><i class="fa-solid fa-graduation-cap"></i> Google Scholar</a>
+</p>
+<p>
+<a href="https://www.researchgate.net/profile/Md-Nazmul-Islam-26" target="_blank"><i class="fa-solid fa-flask"></i> ResearchGate</a>
+</p>
+<p>
+<a href="https://orcid.org/0009-0002-1752-9210" target="_blank"><i class="fa-brands fa-orcid"></i> ORCID</a>
 </p>
 </div>
 </div>
 <div class="home-right">
-
+<p class="hero-title">
+Welcome to my personal website.
+</p>
 <p>
-I am <strong>Md. Nazmul Islam</strong>, a DVM graduate and MS candidate in Medicine at Bangladesh Agricultural University.
+I am a Doctor of Veterinary Medicine (DVM) graduate and an MS candidate in Medicine at the Department of Medicine, Bangladesh Agricultural University.
 </p>
 <p>
 My research focuses on veterinary epidemiology, zoonotic infectious diseases in livestock, and One Health approaches, integrating Bayesian statistical modeling, field diagnostics, and epidemiological risk analysis to support improved disease surveillance and control in dairy production systems.
