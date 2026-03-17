@@ -85,14 +85,14 @@ body {
 
 .home-left h2 {
   margin: 0 0 0.45rem 0;
-  font-size: 1.28rem;
+  font-size: 1.15rem;
   font-weight: 700;
   line-height: 1.2;
 }
 
 .home-left > p {
   margin: 0 0 1rem 0;
-  font-size: 0.98rem;
+  font-size: 0.9rem;
   color: #3b4452;
 }
 
@@ -107,7 +107,7 @@ body {
   align-items: center;
   gap: 0.35rem;
   margin: 0 0 0.9rem 0;
-  font-size: 0.9rem;
+  font-size: 0.82rem;
   line-height: 1.4;
 }
 
@@ -157,7 +157,7 @@ body {
 
 .home-right p,
 .home-right li {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   line-height: 1.7;
   color: #2d3748;
 }
