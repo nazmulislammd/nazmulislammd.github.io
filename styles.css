@@ -24,6 +24,11 @@ body {
   border-bottom: 1px solid #6f9bb0;
   padding-top: 0.85rem;
   padding-bottom: 0.85rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1030;
 }
 
 .navbar > .container-fluid {
