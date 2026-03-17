@@ -10,8 +10,8 @@ main.content.column-page {
   width: calc(100% - 40px) !important;
 }
 #quarto-document-content {
-  max-width: none !important;
-  width: calc(100vw - 80px) !important;
+  max-width: 1100px !important;
+  width: 100% !important;
 }
 body {
   background-color: #f3f3f3;
