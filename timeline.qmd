@@ -1,7 +1,30 @@
 ---
 title: "Timeline"
+toc: false
 ---
 
-## Timeline
+::: {.timeline-intro}
+Personal timeline containing significant events in my life in reverse chronological order (last updated March, 2026).
+:::
 
-Coming soon.
+::: {.timeline}
+
+::: {.timeline-item .left}
+::: {.content}
+### Equally Contributing First Author – PLOS ONE
+Published second Q1 paper: “Estimated true prevalence and associated risk factors of bovine paratuberculosis antibodies in dairy herds in Bangladesh”. Applied Bayesian methods to adjust for diagnostic imperfections and identify farm-level drivers in South Asian intensive dairy systems.
+
+[January 2026]{.date}
+:::
+:::
+
+::: {.timeline-item .right}
+::: {.content}
+### National Science and Technology (NST) Fellowship
+Awarded competitive research fellowship by the Ministry of Science and Technology, Government of Bangladesh, to support advanced epidemiological studies in livestock zoonoses.
+
+[January 2026]{.date}
+:::
+:::
+
+:::
