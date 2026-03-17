@@ -8,6 +8,7 @@ project:
 website:
   title: "Md. Nazmul Islam"
   navbar:
+    pinned: true
     left:
       - href: publications.qmd
         text: Publications
