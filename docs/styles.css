@@ -499,3 +499,49 @@ body.timeline-page #quarto-content {
     border-color: transparent #0b7a7f transparent transparent;
   }
 }
+/* ===== Timeline dark mode ===== */
+body.dark-mode .timeline-intro {
+  color: #b8c0cc;
+}
+
+body.dark-mode .timeline-item .content {
+  background: #0f172a;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.28);
+}
+
+body.dark-mode .timeline-item h3 {
+  color: #67e8f9;
+}
+
+body.dark-mode .timeline-item p {
+  color: #dbe4ee;
+}
+
+body.dark-mode .timeline-item .date {
+  color: #22d3ee;
+}
+
+body.dark-mode .timeline::after {
+  background-color: #22d3ee;
+}
+
+body.dark-mode .timeline-item::after {
+  background-color: #22d3ee;
+  border-color: #22d3ee;
+}
+
+body.dark-mode .timeline-item.left .content {
+  border-right-color: #22d3ee;
+}
+
+body.dark-mode .timeline-item.right .content {
+  border-left-color: #22d3ee;
+}
+
+body.dark-mode .timeline-item.left .content::after {
+  border-color: transparent transparent transparent #22d3ee;
+}
+
+body.dark-mode .timeline-item.right .content::after {
+  border-color: transparent #22d3ee transparent transparent;
+}

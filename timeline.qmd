@@ -11,7 +11,7 @@ Personal timeline containing significant events in my life in reverse chronologi
 
 ::: {.timeline-item .left}
 ::: {.content}
-### Equally Contributing First Author – PLOS ONE
+### Equally Contributing First Author – PLOS One
 Published second Q1 paper: “Estimated true prevalence and associated risk factors of bovine paratuberculosis antibodies in dairy herds in Bangladesh”. Applied Bayesian methods to adjust for diagnostic imperfections and identify farm-level drivers in South Asian intensive dairy systems.
 
 [January 2026]{.date}
@@ -24,6 +24,114 @@ Published second Q1 paper: “Estimated true prevalence and associated risk fact
 Awarded competitive research fellowship by the Ministry of Science and Technology, Government of Bangladesh, to support advanced epidemiological studies in livestock zoonoses.
 
 [January 2026]{.date}
+:::
+:::
+
+::: {.timeline-item .left}
+::: {.content}
+### Oral Presentation – IOCVS 2025
+Presented “Feasibility of On-Farm Somatic Cell Count Screening for Subclinical Mastitis: Prevalence and Risk Factors in a Commercial Dairy Herd in Bangladesh” at the 1st International Online Conference on Veterinary Science (IOCVS), 4 December 2025.
+
+[December 2025]{.date}
+:::
+:::
+
+::: {.timeline-item .right}
+::: {.content}
+### Equally Contributing First Author – Q1 Journal
+Published first lead-author paper: “Prevalence and Risk Factors of Bovine Viral Diarrhea Virus Antibodies in Dairy Herds of Bangladesh”. Combined field sampling, serology, and multivariable risk factor analysis.
+
+[August 2025]{.date}
+:::
+:::
+
+::: {.timeline-item .left}
+::: {.content}
+### Aspire Leaders Program – Finalist & Alumni
+Selected among 6,175 finalists from more than 36,000 applicants for the 2025 Aspire Leaders Program. Completed 40 hours of intensive training in leadership, critical thinking, global impact strategy, and communication.
+
+[August 2025]{.date}
+:::
+:::
+
+::: {.timeline-item .right}
+::: {.content}
+### Admission – MS in Medicine
+Enrolled in Master of Science in Medicine, Department of Medicine, Faculty of Veterinary Science, Bangladesh Agricultural University.
+
+[April 2025]{.date}
+:::
+:::
+
+::: {.timeline-item .left}
+::: {.content}
+### Published Book – Amazon Kindle
+Authored and self-published *The AI Prompt Handbook: Master Your Skills and Accelerate Growth*. Practical guide on using large language models for academic writing, research productivity, and personal development.
+
+[April 2025]{.date}
+:::
+:::
+
+::: {.timeline-item .right}
+::: {.content}
+### Graduated – Doctor of Veterinary Medicine (DVM)
+Completed DVM degree from Bangladesh Agricultural University. Received comprehensive training in veterinary clinical practice, epidemiology, pathology, and public health.
+
+[January 2025]{.date}
+:::
+:::
+
+::: {.timeline-item .left}
+::: {.content}
+### Veterinary Internship
+Completed a comprehensive veterinary internship across multiple clinical and research settings, including government hospitals, diagnostic laboratories, dairy farms, military farms, and private clinics. Performed clinical examinations, treatments, surgical assistance, and field consultations under professional supervision.
+
+[November 2024]{.date}
+:::
+:::
+
+::: {.timeline-item .right}
+::: {.content}
+### Research Assistant
+Joined the Epidemiology and Preventive Medicine Laboratory, Department of Medicine, Bangladesh Agricultural University. Conducted more than 3 years of full-time research on zoonotic pathogens in dairy cattle, including brucellosis, paratuberculosis, BVD, and Q fever, with focus on field diagnostics, Bayesian prevalence estimation, and risk factor modeling.
+
+[January 2023]{.date}
+:::
+:::
+
+::: {.timeline-item .left}
+::: {.content}
+### Founder – EduTricks Academy
+Launched a free online educational platform through Facebook page and group to provide academic support, study strategies, and subject tutorials for secondary and higher-secondary students across Bangladesh. Reached more than 1,000 learners.
+
+[January 2022]{.date}
+:::
+:::
+
+::: {.timeline-item .right}
+::: {.content}
+### Undergraduate Studies – DVM
+Started my Doctor of Veterinary Medicine (DVM) degree at Bangladesh Agricultural University.
+
+[January 2019]{.date}
+:::
+:::
+
+::: {.timeline-item .left}
+::: {.content}
+### Merit Scholarship – Higher Secondary Certificate (HSC)
+Awarded merit-based scholarship by the Board of Intermediate and Secondary Education, Dinajpur, Bangladesh, for outstanding performance in HSC examinations.
+
+[February 2018]{.date}
+:::
+:::
+
+::: {.timeline-item .right}
+::: {.content}
+### Merit Scholarship – Secondary School Certificate (SSC)
+Awarded merit-based scholarship by the Board of Intermediate and Secondary Education, Dinajpur, Bangladesh, for exceptional results in SSC examinations.
+
+[June 2016]{.date}
 :::
 :::
 
