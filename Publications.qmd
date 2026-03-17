@@ -13,9 +13,9 @@ format:
       text: |
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 ---
-Here you will find my peer-reviewed journal articles, manuscripts under review, conference proceedings, and presentations. My work focuses on the epidemiology of infectious diseases in dairy cattle in Bangladesh, with emphasis on Bayesian methods, prevalence estimation, risk factor analysis, and zoonotic threats (brucellosis, paratuberculosis, BVD, Coxiella, etc.).
+Here you will find my peer-reviewed journal articles, manuscripts under review, conference proceedings, and presentations. My work focuses on the epidemiology of infectious diseases and production-related conditions in dairy cattle in Bangladesh, with emphasis on Bayesian methods, prevalence estimation, risk factor analysis, and zoonotic threats (brucellosis, paratuberculosis, BVD, Coxiella, and subclinical mastitis), as well as economic impact assessment.
 
-I have contributed significantly as first or equally contributing first author in most entries, leading study design, advanced statistical modeling (Bayesian latent-class, hierarchical, mixture models, multivariable/multinomial regression), field diagnostics, and visualization.
+I have contributed significantly as first or equally contributing first author in most studies, leading study design, advanced statistical modeling (Bayesian latent-class, hierarchical, and mixture models; multivariable and multinomial regression), field diagnostics, and data visualization.
 
 ## Published Journal Articles {.published}
 
