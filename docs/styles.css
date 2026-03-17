@@ -293,17 +293,20 @@ body:not(.dark-mode) #theme-toggle-icon {
   width: 50px;
   height: 50px;
 }
-body.publications-page #quarto-content {
-  max-width: 1400px !important;
+body.publications-page .home-left {
+  float: left;
+  width: 320px;
+  margin: 0 55px 40px 0;
 }
 
-body.publications-page #quarto-document-content {
-  max-width: 1220px !important;
-  margin-left: -95px !important;
-}
-body.publications-page #TOC,
-body.publications-page nav#TOC {
-  width: 260px !important;
+body.publications-page .home-left ~ h1,
+body.publications-page .home-left ~ h2,
+body.publications-page .home-left ~ p,
+body.publications-page .home-left ~ ul,
+body.publications-page .home-left ~ hr,
+body.publications-page .home-left ~ div {
+  margin-left: 375px;
+  max-width: 980px;
 }
 body.publications-page #TOC ul.collapse {
   display: block !important;
