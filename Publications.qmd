@@ -7,7 +7,6 @@ format:
     toc-title: "On this page"    # Matches your screenshot/circle
     toc-depth: 2                 # Shows ## headings (major sections)
     toc-expand: true             # Fully expanded by default for quick scan
-    theme: flatly                # Or your preferred clean academic theme
     css: styles.css              # Keep if you have custom styles
     include-in-header: 
       text: |
