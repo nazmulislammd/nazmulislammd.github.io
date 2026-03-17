@@ -7,7 +7,7 @@ page-layout: full
 ::::: home-layout
 ::: home-left
        
-<img src="images/myphoto.png" alt="Md Nazmul Islam" class="profile-photo">
+<img src="images/myphoto.jpg" alt="Md Nazmul Islam" class="profile-photo">
 
 <h2>Md Nazmul Islam</h2>
 <p>MS Student in Medicine</p>
