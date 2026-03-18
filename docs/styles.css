@@ -545,3 +545,13 @@ body.dark-mode .timeline-item.left .content::after {
 body.dark-mode .timeline-item.right .content::after {
   border-color: transparent #22d3ee transparent transparent;
 }
+#title-block-header .quarto-title-meta {
+  display: none !important;
+}
+.quarto-category {
+  margin-bottom: 0.2rem;
+}
+
+#title-block-header {
+  margin-bottom: 0.8rem;
+}

@@ -1,7 +1,11 @@
 ---
 title: "Blog"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: table
+  categories: false
+  fields: [title, categories]
 ---
 
-# Blog and Research Notes
-
-This page will contain my blog posts, research notes, and updates.
+My blog posts, research notes, and short methodological reflections on epidemiology, Bayesian modelling, and reproducible research.

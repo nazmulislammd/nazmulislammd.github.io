@@ -112,18 +112,60 @@
     "text": "I am passionate about applying advanced epidemiological and statistical tools to tackle zoonotic and infectious diseases at the human–animal–environment interface, with a focus on dairy cattle health in low-resource settings. My work integrates field diagnostics, Bayesian modeling, and One Health principles to generate actionable insights for disease control, antimicrobial stewardship, and sustainable livestock production. As an early-career researcher from Bangladesh Agricultural University, I am eager to collaborate with international teams to scale these approaches globally.\n\n\nNov 2023 – Present\nThis ongoing project quantifies the true burden and transmission dynamics of priority zoonotic pathogens in intensive dairy systems — a critical yet understudied context in South Asia. Focus pathogens include brucellosis, paratuberculosis (Johne’s disease), bovine viral diarrhea (BVD), neosporosis, and Q fever (Coxiella burnetii). We use bulk milk screening and molecular diagnostics to address diagnostic imperfections and surveillance gaps.\nKey contributions and outputs: - Estimated herd- and cow-level true prevalence using indirect ELISA and real-time PCR on bulk milk samples. - Identified farm-level risk factors (management practices, biosecurity, environmental exposures) via multivariable and Bayesian approaches. - Performed multiplex qPCR on fetal membranes from abortion cases to detect Brucella spp., Coxiella burnetii, Neospora caninum, Leptospira spp., and others. - Presented findings at the BSVER Annual Scientific Conference (2024). - Contributing to multiple under-review manuscripts in high-impact journals (e.g., PLOS ONE, Veterinary Sciences).\nThis work bridges local impact (improved herd health for Bangladeshi smallholders) with global relevance (zoonotic risk in emerging dairy economies).\nSkills & Methods: Indirect ELISA · Real-time qPCR · DNA extraction · Bayesian prevalence estimation · Risk factor analysis · Scientific visualization (R, BioRender, Adobe Illustrator) · Zoonotic disease surveillance · Dairy herd health monitoring\n\n\n\nJan 2025 – Present\nSupervisor: Prof. Dr. A.K.M. Anisur Rahman\nThis project develops cost-effective, nutritionally optimized TMR formulations using locally sourced feeds to enhance growth performance, health, and welfare in Bangladeshi beef cattle — addressing feed scarcity and sustainability in tropical smallholder systems.\nKey contributions: - Assisted in designing and executing controlled feeding trials with on-farm monitoring. - Applied laboratory diagnostics (ELISA, PCR) and statistical modeling (R) to evaluate impacts on growth metrics, immune response, and disease resistance. - Collaborated on practical recommendations for farmers, integrating veterinary medicine with food security and rural livelihoods.\nThis initiative demonstrates scalable solutions for climate-resilient livestock production in resource-limited regions.\nSkills & Methods: Veterinary nutrition · Experimental trial design · Statistical analysis (R) · Laboratory techniques (ELISA, PCR) · Field data collection · One Health applications in livestock production\n\n\n\nSelf-initiated research program (leading a team of 10 collaborators)\nThis program addresses critical gaps in the global understanding of human brucellosis — a neglected zoonosis with massive underestimation due to imperfect diagnostics, heterogeneous surveillance, and non-specific symptoms. It comprises three interconnected, independently publishable studies:\n\nBayesian test-adjusted meta-analysis — Synthesizing global seroprevalence while propagating uncertainty in diagnostic sensitivity/specificity (no perfect gold standard) to derive credible true prevalence estimates across regions.\nBayesian spatiotemporal disease mapping — Inferring global hotspots, trends, and clusters under incomplete reporting, borrowing strength across space/time to overcome data sparsity.\nOne Health ecological driver modeling — Quantifying environmental (climate, humidity), livestock density, and socioeconomic drivers while addressing spatial confounding and ecological inference biases.\n\nThis builds on my expertise in Bayesian latent-class models and zoonotic epidemiology, with strong potential for high-impact outputs and international collaboration (diagnostics, spatial epi, One Health groups).\nSkills & Methods: Systematic review · Bayesian hierarchical modeling (latent class, spatiotemporal, ecological inference) · Advanced R programming · Geospatial analysis (QGIS) · One Health integration · Uncertainty propagation in diagnostics"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Md. Nazmul Islam",
+    "objectID": "posts/why-bayesian-prevalence.html",
+    "href": "posts/why-bayesian-prevalence.html",
+    "title": "Why I Moved Beyond Apparent Prevalence in Veterinary Epidemiology",
     "section": "",
-    "text": "Md Nazmul Islam\n\n\nMS Student in Medicine\n\n\n\n Bangladesh\n\n\n Bangladesh Agricultural University\n\n\n Email\n\n\n LinkedIn\n\n\n GitHub\n\n\n Google Scholar\n\n\n ResearchGate\n\n\n ORCID\n\n\n\n\n\nWelcome to my personal website.\n\n\nI am a Doctor of Veterinary Medicine (DVM) graduate and an MS candidate in Medicine at the Department of Medicine, Bangladesh Agricultural University.\n\n\nMy research focuses on veterinary epidemiology, zoonotic infectious diseases in livestock, and One Health approaches, integrating Bayesian statistical modeling, field diagnostics, and epidemiological risk analysis to support improved disease surveillance and control in dairy production systems.\n\n\nWorking under the supervision of A.K.M. Anisur Rahman, I combine practical field and laboratory experience with advanced analytical tools such as R for Bayesian analysis, ELISA/qPCR diagnostics, and QGIS-based spatial analysis to produce robust, reproducible epidemiological evidence.\n\n\nYou can explore my publications, working papers, research projects, public engagement activities, and teaching contributions by navigating the sections of this website.\n\n\nKey Highlights\n\n\n\nCo-first author publications in PLOS ONE and Veterinary Sciences, with several additional manuscripts currently under peer review in international journals.\n\n\nConducted Bayesian prevalence estimation and risk-factor studies on brucellosis, paratuberculosis, Q fever, bovine viral diarrhea, and subclinical mastitis in Bangladeshi dairy herds.\n\n\nLeading an independent global epidemiology project on human brucellosis, applying Bayesian meta-synthesis, spatiotemporal mapping, and One Health frameworks with a multidisciplinary research team.\n\n\nRecipient of the National Science and Technology (NST) Fellowship 2026.\n\n\n\nResearch Interests\n\n\n\nVeterinary epidemiology and zoonotic disease modeling\n\n\nBayesian hierarchical and latent-class statistical methods\n\n\nDairy herd health and infectious disease surveillance\n\n\nOne Health approaches in low- and middle-income settings\n\n\nSystematic reviews, meta-analysis, and geospatial epidemiology"
+    "text": "March 19, 2026\nWhen I first started working with prevalence data, I used the same approach that many of us learn early on: count the number of positive test results and divide by the total number tested. It is simple, quick, and easy to explain. In many papers, that is still exactly what gets reported.\nAt first, that felt perfectly reasonable to me.\nOver time, though, I became less comfortable with it. The more I read about diagnostic test performance, and the more I worked with serological data from clustered animal populations, the more I felt that the usual prevalence calculation was not telling the full story.\nWhat we usually observe is apparent prevalence. What we usually care about is true prevalence. Those are not always the same thing."
   },
   {
-    "objectID": "cv.html",
-    "href": "cv.html",
-    "title": "Curriculum Vitae",
+    "objectID": "posts/why-bayesian-prevalence.html#why-that-difference-started-to-matter-to-me",
+    "href": "posts/why-bayesian-prevalence.html#why-that-difference-started-to-matter-to-me",
+    "title": "Why I Moved Beyond Apparent Prevalence in Veterinary Epidemiology",
+    "section": "Why that difference started to matter to me",
+    "text": "Why that difference started to matter to me\nIn veterinary epidemiology, we often work with imperfect diagnostics. Sensitivity is not perfect. Specificity is not perfect. In some settings, that may not change the interpretation very much. But in low-prevalence populations, even a small amount of misclassification can matter a lot.\nA modest loss of specificity can make prevalence look higher than it really is. A modest loss of sensitivity can hide infected animals that should have been counted. Once the data are clustered within herds, farms, or regions, the problem becomes harder to dismiss as a minor technical detail.\nThat was the point when apparent prevalence started to feel more like a rough first summary than a final answer."
+  },
+  {
+    "objectID": "posts/why-bayesian-prevalence.html#what-bayesian-modelling-changed-for-me",
+    "href": "posts/why-bayesian-prevalence.html#what-bayesian-modelling-changed-for-me",
+    "title": "Why I Moved Beyond Apparent Prevalence in Veterinary Epidemiology",
+    "section": "What Bayesian modelling changed for me",
+    "text": "What Bayesian modelling changed for me\nThe main attraction of Bayesian modelling was not complexity for its own sake. It was that the framework allowed me to handle uncertainty more honestly.\nInstead of treating test performance as fixed and perfect, I could treat sensitivity and specificity as uncertain quantities informed by validation studies or previous literature. Instead of reporting one corrected number, I could estimate a full posterior distribution for prevalence and show the uncertainty directly. Instead of ignoring herd structure, I could model the clustering that actually exists in field data.\nThat shift changed the way I thought about the problem. I stopped seeing prevalence estimation as a simple calculation and started seeing it as an inference problem under imperfect measurement.\nThat has been much more aligned with the kind of data I actually work with."
+  },
+  {
+    "objectID": "posts/why-bayesian-prevalence.html#the-key-idea",
+    "href": "posts/why-bayesian-prevalence.html#the-key-idea",
+    "title": "Why I Moved Beyond Apparent Prevalence in Veterinary Epidemiology",
+    "section": "The key idea",
+    "text": "The key idea\nThe important step is to distinguish between the latent infection status and the observed test result.\nIn plain terms, the model asks two separate questions:\nFirst, what is the probability that an animal is truly infected?\nSecond, given that true state, what is the probability that the diagnostic test returns a positive result?\nThat separation is what allows imperfect sensitivity and specificity to enter the model in a principled way. Without that step, we are still modelling observed positivity, not true prevalence."
+  },
+  {
+    "objectID": "posts/why-bayesian-prevalence.html#why-i-still-think-this-is-worth-the-extra-effort",
+    "href": "posts/why-bayesian-prevalence.html#why-i-still-think-this-is-worth-the-extra-effort",
+    "title": "Why I Moved Beyond Apparent Prevalence in Veterinary Epidemiology",
+    "section": "Why I still think this is worth the extra effort",
+    "text": "Why I still think this is worth the extra effort\nBayesian models take longer to fit. They require stronger justification. Priors need to be explained. Convergence has to be checked. Posterior predictive assessment and sensitivity analysis are part of the job, not optional extras.\nSo yes, there is more work involved.\nBut for me, the trade-off has been worth it. The estimates are more defensible. The uncertainty is clearer. The modelling assumptions are easier to state explicitly. And the final interpretation is much closer to the real epidemiologic question I want to answer.\nIn low-resource veterinary settings, where diagnostics are rarely perfect and field data are often clustered, I do not think this is just a statistical preference. In many cases, it is the more responsible way to analyse prevalence.\nThat is why I moved beyond apparent prevalence.\nNot because the traditional approach is useless, but because I wanted my estimates to reflect the uncertainty that is already there, whether we acknowledge it or not.\nSeveral of the visualizations on this site are simplified illustrations of that modelling logic, built from simulated data for transparency while reflecting the analytical frameworks used in my research."
+  },
+  {
+    "objectID": "files/timeline.html",
+    "href": "files/timeline.html",
+    "title": "Timeline",
     "section": "",
-    "text": "You can download my full academic CV below.\nDownload CV (PDF)"
+    "text": "Coming soon."
+  },
+  {
+    "objectID": "files/timeline.html#timeline",
+    "href": "files/timeline.html#timeline",
+    "title": "Timeline",
+    "section": "",
+    "text": "Coming soon."
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "My blog posts, research notes, and short methodological reflections on epidemiology, Bayesian modelling, and reproducible research.\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Title\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\n\nCategories\n\n\n\n\n\n\n\n\nWhy I Moved Beyond Apparent Prevalence in Veterinary Epidemiology\n\n\nBayesian methods, Epidemiology, Reproducibility\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -147,25 +189,18 @@
     "text": "My long-term goal is to contribute to high-quality research in infectious disease epidemiology and global animal health. I aim to collaborate with international researchers and pursue advanced academic training that will allow me to develop stronger expertise in epidemiological modeling, evidence synthesis, and data-driven health research."
   },
   {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "Blog",
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "Curriculum Vitae",
     "section": "",
-    "text": "Blog and Research Notes\nThis page will contain my blog posts, research notes, and updates."
+    "text": "You can download my full academic CV below.\nDownload CV (PDF)"
   },
   {
-    "objectID": "files/timeline.html",
-    "href": "files/timeline.html",
-    "title": "Timeline",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Md. Nazmul Islam",
     "section": "",
-    "text": "Coming soon."
-  },
-  {
-    "objectID": "files/timeline.html#timeline",
-    "href": "files/timeline.html#timeline",
-    "title": "Timeline",
-    "section": "",
-    "text": "Coming soon."
+    "text": "Md Nazmul Islam\n\n\nMS Student in Medicine\n\n\n\n Bangladesh\n\n\n Bangladesh Agricultural University\n\n\n Email\n\n\n LinkedIn\n\n\n GitHub\n\n\n Google Scholar\n\n\n ResearchGate\n\n\n ORCID\n\n\n\n\n\nWelcome to my personal website.\n\n\nI am a Doctor of Veterinary Medicine (DVM) graduate and an MS candidate in Medicine at the Department of Medicine, Bangladesh Agricultural University.\n\n\nMy research focuses on veterinary epidemiology, zoonotic infectious diseases in livestock, and One Health approaches, integrating Bayesian statistical modeling, field diagnostics, and epidemiological risk analysis to support improved disease surveillance and control in dairy production systems.\n\n\nWorking under the supervision of A.K.M. Anisur Rahman, I combine practical field and laboratory experience with advanced analytical tools such as R for Bayesian analysis, ELISA/qPCR diagnostics, and QGIS-based spatial analysis to produce robust, reproducible epidemiological evidence.\n\n\nYou can explore my publications, working papers, research projects, public engagement activities, and teaching contributions by navigating the sections of this website.\n\n\nKey Highlights\n\n\n\nCo-first author publications in PLOS ONE and Veterinary Sciences, with several additional manuscripts currently under peer review in international journals.\n\n\nConducted Bayesian prevalence estimation and risk-factor studies on brucellosis, paratuberculosis, Q fever, bovine viral diarrhea, and subclinical mastitis in Bangladeshi dairy herds.\n\n\nLeading an independent global epidemiology project on human brucellosis, applying Bayesian meta-synthesis, spatiotemporal mapping, and One Health frameworks with a multidisciplinary research team.\n\n\nRecipient of the National Science and Technology (NST) Fellowship 2026.\n\n\n\nResearch Interests\n\n\n\nVeterinary epidemiology and zoonotic disease modeling\n\n\nBayesian hierarchical and latent-class statistical methods\n\n\nDairy herd health and infectious disease surveillance\n\n\nOne Health approaches in low- and middle-income settings\n\n\nSystematic reviews, meta-analysis, and geospatial epidemiology"
   },
   {
     "objectID": "profile-panel.html",

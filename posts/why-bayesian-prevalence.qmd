@@ -1,0 +1,61 @@
+---
+title: "Why I Moved Beyond Apparent Prevalence in Veterinary Epidemiology"
+date: "2026-03-19"
+categories: [Bayesian methods, Epidemiology, Reproducibility]
+title-block-banner: false
+---
+*March 19, 2026*
+
+When I first started working with prevalence data, I used the same approach that many of us learn early on: count the number of positive test results and divide by the total number tested. It is simple, quick, and easy to explain. In many papers, that is still exactly what gets reported.
+
+At first, that felt perfectly reasonable to me.
+
+Over time, though, I became less comfortable with it. The more I read about diagnostic test performance, and the more I worked with serological data from clustered animal populations, the more I felt that the usual prevalence calculation was not telling the full story.
+
+What we usually observe is **apparent prevalence**. What we usually care about is **true prevalence**. Those are not always the same thing.
+
+## Why that difference started to matter to me
+
+In veterinary epidemiology, we often work with imperfect diagnostics. Sensitivity is not perfect. Specificity is not perfect. In some settings, that may not change the interpretation very much. But in low-prevalence populations, even a small amount of misclassification can matter a lot.
+
+A modest loss of specificity can make prevalence look higher than it really is. A modest loss of sensitivity can hide infected animals that should have been counted. Once the data are clustered within herds, farms, or regions, the problem becomes harder to dismiss as a minor technical detail.
+
+That was the point when apparent prevalence started to feel more like a rough first summary than a final answer.
+
+## What Bayesian modelling changed for me
+
+The main attraction of Bayesian modelling was not complexity for its own sake. It was that the framework allowed me to handle uncertainty more honestly.
+
+Instead of treating test performance as fixed and perfect, I could treat sensitivity and specificity as uncertain quantities informed by validation studies or previous literature. Instead of reporting one corrected number, I could estimate a full posterior distribution for prevalence and show the uncertainty directly. Instead of ignoring herd structure, I could model the clustering that actually exists in field data.
+
+That shift changed the way I thought about the problem. I stopped seeing prevalence estimation as a simple calculation and started seeing it as an inference problem under imperfect measurement.
+
+That has been much more aligned with the kind of data I actually work with.
+
+## The key idea
+
+The important step is to distinguish between the **latent infection status** and the **observed test result**.
+
+In plain terms, the model asks two separate questions:
+
+First, what is the probability that an animal is truly infected?
+
+Second, given that true state, what is the probability that the diagnostic test returns a positive result?
+
+That separation is what allows imperfect sensitivity and specificity to enter the model in a principled way. Without that step, we are still modelling observed positivity, not true prevalence.
+
+## Why I still think this is worth the extra effort
+
+Bayesian models take longer to fit. They require stronger justification. Priors need to be explained. Convergence has to be checked. Posterior predictive assessment and sensitivity analysis are part of the job, not optional extras.
+
+So yes, there is more work involved.
+
+But for me, the trade-off has been worth it. The estimates are more defensible. The uncertainty is clearer. The modelling assumptions are easier to state explicitly. And the final interpretation is much closer to the real epidemiologic question I want to answer.
+
+In low-resource veterinary settings, where diagnostics are rarely perfect and field data are often clustered, I do not think this is just a statistical preference. In many cases, it is the more responsible way to analyse prevalence.
+
+That is why I moved beyond apparent prevalence.
+
+Not because the traditional approach is useless, but because I wanted my estimates to reflect the uncertainty that is already there, whether we acknowledge it or not.
+
+Several of the visualizations on this site are simplified illustrations of that modelling logic, built from simulated data for transparency while reflecting the analytical frameworks used in my research.

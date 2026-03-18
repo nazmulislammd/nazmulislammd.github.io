@@ -91,9 +91,10 @@ document.addEventListener("DOMContentLoaded", function () {
   function setTheme(mode) {
     document.body.classList.toggle("dark-mode", mode === "dark");
     localStorage.setItem("site-theme", mode);
+    const iconBase = window.location.pathname.includes("/posts/") ? "../images/" : "images/";
     icon.src = mode === "dark"
-      ? "images/moon-icon.png"
-      : "images/sun-icon.png";
+    ? iconBase + "moon-icon.png"
+    : iconBase + "sun-icon.png";
   }
 
   const savedTheme =
