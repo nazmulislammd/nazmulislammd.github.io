@@ -1,0 +1,858 @@
+---
+title: "Research Visualizations"
+toc: true
+---
+
+These figures showcase my analytical workflow for Bayesian prevalence estimation, latent-mixture modelling, and risk factor analysis in veterinary epidemiology. All visualizations are based on simulated data designed to reflect the modelling frameworks used in my published and ongoing research.
+
+## 1. Posterior Distribution of True Herd-Level Prevalence
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+#| fig-width: 8.5
+#| fig-height: 5.2
+#| fig-align: center
+
+library(ggplot2)
+library(scales)
+
+set.seed(2026)
+
+# Simulated posterior draws for true herd-level prevalence
+# Chosen to reflect a Bayesian prevalence estimate centered near 13.7%
+# and constrained to the epidemiologically valid range of 0 to 1.
+posterior_prev <- rbeta(12000, shape1 = 33, shape2 = 208)
+
+post_median <- median(posterior_prev)
+post_lower  <- quantile(posterior_prev, 0.025)
+post_upper  <- quantile(posterior_prev, 0.975)
+
+subtitle_text <- paste0(
+  "Posterior median = ", percent(post_median, accuracy = 0.1),
+  " (95% credible interval: ",
+  percent(post_lower, accuracy = 0.1), " to ",
+  percent(post_upper, accuracy = 0.1), ")"
+)
+
+posterior_df <- data.frame(prevalence = posterior_prev)
+
+ggplot(posterior_df, aes(x = prevalence)) +
+  geom_density(
+    fill = "#0b7a7f",
+    alpha = 0.75,
+    color = "#0b7a7f",
+    linewidth = 0.9
+  ) +
+  geom_vline(xintercept = post_median, linewidth = 1.0) +
+  geom_vline(xintercept = c(post_lower, post_upper),
+             linetype = "dashed", linewidth = 0.8, color = "gray35") +
+scale_x_continuous(
+  labels = percent_format(accuracy = 1),
+  limits = c(0.05, 0.22),
+  breaks = c(0.05, 0.10, 0.15, 0.20)
+) +
+  labs(
+    title = "Posterior Distribution of True Herd-Level Prevalence",
+    subtitle = subtitle_text,
+    x = "True herd-level prevalence (%)",
+    y = "Posterior density"
+  ) +
+  theme_minimal(base_size = 14) +
+  theme(
+    plot.title = element_text(face = "bold"),
+    plot.subtitle = element_text(size = 11),
+    panel.grid.minor = element_blank()
+  )
+```
+Key takeaway: The posterior distribution shows that the true herd-level prevalence is most plausibly around 14%, with the 95% credible interval reflecting uncertainty after adjustment for imperfect diagnostic performance.
+
+## 2. Risk Factors – Forest Plot of Adjusted Odds Ratios
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+#| fig-width: 8.8
+#| fig-height: 5.6
+#| fig-align: center
+
+library(ggplot2)
+
+risk_data <- data.frame(
+  factor = c(
+    "Inadequate biosecurity",
+    "No quarantine of new animals",
+    "High stocking density",
+    "Shared water sources",
+    "Large herd size (>50)"
+  ),
+  or = c(2.91, 2.47, 2.14, 1.68, 1.55),
+  lower = c(1.78, 1.52, 1.29, 1.12, 0.97),
+  upper = c(4.76, 4.01, 3.55, 2.52, 2.48)
+)
+
+ggplot(risk_data, aes(x = or, y = reorder(factor, or))) +
+  geom_vline(xintercept = 1, linetype = "dashed", color = "gray45", linewidth = 0.8) +
+  geom_errorbarh(
+    aes(xmin = lower, xmax = upper),
+    height = 0.18,
+    linewidth = 1.0,
+    color = "#0b7a7f"
+  ) +
+  geom_point(
+    size = 3.8,
+    shape = 21,
+    stroke = 1.0,
+    fill = "white",
+    color = "#0b7a7f"
+  ) +
+  scale_x_continuous(
+  limits = c(0.8, 5.0),
+  breaks = c(1, 2, 3, 4, 5)
+) +
+  labs(
+    title = "Adjusted Odds Ratios for Herd-Level Seropositivity",
+    subtitle = "Simulated multivariable Bayesian model output",
+    x = "Adjusted odds ratio (95% credible interval)",
+    y = NULL
+  ) +
+  theme_minimal(base_size = 14) +
+  theme(
+    plot.title = element_text(face = "bold"),
+    panel.grid.minor = element_blank()
+  )
+```
+Key takeaway: The strongest associations are linked to management and biosecurity practices, with odds ratios above 1 indicating increased odds of herd-level seropositivity.
+
+## 3. Apparent vs True Prevalence Comparison
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+#| fig-width: 8.2
+#| fig-height: 5.2
+#| fig-align: center
+
+library(ggplot2)
+library(scales)
+
+comparison_data <- data.frame(
+  type = factor(
+    c("Raw test estimate", "Bayesian-adjusted estimate"),
+    levels = c("Raw test estimate", "Bayesian-adjusted estimate")
+  ),
+  estimate = c(0.092, 0.136),
+  lower = c(0.092, 0.097),
+  upper = c(0.092, 0.184),
+  label = c("9.2%", "13.6%")
+)
+
+ggplot(comparison_data, aes(x = type, y = estimate, color = type)) +
+  geom_errorbar(
+    aes(ymin = lower, ymax = upper),
+    width = 0.10,
+    linewidth = 1.1,
+    show.legend = FALSE
+  ) +
+  geom_point(
+    size = 4.2,
+    show.legend = FALSE
+  ) +
+  geom_text(
+    aes(label = label),
+    vjust = -1.1,
+    size = 5,
+    fontface = "bold",
+    show.legend = FALSE
+  ) +
+  scale_y_continuous(
+    labels = percent_format(accuracy = 1),
+    limits = c(0.06, 0.205),
+    breaks = c(0.08, 0.10, 0.12, 0.14, 0.16, 0.18, 0.20)
+  ) +
+  scale_color_manual(values = c("#9ecae1", "#0b7a7f")) +
+  labs(
+    title = "Raw vs Bayesian-Adjusted Herd-Level Prevalence",
+   subtitle = "Bayesian adjustment for imperfect diagnostics increases estimated prevalence",
+    x = NULL,
+    y = "Herd-level prevalence (%)"
+  ) +
+  theme_minimal(base_size = 14) +
+  theme(
+    plot.title = element_text(face = "bold"),
+    panel.grid.minor = element_blank()
+  )
+```
+Key takeaway: Presenting the raw test estimate alongside the Bayesian-adjusted estimate shows how imperfect diagnostic performance can materially underestimate the true herd-level burden.
+
+## 4. Simulated Spatiotemporal Prevalence Distribution
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+#| fig-width: 9.2
+#| fig-height: 6.2
+#| fig-align: center
+
+library(ggplot2)
+library(scales)
+
+spatiotemp <- data.frame(
+  region = rep(c("Rangpur", "Rajshahi", "Mymensingh", "Dhaka",
+                 "Khulna", "Barishal", "Sylhet", "Chattogram"), 2),
+  lon = rep(c(89.25, 88.60, 90.40, 90.41, 89.56, 90.37, 91.88, 91.80), 2),
+  lat = rep(c(25.75, 24.37, 24.75, 23.81, 22.82, 22.70, 24.89, 22.36), 2),
+  round = c(rep("Survey round 1", 8), rep("Survey round 2", 8)),
+  prevalence = c(
+    0.118, 0.109, 0.127, 0.154, 0.114, 0.098, 0.141, 0.163,
+    0.123, 0.112, 0.131, 0.167, 0.116, 0.103, 0.138, 0.178
+  )
+)
+
+ggplot(spatiotemp, aes(x = lon, y = lat)) +
+  geom_point(
+    aes(fill = prevalence),
+    shape = 21,
+    size = 10,
+    color = "white",
+    stroke = 1.2
+  ) +
+  geom_text(
+    aes(label = region),
+    nudge_y = 0.30,
+    size = 3.5,
+    fontface = "bold",
+    color = "gray20"
+  ) +
+geom_label(
+  aes(label = percent(prevalence, accuracy = 0.1)),
+  nudge_y = -0.30,
+  size = 3.0,
+  fontface = "bold",
+  color = "gray15",
+  fill = "white",
+  label.size = 0,
+  label.padding = unit(0.10, "lines")
+) +
+  facet_wrap(~round) +
+  coord_fixed(
+    xlim = c(88.0, 92.8),
+    ylim = c(21.8, 26.2),
+    expand = FALSE
+  ) +
+  scale_fill_gradientn(
+    colours = c("#dbeafe", "#7dd3fc", "#0b7a7f"),
+    limits = c(0.09, 0.18),
+    breaks = c(0.09, 0.12, 0.15, 0.18),
+    labels = percent_format(accuracy = 1),
+    name = "Posterior median\nprevalence"
+  ) +
+  labs(
+    title = "Division-Level Posterior Median Herd-Level Prevalence",
+    subtitle = "Simulated regional estimates across two survey rounds using a common prevalence scale",
+    x = "Longitude",
+    y = "Latitude"
+  ) +
+  theme_minimal(base_size = 13) +
+  theme(
+    plot.title = element_text(face = "bold"),
+    plot.subtitle = element_text(size = 11),
+    strip.text = element_text(face = "bold"),
+    panel.grid.minor = element_blank(),
+    legend.position = "right"
+  )
+```
+Key takeaway: Using a common color scale across survey rounds makes regional heterogeneity easier to compare and highlights persistent higher-burden areas such as Dhaka and Chattogram in this simulated example.
+
+## 5. MCMC Trace Plots – Convergence Diagnostics
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+#| fig-width: 9.2
+#| fig-height: 6.2
+#| fig-align: center
+
+library(ggplot2)
+library(scales)
+
+set.seed(2026)
+
+n_iter <- 1500
+target <- 0.136
+
+chain_1 <- target + as.numeric(arima.sim(model = list(ar = 0.45), n = n_iter, sd = 0.0036)) + 0.0008
+chain_2 <- target + as.numeric(arima.sim(model = list(ar = 0.42), n = n_iter, sd = 0.0035)) - 0.0006
+chain_3 <- target + as.numeric(arima.sim(model = list(ar = 0.44), n = n_iter, sd = 0.0037)) + 0.0004
+chain_4 <- target + as.numeric(arima.sim(model = list(ar = 0.43), n = n_iter, sd = 0.0035)) - 0.0005
+
+trace_data <- data.frame(
+  iteration = rep(1:n_iter, 4),
+  value = c(chain_1, chain_2, chain_3, chain_4),
+  chain = factor(rep(c("Chain 1", "Chain 2", "Chain 3", "Chain 4"), each = n_iter))
+)
+
+trace_data$value <- pmin(pmax(trace_data$value, 0.11), 0.16)
+
+ggplot(trace_data, aes(x = iteration, y = value, color = chain)) +
+  geom_line(linewidth = 0.35, alpha = 0.80, show.legend = FALSE) +
+  geom_hline(yintercept = target, linetype = "dashed", color = "gray35", linewidth = 0.7) +
+  facet_wrap(~chain, ncol = 2) +
+  scale_y_continuous(
+    labels = percent_format(accuracy = 1),
+    limits = c(0.11, 0.16),
+    breaks = c(0.11, 0.12, 0.13, 0.14, 0.15, 0.16)
+  ) +
+  scale_color_manual(values = c("#0b7a7f", "#3b82f6", "#ef4444", "#8b5cf6")) +
+  labs(
+    title = "MCMC Trace Plots for the True Prevalence Parameter",
+    subtitle = "Four simulated post-warmup chains showing stable mixing within the same posterior region",
+    x = "Iteration",
+    y = "True herd-level prevalence (%)"
+  ) +
+  theme_minimal(base_size = 13) +
+  theme(
+    plot.title = element_text(face = "bold"),
+    strip.text = element_text(face = "bold"),
+    panel.grid.minor = element_blank()
+  )
+```
+Key takeaway: The four post-warmup chains fluctuate within the same narrow posterior region without visible drift or persistent separation, suggesting good visual mixing for the prevalence parameter.
+
+## 6. Posterior Predictive Check – Model Fit Assessment
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+#| fig-width: 9
+#| fig-height: 6
+#| fig-align: center
+
+library(ggplot2)
+library(scales)
+
+set.seed(2026)
+
+# Simulated herd sizes
+n_herds <- 120
+herd_size <- sample(20:80, n_herds, replace = TRUE)
+
+# Observed herd-level apparent prevalence with between-herd heterogeneity
+true_p_obs <- rbeta(n_herds, shape1 = 3.2, shape2 = 18.5)
+y_obs <- rbinom(n_herds, size = herd_size, prob = true_p_obs)
+obs_prev <- y_obs / herd_size
+
+# Posterior predictive replicated datasets
+n_rep <- 40
+rep_prev_list <- lapply(1:n_rep, function(i) {
+  p_rep <- rbeta(n_herds, shape1 = 3.3, shape2 = 18.2)
+  y_rep <- rbinom(n_herds, size = herd_size, prob = p_rep)
+  data.frame(
+    prevalence = y_rep / herd_size,
+    replicate = paste0("Rep ", i)
+  )
+})
+
+ppc_long <- do.call(rbind, rep_prev_list)
+obs_df <- data.frame(prevalence = obs_prev)
+
+ggplot() +
+  geom_density(
+    data = ppc_long,
+    aes(x = prevalence, group = replicate),
+    color = "#9ca3af",
+    alpha = 0.28,
+    linewidth = 0.35
+  ) +
+  geom_density(
+    data = obs_df,
+    aes(x = prevalence),
+    color = "#0b7a7f",
+    linewidth = 1.5
+  ) +
+  scale_x_continuous(
+    labels = percent_format(accuracy = 1),
+    limits = c(0, 0.40),
+    breaks = c(0, 0.10, 0.20, 0.30, 0.40)
+  ) +
+  labs(
+    title = "Posterior Predictive Check for Herd-Level Apparent Prevalence",
+subtitle = "Gray = replicated distributions; teal = observed distribution",
+    x = "Herd-level apparent prevalence (%)",
+    y = "Density"
+  ) +
+  theme_minimal(base_size = 14) +
+  theme(
+    plot.title = element_text(face = "bold"),
+    panel.grid.minor = element_blank()
+  )
+```
+Key takeaway: The close overlap between the observed and replicated herd-level prevalence distributions suggests that the model reproduces the central tendency, spread, and between-herd heterogeneity of the serological data reasonably well.
+
+## 7. Hierarchical Shrinkage – Partial Pooling in Multilevel Models
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+#| fig-width: 9.2
+#| fig-height: 6.6
+#| fig-align: center
+
+library(ggplot2)
+library(scales)
+
+set.seed(2026)
+
+district_data <- data.frame(
+  district = c("Rangpur", "Rajshahi", "Mymensingh", "Dhaka",
+               "Khulna", "Barishal", "Sylhet", "Chattogram",
+               "Cumilla", "Bogura", "Jashore", "Faridpur"),
+  n_tested = c(38, 52, 61, 210, 74, 43, 57, 185, 49, 66, 58, 41),
+  true_prev = c(0.18, 0.11, 0.14, 0.16, 0.09, 0.07, 0.13, 0.19, 0.10, 0.12, 0.08, 0.15)
+)
+
+district_data$positive <- rbinom(
+  n = nrow(district_data),
+  size = district_data$n_tested,
+  prob = district_data$true_prev
+)
+
+district_data$raw_prev <- district_data$positive / district_data$n_tested
+overall_prev <- sum(district_data$positive) / sum(district_data$n_tested)
+
+# Simple shrinkage approximation to mimic partial pooling:
+# smaller districts are pulled more strongly toward the overall mean
+district_data$weight <- district_data$n_tested / (district_data$n_tested + 140)
+district_data$pooled_prev <- district_data$weight * district_data$raw_prev +
+  (1 - district_data$weight) * overall_prev
+
+district_data$district <- reorder(district_data$district, district_data$raw_prev)
+
+ggplot(district_data, aes(y = district)) +
+  geom_vline(
+    xintercept = overall_prev,
+    linetype = "dashed",
+    color = "gray40",
+    linewidth = 0.8
+  ) +
+  geom_segment(
+    aes(x = pooled_prev, xend = raw_prev, yend = district),
+    color = "#9ca3af",
+    linewidth = 1.0
+  ) +
+  geom_point(
+    aes(x = raw_prev, size = n_tested),
+    shape = 21,
+    fill = "#93c5fd",
+    color = "#2563eb",
+    stroke = 1
+  ) +
+  geom_point(
+    aes(x = pooled_prev, size = n_tested),
+    shape = 21,
+    fill = "#0b7a7f",
+    color = "#0b7a7f",
+    stroke = 1
+  ) +
+  scale_x_continuous(
+    labels = percent_format(accuracy = 1),
+    limits = c(0.04, 0.26),
+    breaks = c(0.05, 0.10, 0.15, 0.20, 0.25)
+  ) +
+  scale_size_continuous(
+    range = c(3, 8),
+    breaks = c(40, 80, 120, 160, 200),
+    name = "Animals tested"
+  ) +
+  labs(
+    title = "District-Level Shrinkage Under Partial Pooling",
+    subtitle = "Blue points = raw estimates; teal points = partially pooled estimates; dashed line = overall mean",
+    x = "District-level apparent prevalence (%)",
+    y = NULL
+  ) +
+  theme_minimal(base_size = 13) +
+  theme(
+    plot.title = element_text(face = "bold"),
+    panel.grid.minor = element_blank(),
+    legend.position = "right"
+  )
+```
+Key takeaway: Partial pooling pulls district-specific estimates toward the overall mean, especially for districts with smaller sample sizes, reducing instability and over-interpretation of noisy subgroup estimates.
+
+## 8. Model Comparison – Leave-One-Out Cross-Validation (LOO)
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+#| fig-width: 8.8
+#| fig-height: 5.8
+#| fig-align: center
+
+library(ggplot2)
+
+loo_data <- data.frame(
+  model = c(
+    "Base intercept-only model",
+    "Model + herd management covariates",
+    "Hierarchical district-level model",
+    "Hierarchical model + diagnostic adjustment"
+  ),
+  elpd_diff = c(-18.6, -7.9, -3.2, 0.0),
+  se = c(5.4, 4.1, 3.6, 3.2)
+)
+
+loo_data$model <- factor(loo_data$model, levels = rev(loo_data$model))
+
+ggplot(loo_data, aes(x = elpd_diff, y = model)) +
+  geom_vline(xintercept = 0, linetype = "dashed", color = "gray45", linewidth = 0.8) +
+  geom_errorbarh(
+    aes(xmin = elpd_diff - se, xmax = elpd_diff + se),
+    height = 0.18,
+    linewidth = 1.0,
+    color = "#0b7a7f"
+  ) +
+  geom_point(
+    size = 4.0,
+    shape = 21,
+    stroke = 1.0,
+    fill = "#0b7a7f",
+    color = "#0b7a7f"
+  ) +
+  labs(
+    title = "LOO-CV Model Comparison",
+    subtitle = "ELPD differences are shown relative to the best-performing model",
+    x = "ELPD difference vs best model (±1 SE; higher is better)",
+    y = NULL
+  ) +
+  theme_minimal(base_size = 13) +
+  theme(
+    plot.title = element_text(face = "bold"),
+    panel.grid.minor = element_blank()
+  )
+```
+Key takeaway: The hierarchical model with diagnostic adjustment shows the strongest expected out-of-sample predictive performance, while simpler models lose predictive accuracy under LOO-CV.
+
+## 9. Sensitivity Analysis – Effect of Key Assumptions on the Prevalence Estimate
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+#| fig-width: 9
+#| fig-height: 6
+#| fig-align: center
+
+library(ggplot2)
+
+sens_data <- data.frame(
+  assumption = c(
+    "Specificity decreased by 2%",
+    "Sensitivity decreased by 5%",
+    "Prior mean increased",
+    "Prior mean decreased",
+    "Sensitivity increased by 5%",
+    "Specificity increased by 2%"
+  ),
+  change_pp = c(2.4, 1.3, 0.8, -0.7, -1.0, -2.1)
+)
+
+sens_data <- sens_data[order(abs(sens_data$change_pp), decreasing = TRUE), ]
+sens_data$assumption <- factor(sens_data$assumption, levels = rev(sens_data$assumption))
+
+ggplot(sens_data, aes(x = change_pp, y = assumption, fill = change_pp > 0)) +
+  geom_col(width = 0.68, show.legend = FALSE) +
+  geom_vline(xintercept = 0, linetype = "dashed", color = "gray45", linewidth = 0.8) +
+  geom_text(
+    aes(label = sprintf("%+.1f pp", change_pp)),
+    hjust = ifelse(sens_data$change_pp > 0, -0.15, 1.15),
+    size = 4
+  ) +
+  scale_fill_manual(values = c("#9ecae1", "#0b7a7f")) +
+  scale_x_continuous(
+    limits = c(-3.0, 3.0),
+    breaks = c(-3, -2, -1, 0, 1, 2, 3)
+  ) +
+  labs(
+    title = "Sensitivity of the Posterior Prevalence Estimate",
+    subtitle = "One-way sensitivity analysis under plausible assumptions",
+    x = "Change in posterior median prevalence (percentage points)",
+    y = NULL
+  ) +
+  theme_minimal(base_size = 13) +
+  theme(
+    plot.title = element_text(face = "bold"),
+    panel.grid.minor = element_blank()
+  )
+```
+Key takeaway: In this simulated one-way sensitivity analysis, the posterior median prevalence appears most sensitive to plausible changes in diagnostic specificity, whereas comparable changes in sensitivity and prior mean produce smaller shifts in the estimated prevalence.
+
+## 10. ROC-like Curve – Diagnostic Test Performance Evaluation
+
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+#| fig-width: 8
+#| fig-height: 7
+#| fig-align: center
+
+library(ggplot2)
+library(pROC)
+library(tibble)
+set.seed(2026)
+
+# Simulated continuous test scores for non-diseased and diseased animals
+n <- 500
+disease <- rbinom(n, 1, 0.15)
+
+score_raw <- ifelse(
+  disease == 1,
+  rnorm(n, mean = 0.66, sd = 0.17),
+  rnorm(n, mean = 0.36, sd = 0.16)
+)
+
+# Keep scores on a plausible 0–1 scale
+score <- pmin(pmax(score_raw, 0), 1)
+
+df_roc <- tibble(
+  disease = disease,
+  score = score
+)
+roc_obj <- roc(response = df_roc$disease, predictor = df_roc$score, quiet = TRUE)
+
+roc_df <- tibble(
+  fpr = 1 - roc_obj$specificities,
+  tpr = roc_obj$sensitivities
+)
+
+auc_value <- as.numeric(auc(roc_obj))
+ggplot(roc_df, aes(x = fpr, y = tpr)) +
+  geom_abline(
+    slope = 1, intercept = 0,
+    linetype = "dashed", color = "gray60", linewidth = 0.8
+  ) +
+  geom_line(linewidth = 1.2, color = "#1f77b4") +
+  coord_equal() +
+  labs(
+    title = "ROC Curve for Diagnostic Test Performance",
+    subtitle = paste0("Illustrative diagnostic discrimination (AUC = ", sprintf("%.2f", auc_value), ")"),
+    x = "1 - Specificity",
+    y = "Sensitivity"
+  ) +
+  theme_minimal(base_size = 14) +
+  theme(
+    plot.title = element_text(face = "bold"),
+    panel.grid.minor = element_blank()
+  )
+```
+Key takeaway: This simulated ROC curve suggests that the diagnostic score has strong discriminatory ability, with a clear sensitivity–specificity trade-off across thresholds; however, the figure should be interpreted as an illustration of test performance rather than validation from observed field data.
+
+## 11. Mixture Model Components – Latent Subpopulation Decomposition
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+#| fig-width: 10
+#| fig-height: 6
+#| fig-align: center
+
+library(ggplot2)
+library(tibble)
+
+set.seed(2026)
+
+# Simulated continuous assay values from three latent subpopulations
+n <- 1200
+component <- sample(1:3, n, replace = TRUE, prob = c(0.50, 0.32, 0.18))
+
+mu <- c(0.10, 0.21, 0.36)
+sigma <- c(0.03, 0.05, 0.06)
+
+value_raw <- rnorm(n, mean = mu[component], sd = sigma[component])
+value <- pmax(value_raw, 0)
+
+df_mix <- tibble(
+  value = value,
+  component = factor(component)
+)
+
+x_grid <- seq(0, max(df_mix$value) * 1.05, length.out = 500)
+
+comp_df <- tibble(
+  x = rep(x_grid, 3),
+  density = c(
+    0.50 * dnorm(x_grid, mean = mu[1], sd = sigma[1]),
+    0.32 * dnorm(x_grid, mean = mu[2], sd = sigma[2]),
+    0.18 * dnorm(x_grid, mean = mu[3], sd = sigma[3])
+  ),
+  component = factor(
+rep(c("Low-signal subgroup", "Intermediate-signal subgroup", "High-signal subgroup"), each = length(x_grid)),
+levels = c("Low-signal subgroup", "Intermediate-signal subgroup", "High-signal subgroup")
+  )
+)
+
+mix_df <- tibble(
+  x = x_grid,
+  density =
+    0.50 * dnorm(x_grid, mean = mu[1], sd = sigma[1]) +
+    0.32 * dnorm(x_grid, mean = mu[2], sd = sigma[2]) +
+    0.18 * dnorm(x_grid, mean = mu[3], sd = sigma[3])
+)
+
+ggplot(df_mix, aes(x = value)) +
+  geom_histogram(
+    aes(y = after_stat(density)),
+    bins = 55,
+    fill = "gray85",
+    color = "gray55",
+    linewidth = 0.3
+  ) +
+  geom_line(
+    data = comp_df,
+    aes(x = x, y = density, color = component),
+    linewidth = 1.1
+  ) +
+  geom_line(
+    data = mix_df,
+    aes(x = x, y = density),
+    linewidth = 1.3,
+    color = "black"
+  ) +
+  labs(
+    title = "Finite Mixture Model Components",
+    subtitle = "Illustrative finite-mixture decomposition of a heterogeneous assay-signal distribution",
+    x = "Assay value",
+    y = "Density",
+    color = NULL
+  ) +
+  theme_minimal(base_size = 14) +
+  theme(
+    plot.title = element_text(face = "bold"),
+    panel.grid.minor = element_blank(),
+    legend.position = "top"
+  )
+```
+Key takeaway: This simulated finite-mixture plot illustrates how an apparently single assay-signal distribution may reflect multiple overlapping latent subgroups, which can be useful for modelling heterogeneity and improving inference when population-level measurements are not well represented by a single distribution.
+
+## 12. Bayesian Gaussian Mixture Illustration – Class Separation and Decision Thresholds
+
+*Illustrative latent-class distributions with threshold-based separation*
+```{r}
+#| echo: false
+#| warning: false
+#| message: false
+#| fig-width: 10
+#| fig-height: 6.5
+#| fig-align: center
+
+library(ggplot2)
+library(tibble)
+set.seed(2026)
+
+# Simulated standardized assay values from three overlapping latent classes
+n <- 5000
+latent_class <- sample(
+  c("Low-signal", "Intermediate-signal", "High-signal"),
+  n,
+  replace = TRUE,
+  prob = c(0.60, 0.25, 0.15)
+)
+
+value <- ifelse(
+  latent_class == "Low-signal",
+  rnorm(n, mean = -1.35, sd = 0.20),
+  ifelse(
+    latent_class == "Intermediate-signal",
+    rnorm(n, mean = -0.55, sd = 0.38),
+    rnorm(n, mean = 1.15, sd = 0.40)
+  )
+)
+
+df_cut <- tibble(
+  value = value,
+  latent_class = factor(
+    latent_class,
+    levels = c("Low-signal", "Intermediate-signal", "High-signal")
+  )
+)
+
+cutoff_1 <- -1.05
+cutoff_2 <- 0.45
+x_grid <- seq(min(df_cut$value), max(df_cut$value), length.out = 600)
+
+comp_cut_df <- tibble(
+  x = rep(x_grid, 3),
+  density = c(
+    0.60 * dnorm(x_grid, mean = -1.35, sd = 0.20),
+    0.25 * dnorm(x_grid, mean = -0.55, sd = 0.38),
+    0.15 * dnorm(x_grid, mean =  1.15, sd = 0.40)
+  ),
+  latent_class = factor(
+    rep(c("Low-signal", "Intermediate-signal", "High-signal"), each = length(x_grid)),
+    levels = c("Low-signal", "Intermediate-signal", "High-signal")
+  )
+)
+
+mix_cut_df <- tibble(
+  x = x_grid,
+  density =
+    0.60 * dnorm(x_grid, mean = -1.35, sd = 0.20) +
+    0.25 * dnorm(x_grid, mean = -0.55, sd = 0.38) +
+    0.15 * dnorm(x_grid, mean =  1.15, sd = 0.40)
+)
+
+ggplot() +
+  geom_histogram(
+    data = df_cut,
+    aes(x = value, y = after_stat(density)),
+    bins = 70,
+    fill = "gray85",
+    color = "gray70",
+    linewidth = 0.25
+  ) +
+  geom_line(
+    data = comp_cut_df,
+    aes(x = x, y = density, color = latent_class),
+    linewidth = 1.3
+  ) +
+  geom_line(
+    data = mix_cut_df,
+    aes(x = x, y = density),
+    color = "black",
+    linewidth = 1.2
+  ) +
+  geom_vline(
+    xintercept = cutoff_1,
+    linetype = "dashed",
+    color = "gray30",
+    linewidth = 0.9
+  ) +
+  geom_vline(
+    xintercept = cutoff_2,
+    linetype = "dashed",
+    color = "gray30",
+    linewidth = 0.9
+  ) +
+  annotate("text", x = cutoff_1, y = 1.28, label = "Lower threshold", vjust = -0.2, size = 3.6) +
+  annotate("text", x = cutoff_2, y = 1.28, label = "Upper threshold", vjust = -0.2, size = 3.6) +
+  scale_color_manual(values = c("Low-signal" = "#ef6a5b", "Intermediate-signal" = "#12b33d", "High-signal" = "#5b8ff9")) +
+  labs(
+    title = "Bayesian Gaussian Mixture Illustration",
+    subtitle = "Weighted latent-class densities and overall mixture distribution",
+    x = "Standardized assay signal",
+    y = "Density",
+    color = NULL
+  ) +
+  theme_minimal(base_size = 14) +
+  theme(
+    plot.title = element_text(face = "bold"),
+    panel.grid.minor = element_blank(),
+    legend.position = "top"
+  )
+```
+Key takeaway: This illustrative Bayesian Gaussian mixture figure shows how an observed assay-signal distribution can be represented as overlapping latent subgroups, with threshold-based cutoffs providing a practical framework for class separation under measurement uncertainty.

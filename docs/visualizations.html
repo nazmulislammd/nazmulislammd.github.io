@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Publications – Md. Nazmul Islam</title>
+<title>Research Visualizations – Md. Nazmul Islam</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -108,13 +108,12 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 </script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
 
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed publications-page quarto-light">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -132,7 +131,7 @@ document.addEventListener("DOMContentLoaded", function () {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./publications.html" aria-current="page"> 
+    <a class="nav-link" href="./publications.html"> 
 <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
@@ -140,7 +139,7 @@ document.addEventListener("DOMContentLoaded", function () {
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./visualizations.html"> 
+    <a class="nav-link active" href="./visualizations.html" aria-current="page"> 
 <span class="menu-text">Visualizations</span></a>
   </li>  
   <li class="nav-item">
@@ -167,14 +166,22 @@ document.addEventListener("DOMContentLoaded", function () {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="99">
+        <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
    
-  <ul class="collapse">
-  <li><a href="#published-journal-articles" id="toc-published-journal-articles" class="nav-link active" data-scroll-target="#published-journal-articles">Published Journal Articles</a></li>
-  <li><a href="#manuscripts-under-review" id="toc-manuscripts-under-review" class="nav-link" data-scroll-target="#manuscripts-under-review">Manuscripts Under Review</a></li>
-  <li><a href="#conference-proceedings-papers" id="toc-conference-proceedings-papers" class="nav-link" data-scroll-target="#conference-proceedings-papers">Conference Proceedings &amp; Papers</a></li>
-  <li><a href="#conference-presentations-posters" id="toc-conference-presentations-posters" class="nav-link" data-scroll-target="#conference-presentations-posters">Conference Presentations &amp; Posters</a></li>
+  <ul>
+  <li><a href="#posterior-distribution-of-true-herd-level-prevalence" id="toc-posterior-distribution-of-true-herd-level-prevalence" class="nav-link active" data-scroll-target="#posterior-distribution-of-true-herd-level-prevalence">1. Posterior Distribution of True Herd-Level Prevalence</a></li>
+  <li><a href="#risk-factors-forest-plot-of-adjusted-odds-ratios" id="toc-risk-factors-forest-plot-of-adjusted-odds-ratios" class="nav-link" data-scroll-target="#risk-factors-forest-plot-of-adjusted-odds-ratios">2. Risk Factors – Forest Plot of Adjusted Odds Ratios</a></li>
+  <li><a href="#apparent-vs-true-prevalence-comparison" id="toc-apparent-vs-true-prevalence-comparison" class="nav-link" data-scroll-target="#apparent-vs-true-prevalence-comparison">3. Apparent vs True Prevalence Comparison</a></li>
+  <li><a href="#simulated-spatiotemporal-prevalence-distribution" id="toc-simulated-spatiotemporal-prevalence-distribution" class="nav-link" data-scroll-target="#simulated-spatiotemporal-prevalence-distribution">4. Simulated Spatiotemporal Prevalence Distribution</a></li>
+  <li><a href="#mcmc-trace-plots-convergence-diagnostics" id="toc-mcmc-trace-plots-convergence-diagnostics" class="nav-link" data-scroll-target="#mcmc-trace-plots-convergence-diagnostics">5. MCMC Trace Plots – Convergence Diagnostics</a></li>
+  <li><a href="#posterior-predictive-check-model-fit-assessment" id="toc-posterior-predictive-check-model-fit-assessment" class="nav-link" data-scroll-target="#posterior-predictive-check-model-fit-assessment">6. Posterior Predictive Check – Model Fit Assessment</a></li>
+  <li><a href="#hierarchical-shrinkage-partial-pooling-in-multilevel-models" id="toc-hierarchical-shrinkage-partial-pooling-in-multilevel-models" class="nav-link" data-scroll-target="#hierarchical-shrinkage-partial-pooling-in-multilevel-models">7. Hierarchical Shrinkage – Partial Pooling in Multilevel Models</a></li>
+  <li><a href="#model-comparison-leave-one-out-cross-validation-loo" id="toc-model-comparison-leave-one-out-cross-validation-loo" class="nav-link" data-scroll-target="#model-comparison-leave-one-out-cross-validation-loo">8. Model Comparison – Leave-One-Out Cross-Validation (LOO)</a></li>
+  <li><a href="#sensitivity-analysis-effect-of-key-assumptions-on-the-prevalence-estimate" id="toc-sensitivity-analysis-effect-of-key-assumptions-on-the-prevalence-estimate" class="nav-link" data-scroll-target="#sensitivity-analysis-effect-of-key-assumptions-on-the-prevalence-estimate">9. Sensitivity Analysis – Effect of Key Assumptions on the Prevalence Estimate</a></li>
+  <li><a href="#roc-like-curve-diagnostic-test-performance-evaluation" id="toc-roc-like-curve-diagnostic-test-performance-evaluation" class="nav-link" data-scroll-target="#roc-like-curve-diagnostic-test-performance-evaluation">10. ROC-like Curve – Diagnostic Test Performance Evaluation</a></li>
+  <li><a href="#mixture-model-components-latent-subpopulation-decomposition" id="toc-mixture-model-components-latent-subpopulation-decomposition" class="nav-link" data-scroll-target="#mixture-model-components-latent-subpopulation-decomposition">11. Mixture Model Components – Latent Subpopulation Decomposition</a></li>
+  <li><a href="#bayesian-gaussian-mixture-illustration-class-separation-and-decision-thresholds" id="toc-bayesian-gaussian-mixture-illustration-class-separation-and-decision-thresholds" class="nav-link" data-scroll-target="#bayesian-gaussian-mixture-illustration-class-separation-and-decision-thresholds">12. Bayesian Gaussian Mixture Illustration – Class Separation and Decision Thresholds</a></li>
   </ul>
 </nav>
     </div>
@@ -183,7 +190,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Publications</h1>
+<h1 class="title">Research Visualizations</h1>
 </div>
 
 
@@ -200,66 +207,163 @@ document.addEventListener("DOMContentLoaded", function () {
 </header>
 
 
-<p>Here you will find my peer-reviewed journal articles, manuscripts under review, conference proceedings, and presentations. My work focuses on the epidemiology of infectious diseases and production-related conditions in dairy cattle in Bangladesh, with emphasis on Bayesian methods, prevalence estimation, risk factor analysis, and zoonotic threats (brucellosis, paratuberculosis, BVD, Coxiella, and subclinical mastitis), as well as economic impact assessment.</p>
-<p>I have contributed significantly as first or equally contributing first author in most studies, leading study design, advanced statistical modeling (Bayesian latent-class, hierarchical, and mixture models; multivariable and multinomial regression), field diagnostics, and data visualization.</p>
-<section id="published-journal-articles" class="level2 published">
-<h2 class="published anchored" data-anchor-id="published-journal-articles">Published Journal Articles</h2>
-<p><i class="fa-solid fa-check-circle" style="color: #28a745;"></i> <strong>Published</strong></p>
-<ul>
-<li><p>Kibria, A.M., <strong>Islam, M.N.</strong>, Alam, M.S., Adhikari, B.J., Islam, S., Rafeh, A.A., Hasan, R.S.M., Rahman, M.S., &amp; Rahman, A.K.M.A. (2026).<br>
-Estimated true prevalence and associated risk factors of bovine paratuberculosis antibodies in dairy herds in Bangladesh. <em>PLOS ONE</em>.<br>
-<a href="https://doi.org/10.1371/journal.pone.0334683">https://doi.org/10.1371/journal.pone.0334683</a><br>
-<strong>Equally contributing first author</strong> — Contributed to study design, methodology development, Bayesian latent-class prevalence estimation, data analysis, visualization, and manuscript preparation.</p></li>
-<li><p>Mahmud Sajeeb, M.S., Alam, M.S., <strong>Islam, M.N.</strong>, Islam, M.M., Adhikari, B.J., Islam, S., Rahman, M.S., &amp; Rahman, A.K.M.A. (2025).<br>
-Prevalence and risk factors of bovine viral diarrhea virus antibodies in dairy herds of Bangladesh. <em>Veterinary Sciences</em>, 12(8), 739.<br>
-<a href="https://doi.org/10.3390/vetsci12080739">https://doi.org/10.3390/vetsci12080739</a><br>
-<strong>Equally contributing first author</strong> — Study design, field sampling, ELISA diagnostics, multivariable regression analysis, visualization, and manuscript preparation.</p></li>
-</ul>
+<p>These figures showcase my analytical workflow for Bayesian prevalence estimation, latent-mixture modelling, and risk factor analysis in veterinary epidemiology. All visualizations are based on simulated data designed to reflect the modelling frameworks used in my published and ongoing research.</p>
+<section id="posterior-distribution-of-true-herd-level-prevalence" class="level2">
+<h2 class="anchored" data-anchor-id="posterior-distribution-of-true-herd-level-prevalence">1. Posterior Distribution of True Herd-Level Prevalence</h2>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="visualizations_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="816"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Key takeaway: The posterior distribution shows that the true herd-level prevalence is most plausibly around 14%, with the 95% credible interval reflecting uncertainty after adjustment for imperfect diagnostic performance.</p>
 </section>
-<section id="manuscripts-under-review" class="level2 under-review">
-<h2 class="under-review anchored" data-anchor-id="manuscripts-under-review">Manuscripts Under Review</h2>
-<p><i class="fa-solid fa-hourglass-half" style="color: #fd7e14;"></i> <strong>Under Review</strong></p>
-<ul>
-<li><p><strong>Islam, M.N.</strong> (first author), Haque, M.Z., Alam, M.S., Islam, S., Adhikari, B.J., Rahman, M.S., &amp; Rahman, A.K.M.A. (2026).<br>
-Bayesian estimation of the true prevalence of <em>Coxiella burnetii</em> milk antibodies and associated risk factors in dairy herds in Bangladesh. <em>Veterinary Medicine and Science</em>.</p></li>
-<li><p>Alam, M.S., <strong>Islam, M.N.</strong>, Adhikari, B.J., Islam, S., Mahmud, R.S., Rahman, M.S., Ariful Islam, M., Aktaruzzaman, M., Meletis, L., Kostoulas, P., &amp; Rahman, A.K.M.A. (2026).<br>
-Bayesian hierarchical mixture modelling to derive probabilistic iELISA thresholds for bovine brucellosis in Bangladeshi dairy herds. <em>Animal Diseases</em>.</p></li>
-<li><p>Alam, M.S., <strong>Islam, M.N.</strong>, Adhikari, B.J., Islam, S., Mahmud, R.S., Rahman, M.S., Ariful Islam, M., Aktaruzzaman, M., &amp; Rahman, A.K.M.A. (2026).<br>
-Risk factors for latent and active brucellosis in dairy cattle: a Bayesian mixed-effects multinomial regression analysis in large-scale Bangladeshi herds. <em>Epidemiology &amp; Infection</em>.</p></li>
-<li><p>Aktaruzzaman, M., Ariful Islam, M., Shanta, S.A., Tahomina Akter, M., Hossain, M.T., Alam, M.S., <strong>Islam, M.N.</strong>, Meletis, L., Kostoulas, P., &amp; Rahman, A.K.M.A. (2025).<br>
-Bayesian Gaussian mixture modeling to determine somatic cell count thresholds for subclinical mastitis diagnosis in dairy cows. <em>PLOS ONE</em>.</p></li>
-<li><p>Aktaruzzaman, M., M. Tahomina Akter, Mazhar Islam, M., Ariful Islam, M., Hossain, M.T., Alam, M.S., <strong>Islam, M.N.</strong>, &amp; Rahman, A.K.M.A. (2025).<br>
-Economic impact of subclinical mastitis in Bangladeshi crossbred dairy cattle. <em>Preventive Veterinary Medicine</em>.</p></li>
-<li><p>Aktaruzzaman, M., Ariful Islam, M., Shanta, S.A., Tahomina Akter, M., Hossain, M.T., <strong>Islam, M.N.</strong>, Alam, M.S., &amp; Rahman, A.K.M.A. (2025).<br>
-Prevalence and cow-level risk factors for mild and severe subclinical mastitis in intensive and extensive dairy systems in Sirajganj, Bangladesh. <em>Veterinary Medicine International</em>.</p></li>
-<li><p>Saha, U.K., <strong>Islam, M.N.</strong> (equally contributing first author), Chaudhary, P., Hassan Alif, M.K., Mim, S.N., &amp; Rahman, M.S. (2026).<br>
-Exploratory longitudinal ELISA antibody responses and hematological parameters after heat-inactivated <em>Brucella abortus</em> vaccination in cattle. <em>Acta Veterinaria Hungarica</em>.</p></li>
-<li><p>Saif, M.A., <strong>Islam, M.N.</strong>, Ferdous, M.J., Rahman, A.K.M.A., &amp; Bari, F.Y. (2026).<br>
-Early-life feeding and management interventions on lamb survivability. <em>Bulgarian Journal of Veterinary Medicine</em>.</p></li>
-<li><p>Saif, M.A., <strong>Islam, M.N.</strong>, Ferdous, M.J., Rahman, A.K.M.A., &amp; Bari, F.Y. (2026).<br>
-Integrated immune and protein profiles predict growth in preweaning lambs independent of feeding regimen and maternal oxytocin administration. <em>Iraqi Journal of Veterinary Sciences</em>.</p></li>
-</ul>
+<section id="risk-factors-forest-plot-of-adjusted-odds-ratios" class="level2">
+<h2 class="anchored" data-anchor-id="risk-factors-forest-plot-of-adjusted-odds-ratios">2. Risk Factors – Forest Plot of Adjusted Odds Ratios</h2>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="visualizations_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="844"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Key takeaway: The strongest associations are linked to management and biosecurity practices, with odds ratios above 1 indicating increased odds of herd-level seropositivity.</p>
 </section>
-<section id="conference-proceedings-papers" class="level2">
-<h2 class="anchored" data-anchor-id="conference-proceedings-papers">Conference Proceedings &amp; Papers</h2>
-<ul>
-<li><p><strong>Islam, M.</strong>; Alam, M.; Islam, S.; Adhikari, B.; Rahman, A. (2025).<br>
-Feasibility of on-farm somatic cell count screening for subclinical mastitis: Prevalence and risk factors in a commercial dairy herd in Bangladesh. In <em>Proceedings of the 1st International Online Conference on Veterinary Sciences</em>, 3–5 December 2025, MDPI: Basel, Switzerland.<br>
-<a href="https://sciforum.net/paper/view/27422">https://sciforum.net/paper/view/27422</a></p></li>
-<li><p>Alam, M. S., <strong>Islam, M. N.</strong>, Rafeh, A. A., Adhikari, B. J., Kibria, M. A., Mahmud, M. S., Ema, A. A., Islam, S., Rahman, M. S., Rahman, A. K. M. A. (2025).<br>
-Herd-level prevalence of brucellosis, paratuberculosis, neosporosis, and bovine viral diarrhea in large dairy herds in Bangladesh. <em>BAU Research Progress</em>, 35.</p></li>
-<li><p>Alam, M. S., <strong>Islam, M. N.</strong>, Rafeh, A. A., Rahman, M. S., Islam, M. A., &amp; Rahman, A. K. M. (2024).<br>
-Herd-level prevalence of brucellosis in large dairy herds in Bangladesh. <em>Proceedings of the BSVER Annual Scientific Conference 30</em>, Bangladesh Agricultural University, Mymensingh, February 24-25, 2024.</p></li>
-</ul>
+<section id="apparent-vs-true-prevalence-comparison" class="level2">
+<h2 class="anchored" data-anchor-id="apparent-vs-true-prevalence-comparison">3. Apparent vs True Prevalence Comparison</h2>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="visualizations_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="787"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Key takeaway: Presenting the raw test estimate alongside the Bayesian-adjusted estimate shows how imperfect diagnostic performance can materially underestimate the true herd-level burden.</p>
 </section>
-<section id="conference-presentations-posters" class="level2">
-<h2 class="anchored" data-anchor-id="conference-presentations-posters">Conference Presentations &amp; Posters</h2>
-<ul>
-<li><p><strong>Feasibility of On-Farm Somatic Cell Count Screening for Subclinical Mastitis: Prevalence and Risk Factors in a Commercial Dairy Herd in Bangladesh.</strong><br>
-Presented at IOCVS 2025, 4 December 2025. <a href="https://doi.org/10.13140/RG.2.2.16208.16642">DOI: 10.13140/RG.2.2.16208.16642</a>.</p></li>
-<li><p><strong>Prevalence and Epidemiology of Bovine Brucellosis in Large Dairy Farms of Bangladesh.</strong><br>
-Research poster on prevalence, risk factors, and control strategies presented at the BSVER Annual Scientific Conference 2024, Bangladesh Agricultural University, Mymensingh, February 24-25, 2024.</p></li>
-</ul>
+<section id="simulated-spatiotemporal-prevalence-distribution" class="level2">
+<h2 class="anchored" data-anchor-id="simulated-spatiotemporal-prevalence-distribution">4. Simulated Spatiotemporal Prevalence Distribution</h2>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="visualizations_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="883"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Key takeaway: Using a common color scale across survey rounds makes regional heterogeneity easier to compare and highlights persistent higher-burden areas such as Dhaka and Chattogram in this simulated example.</p>
+</section>
+<section id="mcmc-trace-plots-convergence-diagnostics" class="level2">
+<h2 class="anchored" data-anchor-id="mcmc-trace-plots-convergence-diagnostics">5. MCMC Trace Plots – Convergence Diagnostics</h2>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="visualizations_files/figure-html/unnamed-chunk-5-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="883"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Key takeaway: The four post-warmup chains fluctuate within the same narrow posterior region without visible drift or persistent separation, suggesting good visual mixing for the prevalence parameter.</p>
+</section>
+<section id="posterior-predictive-check-model-fit-assessment" class="level2">
+<h2 class="anchored" data-anchor-id="posterior-predictive-check-model-fit-assessment">6. Posterior Predictive Check – Model Fit Assessment</h2>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="visualizations_files/figure-html/unnamed-chunk-6-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="864"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Key takeaway: The close overlap between the observed and replicated herd-level prevalence distributions suggests that the model reproduces the central tendency, spread, and between-herd heterogeneity of the serological data reasonably well.</p>
+</section>
+<section id="hierarchical-shrinkage-partial-pooling-in-multilevel-models" class="level2">
+<h2 class="anchored" data-anchor-id="hierarchical-shrinkage-partial-pooling-in-multilevel-models">7. Hierarchical Shrinkage – Partial Pooling in Multilevel Models</h2>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="visualizations_files/figure-html/unnamed-chunk-7-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="883"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Key takeaway: Partial pooling pulls district-specific estimates toward the overall mean, especially for districts with smaller sample sizes, reducing instability and over-interpretation of noisy subgroup estimates.</p>
+</section>
+<section id="model-comparison-leave-one-out-cross-validation-loo" class="level2">
+<h2 class="anchored" data-anchor-id="model-comparison-leave-one-out-cross-validation-loo">8. Model Comparison – Leave-One-Out Cross-Validation (LOO)</h2>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="visualizations_files/figure-html/unnamed-chunk-8-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="844"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Key takeaway: The hierarchical model with diagnostic adjustment shows the strongest expected out-of-sample predictive performance, while simpler models lose predictive accuracy under LOO-CV.</p>
+</section>
+<section id="sensitivity-analysis-effect-of-key-assumptions-on-the-prevalence-estimate" class="level2">
+<h2 class="anchored" data-anchor-id="sensitivity-analysis-effect-of-key-assumptions-on-the-prevalence-estimate">9. Sensitivity Analysis – Effect of Key Assumptions on the Prevalence Estimate</h2>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="visualizations_files/figure-html/unnamed-chunk-9-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="864"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Key takeaway: In this simulated one-way sensitivity analysis, the posterior median prevalence appears most sensitive to plausible changes in diagnostic specificity, whereas comparable changes in sensitivity and prior mean produce smaller shifts in the estimated prevalence.</p>
+</section>
+<section id="roc-like-curve-diagnostic-test-performance-evaluation" class="level2">
+<h2 class="anchored" data-anchor-id="roc-like-curve-diagnostic-test-performance-evaluation">10. ROC-like Curve – Diagnostic Test Performance Evaluation</h2>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="visualizations_files/figure-html/unnamed-chunk-10-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="768"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Key takeaway: This simulated ROC curve suggests that the diagnostic score has strong discriminatory ability, with a clear sensitivity–specificity trade-off across thresholds; however, the figure should be interpreted as an illustration of test performance rather than validation from observed field data.</p>
+</section>
+<section id="mixture-model-components-latent-subpopulation-decomposition" class="level2">
+<h2 class="anchored" data-anchor-id="mixture-model-components-latent-subpopulation-decomposition">11. Mixture Model Components – Latent Subpopulation Decomposition</h2>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="visualizations_files/figure-html/unnamed-chunk-11-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="960"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Key takeaway: This simulated finite-mixture plot illustrates how an apparently single assay-signal distribution may reflect multiple overlapping latent subgroups, which can be useful for modelling heterogeneity and improving inference when population-level measurements are not well represented by a single distribution.</p>
+</section>
+<section id="bayesian-gaussian-mixture-illustration-class-separation-and-decision-thresholds" class="level2">
+<h2 class="anchored" data-anchor-id="bayesian-gaussian-mixture-illustration-class-separation-and-decision-thresholds">12. Bayesian Gaussian Mixture Illustration – Class Separation and Decision Thresholds</h2>
+<p><em>Illustrative latent-class distributions with threshold-based separation</em></p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="visualizations_files/figure-html/unnamed-chunk-12-1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="960"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Key takeaway: This illustrative Bayesian Gaussian mixture figure shows how an observed assay-signal distribution can be represented as overlapping latent subgroups, with threshold-based cutoffs providing a practical framework for class separation under measurement uncertainty.</p>
 
 
 </section>

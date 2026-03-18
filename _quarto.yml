@@ -14,6 +14,8 @@ website:
         text: Publications
       - href: projects.qmd
         text: Projects
+      - href: visualizations.qmd
+        text: Visualizations  
       - href: cv.qmd
         text: CV
       - href: blog.qmd

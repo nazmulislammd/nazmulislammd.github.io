@@ -1,10 +1,178 @@
 [
   {
-    "objectID": "timeline.html",
-    "href": "timeline.html",
+    "objectID": "visualizations.html",
+    "href": "visualizations.html",
+    "title": "Research Visualizations",
+    "section": "",
+    "text": "These figures showcase my analytical workflow for Bayesian prevalence estimation, latent-mixture modelling, and risk factor analysis in veterinary epidemiology. All visualizations are based on simulated data designed to reflect the modelling frameworks used in my published and ongoing research."
+  },
+  {
+    "objectID": "visualizations.html#posterior-distribution-of-true-herd-level-prevalence",
+    "href": "visualizations.html#posterior-distribution-of-true-herd-level-prevalence",
+    "title": "Research Visualizations",
+    "section": "1. Posterior Distribution of True Herd-Level Prevalence",
+    "text": "1. Posterior Distribution of True Herd-Level Prevalence\n\n\n\n\n\n\n\n\n\nKey takeaway: The posterior distribution shows that the true herd-level prevalence is most plausibly around 14%, with the 95% credible interval reflecting uncertainty after adjustment for imperfect diagnostic performance."
+  },
+  {
+    "objectID": "visualizations.html#risk-factors-forest-plot-of-adjusted-odds-ratios",
+    "href": "visualizations.html#risk-factors-forest-plot-of-adjusted-odds-ratios",
+    "title": "Research Visualizations",
+    "section": "2. Risk Factors – Forest Plot of Adjusted Odds Ratios",
+    "text": "2. Risk Factors – Forest Plot of Adjusted Odds Ratios\n\n\n\n\n\n\n\n\n\nKey takeaway: The strongest associations are linked to management and biosecurity practices, with odds ratios above 1 indicating increased odds of herd-level seropositivity."
+  },
+  {
+    "objectID": "visualizations.html#apparent-vs-true-prevalence-comparison",
+    "href": "visualizations.html#apparent-vs-true-prevalence-comparison",
+    "title": "Research Visualizations",
+    "section": "3. Apparent vs True Prevalence Comparison",
+    "text": "3. Apparent vs True Prevalence Comparison\n\n\n\n\n\n\n\n\n\nKey takeaway: Presenting the raw test estimate alongside the Bayesian-adjusted estimate shows how imperfect diagnostic performance can materially underestimate the true herd-level burden."
+  },
+  {
+    "objectID": "visualizations.html#simulated-spatiotemporal-prevalence-distribution",
+    "href": "visualizations.html#simulated-spatiotemporal-prevalence-distribution",
+    "title": "Research Visualizations",
+    "section": "4. Simulated Spatiotemporal Prevalence Distribution",
+    "text": "4. Simulated Spatiotemporal Prevalence Distribution\n\n\n\n\n\n\n\n\n\nKey takeaway: Using a common color scale across survey rounds makes regional heterogeneity easier to compare and highlights persistent higher-burden areas such as Dhaka and Chattogram in this simulated example."
+  },
+  {
+    "objectID": "visualizations.html#mcmc-trace-plots-convergence-diagnostics",
+    "href": "visualizations.html#mcmc-trace-plots-convergence-diagnostics",
+    "title": "Research Visualizations",
+    "section": "5. MCMC Trace Plots – Convergence Diagnostics",
+    "text": "5. MCMC Trace Plots – Convergence Diagnostics\n\n\n\n\n\n\n\n\n\nKey takeaway: The four post-warmup chains fluctuate within the same narrow posterior region without visible drift or persistent separation, suggesting good visual mixing for the prevalence parameter."
+  },
+  {
+    "objectID": "visualizations.html#posterior-predictive-check-model-fit-assessment",
+    "href": "visualizations.html#posterior-predictive-check-model-fit-assessment",
+    "title": "Research Visualizations",
+    "section": "6. Posterior Predictive Check – Model Fit Assessment",
+    "text": "6. Posterior Predictive Check – Model Fit Assessment\n\n\n\n\n\n\n\n\n\nKey takeaway: The close overlap between the observed and replicated herd-level prevalence distributions suggests that the model reproduces the central tendency, spread, and between-herd heterogeneity of the serological data reasonably well."
+  },
+  {
+    "objectID": "visualizations.html#hierarchical-shrinkage-partial-pooling-in-multilevel-models",
+    "href": "visualizations.html#hierarchical-shrinkage-partial-pooling-in-multilevel-models",
+    "title": "Research Visualizations",
+    "section": "7. Hierarchical Shrinkage – Partial Pooling in Multilevel Models",
+    "text": "7. Hierarchical Shrinkage – Partial Pooling in Multilevel Models\n\n\n\n\n\n\n\n\n\nKey takeaway: Partial pooling pulls district-specific estimates toward the overall mean, especially for districts with smaller sample sizes, reducing instability and over-interpretation of noisy subgroup estimates."
+  },
+  {
+    "objectID": "visualizations.html#model-comparison-leave-one-out-cross-validation-loo",
+    "href": "visualizations.html#model-comparison-leave-one-out-cross-validation-loo",
+    "title": "Research Visualizations",
+    "section": "8. Model Comparison – Leave-One-Out Cross-Validation (LOO)",
+    "text": "8. Model Comparison – Leave-One-Out Cross-Validation (LOO)\n\n\n\n\n\n\n\n\n\nKey takeaway: The hierarchical model with diagnostic adjustment shows the strongest expected out-of-sample predictive performance, while simpler models lose predictive accuracy under LOO-CV."
+  },
+  {
+    "objectID": "visualizations.html#sensitivity-analysis-effect-of-key-assumptions-on-the-prevalence-estimate",
+    "href": "visualizations.html#sensitivity-analysis-effect-of-key-assumptions-on-the-prevalence-estimate",
+    "title": "Research Visualizations",
+    "section": "9. Sensitivity Analysis – Effect of Key Assumptions on the Prevalence Estimate",
+    "text": "9. Sensitivity Analysis – Effect of Key Assumptions on the Prevalence Estimate\n\n\n\n\n\n\n\n\n\nKey takeaway: In this simulated one-way sensitivity analysis, the posterior median prevalence appears most sensitive to plausible changes in diagnostic specificity, whereas comparable changes in sensitivity and prior mean produce smaller shifts in the estimated prevalence."
+  },
+  {
+    "objectID": "visualizations.html#roc-like-curve-diagnostic-test-performance-evaluation",
+    "href": "visualizations.html#roc-like-curve-diagnostic-test-performance-evaluation",
+    "title": "Research Visualizations",
+    "section": "10. ROC-like Curve – Diagnostic Test Performance Evaluation",
+    "text": "10. ROC-like Curve – Diagnostic Test Performance Evaluation\n\n\n\n\n\n\n\n\n\nKey takeaway: This simulated ROC curve suggests that the diagnostic score has strong discriminatory ability, with a clear sensitivity–specificity trade-off across thresholds; however, the figure should be interpreted as an illustration of test performance rather than validation from observed field data."
+  },
+  {
+    "objectID": "visualizations.html#mixture-model-components-latent-subpopulation-decomposition",
+    "href": "visualizations.html#mixture-model-components-latent-subpopulation-decomposition",
+    "title": "Research Visualizations",
+    "section": "11. Mixture Model Components – Latent Subpopulation Decomposition",
+    "text": "11. Mixture Model Components – Latent Subpopulation Decomposition\n\n\n\n\n\n\n\n\n\nKey takeaway: This simulated finite-mixture plot illustrates how an apparently single assay-signal distribution may reflect multiple overlapping latent subgroups, which can be useful for modelling heterogeneity and improving inference when population-level measurements are not well represented by a single distribution."
+  },
+  {
+    "objectID": "visualizations.html#bayesian-gaussian-mixture-illustration-class-separation-and-decision-thresholds",
+    "href": "visualizations.html#bayesian-gaussian-mixture-illustration-class-separation-and-decision-thresholds",
+    "title": "Research Visualizations",
+    "section": "12. Bayesian Gaussian Mixture Illustration – Class Separation and Decision Thresholds",
+    "text": "12. Bayesian Gaussian Mixture Illustration – Class Separation and Decision Thresholds\nIllustrative latent-class distributions with threshold-based separation\n\n\n\n\n\n\n\n\n\nKey takeaway: This illustrative Bayesian Gaussian mixture figure shows how an observed assay-signal distribution can be represented as overlapping latent subgroups, with threshold-based cutoffs providing a practical framework for class separation under measurement uncertainty."
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "Teaching and Work Experience\nThis page will contain my teaching, mentoring, and professional experience."
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Research Projects",
+    "section": "",
+    "text": "I am passionate about applying advanced epidemiological and statistical tools to tackle zoonotic and infectious diseases at the human–animal–environment interface, with a focus on dairy cattle health in low-resource settings. My work integrates field diagnostics, Bayesian modeling, and One Health principles to generate actionable insights for disease control, antimicrobial stewardship, and sustainable livestock production. As an early-career researcher from Bangladesh Agricultural University, I am eager to collaborate with international teams to scale these approaches globally.\n\n\nNov 2023 – Present\nThis ongoing project quantifies the true burden and transmission dynamics of priority zoonotic pathogens in intensive dairy systems — a critical yet understudied context in South Asia. Focus pathogens include brucellosis, paratuberculosis (Johne’s disease), bovine viral diarrhea (BVD), neosporosis, and Q fever (Coxiella burnetii). We use bulk milk screening and molecular diagnostics to address diagnostic imperfections and surveillance gaps.\nKey contributions and outputs: - Estimated herd- and cow-level true prevalence using indirect ELISA and real-time PCR on bulk milk samples. - Identified farm-level risk factors (management practices, biosecurity, environmental exposures) via multivariable and Bayesian approaches. - Performed multiplex qPCR on fetal membranes from abortion cases to detect Brucella spp., Coxiella burnetii, Neospora caninum, Leptospira spp., and others. - Presented findings at the BSVER Annual Scientific Conference (2024). - Contributing to multiple under-review manuscripts in high-impact journals (e.g., PLOS ONE, Veterinary Sciences).\nThis work bridges local impact (improved herd health for Bangladeshi smallholders) with global relevance (zoonotic risk in emerging dairy economies).\nSkills & Methods: Indirect ELISA · Real-time qPCR · DNA extraction · Bayesian prevalence estimation · Risk factor analysis · Scientific visualization (R, BioRender, Adobe Illustrator) · Zoonotic disease surveillance · Dairy herd health monitoring\n\n\n\nJan 2025 – Present\nSupervisor: Prof. Dr. A.K.M. Anisur Rahman\nThis project develops cost-effective, nutritionally optimized TMR formulations using locally sourced feeds to enhance growth performance, health, and welfare in Bangladeshi beef cattle — addressing feed scarcity and sustainability in tropical smallholder systems.\nKey contributions: - Assisted in designing and executing controlled feeding trials with on-farm monitoring. - Applied laboratory diagnostics (ELISA, PCR) and statistical modeling (R) to evaluate impacts on growth metrics, immune response, and disease resistance. - Collaborated on practical recommendations for farmers, integrating veterinary medicine with food security and rural livelihoods.\nThis initiative demonstrates scalable solutions for climate-resilient livestock production in resource-limited regions.\nSkills & Methods: Veterinary nutrition · Experimental trial design · Statistical analysis (R) · Laboratory techniques (ELISA, PCR) · Field data collection · One Health applications in livestock production\n\n\n\nSelf-initiated research program (leading a team of 10 collaborators)\nThis program addresses critical gaps in the global understanding of human brucellosis — a neglected zoonosis with massive underestimation due to imperfect diagnostics, heterogeneous surveillance, and non-specific symptoms. It comprises three interconnected, independently publishable studies:\n\nBayesian test-adjusted meta-analysis — Synthesizing global seroprevalence while propagating uncertainty in diagnostic sensitivity/specificity (no perfect gold standard) to derive credible true prevalence estimates across regions.\nBayesian spatiotemporal disease mapping — Inferring global hotspots, trends, and clusters under incomplete reporting, borrowing strength across space/time to overcome data sparsity.\nOne Health ecological driver modeling — Quantifying environmental (climate, humidity), livestock density, and socioeconomic drivers while addressing spatial confounding and ecological inference biases.\n\nThis builds on my expertise in Bayesian latent-class models and zoonotic epidemiology, with strong potential for high-impact outputs and international collaboration (diagnostics, spatial epi, One Health groups).\nSkills & Methods: Systematic review · Bayesian hierarchical modeling (latent class, spatiotemporal, ecological inference) · Advanced R programming · Geospatial analysis (QGIS) · One Health integration · Uncertainty propagation in diagnostics"
+  },
+  {
+    "objectID": "projects.html#current-research-projects",
+    "href": "projects.html#current-research-projects",
+    "title": "Research Projects",
+    "section": "",
+    "text": "I am passionate about applying advanced epidemiological and statistical tools to tackle zoonotic and infectious diseases at the human–animal–environment interface, with a focus on dairy cattle health in low-resource settings. My work integrates field diagnostics, Bayesian modeling, and One Health principles to generate actionable insights for disease control, antimicrobial stewardship, and sustainable livestock production. As an early-career researcher from Bangladesh Agricultural University, I am eager to collaborate with international teams to scale these approaches globally.\n\n\nNov 2023 – Present\nThis ongoing project quantifies the true burden and transmission dynamics of priority zoonotic pathogens in intensive dairy systems — a critical yet understudied context in South Asia. Focus pathogens include brucellosis, paratuberculosis (Johne’s disease), bovine viral diarrhea (BVD), neosporosis, and Q fever (Coxiella burnetii). We use bulk milk screening and molecular diagnostics to address diagnostic imperfections and surveillance gaps.\nKey contributions and outputs: - Estimated herd- and cow-level true prevalence using indirect ELISA and real-time PCR on bulk milk samples. - Identified farm-level risk factors (management practices, biosecurity, environmental exposures) via multivariable and Bayesian approaches. - Performed multiplex qPCR on fetal membranes from abortion cases to detect Brucella spp., Coxiella burnetii, Neospora caninum, Leptospira spp., and others. - Presented findings at the BSVER Annual Scientific Conference (2024). - Contributing to multiple under-review manuscripts in high-impact journals (e.g., PLOS ONE, Veterinary Sciences).\nThis work bridges local impact (improved herd health for Bangladeshi smallholders) with global relevance (zoonotic risk in emerging dairy economies).\nSkills & Methods: Indirect ELISA · Real-time qPCR · DNA extraction · Bayesian prevalence estimation · Risk factor analysis · Scientific visualization (R, BioRender, Adobe Illustrator) · Zoonotic disease surveillance · Dairy herd health monitoring\n\n\n\nJan 2025 – Present\nSupervisor: Prof. Dr. A.K.M. Anisur Rahman\nThis project develops cost-effective, nutritionally optimized TMR formulations using locally sourced feeds to enhance growth performance, health, and welfare in Bangladeshi beef cattle — addressing feed scarcity and sustainability in tropical smallholder systems.\nKey contributions: - Assisted in designing and executing controlled feeding trials with on-farm monitoring. - Applied laboratory diagnostics (ELISA, PCR) and statistical modeling (R) to evaluate impacts on growth metrics, immune response, and disease resistance. - Collaborated on practical recommendations for farmers, integrating veterinary medicine with food security and rural livelihoods.\nThis initiative demonstrates scalable solutions for climate-resilient livestock production in resource-limited regions.\nSkills & Methods: Veterinary nutrition · Experimental trial design · Statistical analysis (R) · Laboratory techniques (ELISA, PCR) · Field data collection · One Health applications in livestock production\n\n\n\nSelf-initiated research program (leading a team of 10 collaborators)\nThis program addresses critical gaps in the global understanding of human brucellosis — a neglected zoonosis with massive underestimation due to imperfect diagnostics, heterogeneous surveillance, and non-specific symptoms. It comprises three interconnected, independently publishable studies:\n\nBayesian test-adjusted meta-analysis — Synthesizing global seroprevalence while propagating uncertainty in diagnostic sensitivity/specificity (no perfect gold standard) to derive credible true prevalence estimates across regions.\nBayesian spatiotemporal disease mapping — Inferring global hotspots, trends, and clusters under incomplete reporting, borrowing strength across space/time to overcome data sparsity.\nOne Health ecological driver modeling — Quantifying environmental (climate, humidity), livestock density, and socioeconomic drivers while addressing spatial confounding and ecological inference biases.\n\nThis builds on my expertise in Bayesian latent-class models and zoonotic epidemiology, with strong potential for high-impact outputs and international collaboration (diagnostics, spatial epi, One Health groups).\nSkills & Methods: Systematic review · Bayesian hierarchical modeling (latent class, spatiotemporal, ecological inference) · Advanced R programming · Geospatial analysis (QGIS) · One Health integration · Uncertainty propagation in diagnostics"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Md. Nazmul Islam",
+    "section": "",
+    "text": "Md Nazmul Islam\n\n\nMS Student in Medicine\n\n\n\n Bangladesh\n\n\n Bangladesh Agricultural University\n\n\n Email\n\n\n LinkedIn\n\n\n GitHub\n\n\n Google Scholar\n\n\n ResearchGate\n\n\n ORCID\n\n\n\n\n\nWelcome to my personal website.\n\n\nI am a Doctor of Veterinary Medicine (DVM) graduate and an MS candidate in Medicine at the Department of Medicine, Bangladesh Agricultural University.\n\n\nMy research focuses on veterinary epidemiology, zoonotic infectious diseases in livestock, and One Health approaches, integrating Bayesian statistical modeling, field diagnostics, and epidemiological risk analysis to support improved disease surveillance and control in dairy production systems.\n\n\nWorking under the supervision of A.K.M. Anisur Rahman, I combine practical field and laboratory experience with advanced analytical tools such as R for Bayesian analysis, ELISA/qPCR diagnostics, and QGIS-based spatial analysis to produce robust, reproducible epidemiological evidence.\n\n\nYou can explore my publications, working papers, research projects, public engagement activities, and teaching contributions by navigating the sections of this website.\n\n\nKey Highlights\n\n\n\nCo-first author publications in PLOS ONE and Veterinary Sciences, with several additional manuscripts currently under peer review in international journals.\n\n\nConducted Bayesian prevalence estimation and risk-factor studies on brucellosis, paratuberculosis, Q fever, bovine viral diarrhea, and subclinical mastitis in Bangladeshi dairy herds.\n\n\nLeading an independent global epidemiology project on human brucellosis, applying Bayesian meta-synthesis, spatiotemporal mapping, and One Health frameworks with a multidisciplinary research team.\n\n\nRecipient of the National Science and Technology (NST) Fellowship 2026.\n\n\n\nResearch Interests\n\n\n\nVeterinary epidemiology and zoonotic disease modeling\n\n\nBayesian hierarchical and latent-class statistical methods\n\n\nDairy herd health and infectious disease surveillance\n\n\nOne Health approaches in low- and middle-income settings\n\n\nSystematic reviews, meta-analysis, and geospatial epidemiology"
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "You can download my full academic CV below.\nDownload CV (PDF)"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "I am a veterinary researcher and graduate student at the Department of Medicine, Faculty of Veterinary Science, Bangladesh Agricultural University. My academic work focuses on veterinary epidemiology, infectious diseases in livestock, and One Health research, with an emphasis on understanding disease patterns in animal populations and generating evidence that can inform animal and public health decision-making.\nI work under the supervision of Prof. Dr. A.K.M. Anisur Rahman in the Epidemiology and Preventive Medicine Laboratory, where I have been involved in research activities for the past three years. During this time, I have participated in several epidemiological studies on infectious diseases in livestock populations, gaining experience in field data collection, laboratory diagnostics, and epidemiological analysis.\nMy research interests center on epidemiological approaches to infectious diseases, including disease prevalence estimation, risk factor analysis, and evidence synthesis. I am particularly interested in applying quantitative and data-driven methods to better understand the dynamics of livestock diseases and their implications for food systems and global health.\n\n\nMy primary research interests include:\n\nVeterinary epidemiology\n\nInfectious diseases in livestock\n\nOne Health and zoonotic diseases\n\nSystematic review and meta-analysis\n\nEpidemiological study design and risk factor analysis\n\nQuantitative data analysis in health research\n\n\n\n\nMy long-term goal is to contribute to high-quality research in infectious disease epidemiology and global animal health. I aim to collaborate with international researchers and pursue advanced academic training that will allow me to develop stronger expertise in epidemiological modeling, evidence synthesis, and data-driven health research."
+  },
+  {
+    "objectID": "about.html#research-interests",
+    "href": "about.html#research-interests",
+    "title": "About",
+    "section": "",
+    "text": "My primary research interests include:\n\nVeterinary epidemiology\n\nInfectious diseases in livestock\n\nOne Health and zoonotic diseases\n\nSystematic review and meta-analysis\n\nEpidemiological study design and risk factor analysis\n\nQuantitative data analysis in health research"
+  },
+  {
+    "objectID": "about.html#research-vision",
+    "href": "about.html#research-vision",
+    "title": "About",
+    "section": "",
+    "text": "My long-term goal is to contribute to high-quality research in infectious disease epidemiology and global animal health. I aim to collaborate with international researchers and pursue advanced academic training that will allow me to develop stronger expertise in epidemiological modeling, evidence synthesis, and data-driven health research."
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Blog and Research Notes\nThis page will contain my blog posts, research notes, and updates."
+  },
+  {
+    "objectID": "files/timeline.html",
+    "href": "files/timeline.html",
     "title": "Timeline",
     "section": "",
-    "text": "Personal timeline containing significant events in my life in reverse chronological order (last updated March, 2026).\n\n\n\n\nEqually Contributing First Author – PLOS One\nPublished second Q1 paper: “Estimated true prevalence and associated risk factors of bovine paratuberculosis antibodies in dairy herds in Bangladesh”. Applied Bayesian methods to adjust for diagnostic imperfections and identify farm-level drivers in South Asian intensive dairy systems.\nJanuary 2026\n\n\n\n\nNational Science and Technology (NST) Fellowship\nAwarded competitive research fellowship by the Ministry of Science and Technology, Government of Bangladesh, to support advanced epidemiological studies in livestock zoonoses.\nJanuary 2026\n\n\n\n\nOral Presentation – IOCVS 2025\nPresented “Feasibility of On-Farm Somatic Cell Count Screening for Subclinical Mastitis: Prevalence and Risk Factors in a Commercial Dairy Herd in Bangladesh” at the 1st International Online Conference on Veterinary Science (IOCVS), 4 December 2025.\nDecember 2025\n\n\n\n\nEqually Contributing First Author – Q1 Journal\nPublished first lead-author paper: “Prevalence and Risk Factors of Bovine Viral Diarrhea Virus Antibodies in Dairy Herds of Bangladesh”. Combined field sampling, serology, and multivariable risk factor analysis.\nAugust 2025\n\n\n\n\nAspire Leaders Program – Finalist & Alumni\nSelected among 6,175 finalists from more than 36,000 applicants for the 2025 Aspire Leaders Program. Completed 40 hours of intensive training in leadership, critical thinking, global impact strategy, and communication.\nAugust 2025\n\n\n\n\nAdmission – MS in Medicine\nEnrolled in Master of Science in Medicine, Department of Medicine, Faculty of Veterinary Science, Bangladesh Agricultural University.\nApril 2025\n\n\n\n\nPublished Book – Amazon Kindle\nAuthored and self-published The AI Prompt Handbook: Master Your Skills and Accelerate Growth. Practical guide on using large language models for academic writing, research productivity, and personal development.\nApril 2025\n\n\n\n\nGraduated – Doctor of Veterinary Medicine (DVM)\nCompleted DVM degree from Bangladesh Agricultural University. Received comprehensive training in veterinary clinical practice, epidemiology, pathology, and public health.\nJanuary 2025\n\n\n\n\nVeterinary Internship\nCompleted a comprehensive veterinary internship across multiple clinical and research settings, including government hospitals, diagnostic laboratories, dairy farms, military farms, and private clinics. Performed clinical examinations, treatments, surgical assistance, and field consultations under professional supervision.\nNovember 2024\n\n\n\n\nResearch Assistant\nJoined the Epidemiology and Preventive Medicine Laboratory, Department of Medicine, Bangladesh Agricultural University. Conducted more than 3 years of full-time research on zoonotic pathogens in dairy cattle, including brucellosis, paratuberculosis, BVD, and Q fever, with focus on field diagnostics, Bayesian prevalence estimation, and risk factor modeling.\nJanuary 2023\n\n\n\n\nFounder – EduTricks Academy\nLaunched a free online educational platform through Facebook page and group to provide academic support, study strategies, and subject tutorials for secondary and higher-secondary students across Bangladesh. Reached more than 1,000 learners.\nJanuary 2022\n\n\n\n\nUndergraduate Studies – DVM\nStarted my Doctor of Veterinary Medicine (DVM) degree at Bangladesh Agricultural University.\nJanuary 2019\n\n\n\n\nMerit Scholarship – Higher Secondary Certificate (HSC)\nAwarded merit-based scholarship by the Board of Intermediate and Secondary Education, Dinajpur, Bangladesh, for outstanding performance in HSC examinations.\nFebruary 2018\n\n\n\n\nMerit Scholarship – Secondary School Certificate (SSC)\nAwarded merit-based scholarship by the Board of Intermediate and Secondary Education, Dinajpur, Bangladesh, for exceptional results in SSC examinations.\nJune 2016"
+    "text": "Coming soon."
+  },
+  {
+    "objectID": "files/timeline.html#timeline",
+    "href": "files/timeline.html#timeline",
+    "title": "Timeline",
+    "section": "",
+    "text": "Coming soon."
+  },
+  {
+    "objectID": "profile-panel.html",
+    "href": "profile-panel.html",
+    "title": "Md. Nazmul Islam",
+    "section": "",
+    "text": "Md Nazmul Islam\n\n\nMS Student in Medicine\n\n\n\n Bangladesh\n\n\n Bangladesh Agricultural University\n\n\n Email\n\n\n LinkedIn\n\n\n GitHub\n\n\n Google Scholar\n\n\n ResearchGate\n\n\n ORCID"
   },
   {
     "objectID": "publications.html",
@@ -42,87 +210,10 @@
     "text": "Conference Presentations & Posters\n\nFeasibility of On-Farm Somatic Cell Count Screening for Subclinical Mastitis: Prevalence and Risk Factors in a Commercial Dairy Herd in Bangladesh.\nPresented at IOCVS 2025, 4 December 2025. DOI: 10.13140/RG.2.2.16208.16642.\nPrevalence and Epidemiology of Bovine Brucellosis in Large Dairy Farms of Bangladesh.\nResearch poster on prevalence, risk factors, and control strategies presented at the BSVER Annual Scientific Conference 2024, Bangladesh Agricultural University, Mymensingh, February 24-25, 2024."
   },
   {
-    "objectID": "profile-panel.html",
-    "href": "profile-panel.html",
-    "title": "Md. Nazmul Islam",
-    "section": "",
-    "text": "Md Nazmul Islam\n\n\nMS Student in Medicine\n\n\n\n Bangladesh\n\n\n Bangladesh Agricultural University\n\n\n Email\n\n\n LinkedIn\n\n\n GitHub\n\n\n Google Scholar\n\n\n ResearchGate\n\n\n ORCID"
-  },
-  {
-    "objectID": "files/timeline.html",
-    "href": "files/timeline.html",
+    "objectID": "timeline.html",
+    "href": "timeline.html",
     "title": "Timeline",
     "section": "",
-    "text": "Coming soon."
-  },
-  {
-    "objectID": "files/timeline.html#timeline",
-    "href": "files/timeline.html#timeline",
-    "title": "Timeline",
-    "section": "",
-    "text": "Coming soon."
-  },
-  {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "Blog",
-    "section": "",
-    "text": "Blog and Research Notes\nThis page will contain my blog posts, research notes, and updates."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "I am a veterinary researcher and graduate student at the Department of Medicine, Faculty of Veterinary Science, Bangladesh Agricultural University. My academic work focuses on veterinary epidemiology, infectious diseases in livestock, and One Health research, with an emphasis on understanding disease patterns in animal populations and generating evidence that can inform animal and public health decision-making.\nI work under the supervision of Prof. Dr. A.K.M. Anisur Rahman in the Epidemiology and Preventive Medicine Laboratory, where I have been involved in research activities for the past three years. During this time, I have participated in several epidemiological studies on infectious diseases in livestock populations, gaining experience in field data collection, laboratory diagnostics, and epidemiological analysis.\nMy research interests center on epidemiological approaches to infectious diseases, including disease prevalence estimation, risk factor analysis, and evidence synthesis. I am particularly interested in applying quantitative and data-driven methods to better understand the dynamics of livestock diseases and their implications for food systems and global health.\n\n\nMy primary research interests include:\n\nVeterinary epidemiology\n\nInfectious diseases in livestock\n\nOne Health and zoonotic diseases\n\nSystematic review and meta-analysis\n\nEpidemiological study design and risk factor analysis\n\nQuantitative data analysis in health research\n\n\n\n\nMy long-term goal is to contribute to high-quality research in infectious disease epidemiology and global animal health. I aim to collaborate with international researchers and pursue advanced academic training that will allow me to develop stronger expertise in epidemiological modeling, evidence synthesis, and data-driven health research."
-  },
-  {
-    "objectID": "about.html#research-interests",
-    "href": "about.html#research-interests",
-    "title": "About",
-    "section": "",
-    "text": "My primary research interests include:\n\nVeterinary epidemiology\n\nInfectious diseases in livestock\n\nOne Health and zoonotic diseases\n\nSystematic review and meta-analysis\n\nEpidemiological study design and risk factor analysis\n\nQuantitative data analysis in health research"
-  },
-  {
-    "objectID": "about.html#research-vision",
-    "href": "about.html#research-vision",
-    "title": "About",
-    "section": "",
-    "text": "My long-term goal is to contribute to high-quality research in infectious disease epidemiology and global animal health. I aim to collaborate with international researchers and pursue advanced academic training that will allow me to develop stronger expertise in epidemiological modeling, evidence synthesis, and data-driven health research."
-  },
-  {
-    "objectID": "cv.html",
-    "href": "cv.html",
-    "title": "Curriculum Vitae",
-    "section": "",
-    "text": "You can download my full academic CV below.\nDownload CV (PDF)"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Md. Nazmul Islam",
-    "section": "",
-    "text": "Md Nazmul Islam\n\n\nMS Student in Medicine\n\n\n\n Bangladesh\n\n\n Bangladesh Agricultural University\n\n\n Email\n\n\n LinkedIn\n\n\n GitHub\n\n\n Google Scholar\n\n\n ResearchGate\n\n\n ORCID\n\n\n\n\n\nWelcome to my personal website.\n\n\nI am a Doctor of Veterinary Medicine (DVM) graduate and an MS candidate in Medicine at the Department of Medicine, Bangladesh Agricultural University.\n\n\nMy research focuses on veterinary epidemiology, zoonotic infectious diseases in livestock, and One Health approaches, integrating Bayesian statistical modeling, field diagnostics, and epidemiological risk analysis to support improved disease surveillance and control in dairy production systems.\n\n\nWorking under the supervision of A.K.M. Anisur Rahman, I combine practical field and laboratory experience with advanced analytical tools such as R for Bayesian analysis, ELISA/qPCR diagnostics, and QGIS-based spatial analysis to produce robust, reproducible epidemiological evidence.\n\n\nYou can explore my publications, working papers, research projects, public engagement activities, and teaching contributions by navigating the sections of this website.\n\n\nKey Highlights\n\n\n\nCo-first author publications in PLOS ONE and Veterinary Sciences, with several additional manuscripts currently under peer review in international journals.\n\n\nConducted Bayesian prevalence estimation and risk-factor studies on brucellosis, paratuberculosis, Q fever, bovine viral diarrhea, and subclinical mastitis in Bangladeshi dairy herds.\n\n\nLeading an independent global epidemiology project on human brucellosis, applying Bayesian meta-synthesis, spatiotemporal mapping, and One Health frameworks with a multidisciplinary research team.\n\n\nRecipient of the National Science and Technology (NST) Fellowship 2026.\n\n\n\nResearch Interests\n\n\n\nVeterinary epidemiology and zoonotic disease modeling\n\n\nBayesian hierarchical and latent-class statistical methods\n\n\nDairy herd health and infectious disease surveillance\n\n\nOne Health approaches in low- and middle-income settings\n\n\nSystematic reviews, meta-analysis, and geospatial epidemiology"
-  },
-  {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Research Projects",
-    "section": "",
-    "text": "I am passionate about applying advanced epidemiological and statistical tools to tackle zoonotic and infectious diseases at the human–animal–environment interface, with a focus on dairy cattle health in low-resource settings. My work integrates field diagnostics, Bayesian modeling, and One Health principles to generate actionable insights for disease control, antimicrobial stewardship, and sustainable livestock production. As an early-career researcher from Bangladesh Agricultural University, I am eager to collaborate with international teams to scale these approaches globally.\n\n\nNov 2023 – Present\nThis ongoing project quantifies the true burden and transmission dynamics of priority zoonotic pathogens in intensive dairy systems — a critical yet understudied context in South Asia. Focus pathogens include brucellosis, paratuberculosis (Johne’s disease), bovine viral diarrhea (BVD), neosporosis, and Q fever (Coxiella burnetii). We use bulk milk screening and molecular diagnostics to address diagnostic imperfections and surveillance gaps.\nKey contributions and outputs: - Estimated herd- and cow-level true prevalence using indirect ELISA and real-time PCR on bulk milk samples. - Identified farm-level risk factors (management practices, biosecurity, environmental exposures) via multivariable and Bayesian approaches. - Performed multiplex qPCR on fetal membranes from abortion cases to detect Brucella spp., Coxiella burnetii, Neospora caninum, Leptospira spp., and others. - Presented findings at the BSVER Annual Scientific Conference (2024). - Contributing to multiple under-review manuscripts in high-impact journals (e.g., PLOS ONE, Veterinary Sciences).\nThis work bridges local impact (improved herd health for Bangladeshi smallholders) with global relevance (zoonotic risk in emerging dairy economies).\nSkills & Methods: Indirect ELISA · Real-time qPCR · DNA extraction · Bayesian prevalence estimation · Risk factor analysis · Scientific visualization (R, BioRender, Adobe Illustrator) · Zoonotic disease surveillance · Dairy herd health monitoring\n\n\n\nJan 2025 – Present\nSupervisor: Prof. Dr. A.K.M. Anisur Rahman\nThis project develops cost-effective, nutritionally optimized TMR formulations using locally sourced feeds to enhance growth performance, health, and welfare in Bangladeshi beef cattle — addressing feed scarcity and sustainability in tropical smallholder systems.\nKey contributions: - Assisted in designing and executing controlled feeding trials with on-farm monitoring. - Applied laboratory diagnostics (ELISA, PCR) and statistical modeling (R) to evaluate impacts on growth metrics, immune response, and disease resistance. - Collaborated on practical recommendations for farmers, integrating veterinary medicine with food security and rural livelihoods.\nThis initiative demonstrates scalable solutions for climate-resilient livestock production in resource-limited regions.\nSkills & Methods: Veterinary nutrition · Experimental trial design · Statistical analysis (R) · Laboratory techniques (ELISA, PCR) · Field data collection · One Health applications in livestock production\n\n\n\nSelf-initiated research program (leading a team of 10 collaborators)\nThis program addresses critical gaps in the global understanding of human brucellosis — a neglected zoonosis with massive underestimation due to imperfect diagnostics, heterogeneous surveillance, and non-specific symptoms. It comprises three interconnected, independently publishable studies:\n\nBayesian test-adjusted meta-analysis — Synthesizing global seroprevalence while propagating uncertainty in diagnostic sensitivity/specificity (no perfect gold standard) to derive credible true prevalence estimates across regions.\nBayesian spatiotemporal disease mapping — Inferring global hotspots, trends, and clusters under incomplete reporting, borrowing strength across space/time to overcome data sparsity.\nOne Health ecological driver modeling — Quantifying environmental (climate, humidity), livestock density, and socioeconomic drivers while addressing spatial confounding and ecological inference biases.\n\nThis builds on my expertise in Bayesian latent-class models and zoonotic epidemiology, with strong potential for high-impact outputs and international collaboration (diagnostics, spatial epi, One Health groups).\nSkills & Methods: Systematic review · Bayesian hierarchical modeling (latent class, spatiotemporal, ecological inference) · Advanced R programming · Geospatial analysis (QGIS) · One Health integration · Uncertainty propagation in diagnostics"
-  },
-  {
-    "objectID": "projects.html#current-research-projects",
-    "href": "projects.html#current-research-projects",
-    "title": "Research Projects",
-    "section": "",
-    "text": "I am passionate about applying advanced epidemiological and statistical tools to tackle zoonotic and infectious diseases at the human–animal–environment interface, with a focus on dairy cattle health in low-resource settings. My work integrates field diagnostics, Bayesian modeling, and One Health principles to generate actionable insights for disease control, antimicrobial stewardship, and sustainable livestock production. As an early-career researcher from Bangladesh Agricultural University, I am eager to collaborate with international teams to scale these approaches globally.\n\n\nNov 2023 – Present\nThis ongoing project quantifies the true burden and transmission dynamics of priority zoonotic pathogens in intensive dairy systems — a critical yet understudied context in South Asia. Focus pathogens include brucellosis, paratuberculosis (Johne’s disease), bovine viral diarrhea (BVD), neosporosis, and Q fever (Coxiella burnetii). We use bulk milk screening and molecular diagnostics to address diagnostic imperfections and surveillance gaps.\nKey contributions and outputs: - Estimated herd- and cow-level true prevalence using indirect ELISA and real-time PCR on bulk milk samples. - Identified farm-level risk factors (management practices, biosecurity, environmental exposures) via multivariable and Bayesian approaches. - Performed multiplex qPCR on fetal membranes from abortion cases to detect Brucella spp., Coxiella burnetii, Neospora caninum, Leptospira spp., and others. - Presented findings at the BSVER Annual Scientific Conference (2024). - Contributing to multiple under-review manuscripts in high-impact journals (e.g., PLOS ONE, Veterinary Sciences).\nThis work bridges local impact (improved herd health for Bangladeshi smallholders) with global relevance (zoonotic risk in emerging dairy economies).\nSkills & Methods: Indirect ELISA · Real-time qPCR · DNA extraction · Bayesian prevalence estimation · Risk factor analysis · Scientific visualization (R, BioRender, Adobe Illustrator) · Zoonotic disease surveillance · Dairy herd health monitoring\n\n\n\nJan 2025 – Present\nSupervisor: Prof. Dr. A.K.M. Anisur Rahman\nThis project develops cost-effective, nutritionally optimized TMR formulations using locally sourced feeds to enhance growth performance, health, and welfare in Bangladeshi beef cattle — addressing feed scarcity and sustainability in tropical smallholder systems.\nKey contributions: - Assisted in designing and executing controlled feeding trials with on-farm monitoring. - Applied laboratory diagnostics (ELISA, PCR) and statistical modeling (R) to evaluate impacts on growth metrics, immune response, and disease resistance. - Collaborated on practical recommendations for farmers, integrating veterinary medicine with food security and rural livelihoods.\nThis initiative demonstrates scalable solutions for climate-resilient livestock production in resource-limited regions.\nSkills & Methods: Veterinary nutrition · Experimental trial design · Statistical analysis (R) · Laboratory techniques (ELISA, PCR) · Field data collection · One Health applications in livestock production\n\n\n\nSelf-initiated research program (leading a team of 10 collaborators)\nThis program addresses critical gaps in the global understanding of human brucellosis — a neglected zoonosis with massive underestimation due to imperfect diagnostics, heterogeneous surveillance, and non-specific symptoms. It comprises three interconnected, independently publishable studies:\n\nBayesian test-adjusted meta-analysis — Synthesizing global seroprevalence while propagating uncertainty in diagnostic sensitivity/specificity (no perfect gold standard) to derive credible true prevalence estimates across regions.\nBayesian spatiotemporal disease mapping — Inferring global hotspots, trends, and clusters under incomplete reporting, borrowing strength across space/time to overcome data sparsity.\nOne Health ecological driver modeling — Quantifying environmental (climate, humidity), livestock density, and socioeconomic drivers while addressing spatial confounding and ecological inference biases.\n\nThis builds on my expertise in Bayesian latent-class models and zoonotic epidemiology, with strong potential for high-impact outputs and international collaboration (diagnostics, spatial epi, One Health groups).\nSkills & Methods: Systematic review · Bayesian hierarchical modeling (latent class, spatiotemporal, ecological inference) · Advanced R programming · Geospatial analysis (QGIS) · One Health integration · Uncertainty propagation in diagnostics"
-  },
-  {
-    "objectID": "teaching.html",
-    "href": "teaching.html",
-    "title": "Teaching",
-    "section": "",
-    "text": "Teaching and Work Experience\nThis page will contain my teaching, mentoring, and professional experience."
+    "text": "Personal timeline containing significant events in my life in reverse chronological order (last updated March, 2026).\n\n\n\n\nEqually Contributing First Author – PLOS One\nPublished second Q1 paper: “Estimated true prevalence and associated risk factors of bovine paratuberculosis antibodies in dairy herds in Bangladesh”. Applied Bayesian methods to adjust for diagnostic imperfections and identify farm-level drivers in South Asian intensive dairy systems.\nJanuary 2026\n\n\n\n\nNational Science and Technology (NST) Fellowship\nAwarded competitive research fellowship by the Ministry of Science and Technology, Government of Bangladesh, to support advanced epidemiological studies in livestock zoonoses.\nJanuary 2026\n\n\n\n\nOral Presentation – IOCVS 2025\nPresented “Feasibility of On-Farm Somatic Cell Count Screening for Subclinical Mastitis: Prevalence and Risk Factors in a Commercial Dairy Herd in Bangladesh” at the 1st International Online Conference on Veterinary Science (IOCVS), 4 December 2025.\nDecember 2025\n\n\n\n\nEqually Contributing First Author – Q1 Journal\nPublished first lead-author paper: “Prevalence and Risk Factors of Bovine Viral Diarrhea Virus Antibodies in Dairy Herds of Bangladesh”. Combined field sampling, serology, and multivariable risk factor analysis.\nAugust 2025\n\n\n\n\nAspire Leaders Program – Finalist & Alumni\nSelected among 6,175 finalists from more than 36,000 applicants for the 2025 Aspire Leaders Program. Completed 40 hours of intensive training in leadership, critical thinking, global impact strategy, and communication.\nAugust 2025\n\n\n\n\nAdmission – MS in Medicine\nEnrolled in Master of Science in Medicine, Department of Medicine, Faculty of Veterinary Science, Bangladesh Agricultural University.\nApril 2025\n\n\n\n\nPublished Book – Amazon Kindle\nAuthored and self-published The AI Prompt Handbook: Master Your Skills and Accelerate Growth. Practical guide on using large language models for academic writing, research productivity, and personal development.\nApril 2025\n\n\n\n\nGraduated – Doctor of Veterinary Medicine (DVM)\nCompleted DVM degree from Bangladesh Agricultural University. Received comprehensive training in veterinary clinical practice, epidemiology, pathology, and public health.\nJanuary 2025\n\n\n\n\nVeterinary Internship\nCompleted a comprehensive veterinary internship across multiple clinical and research settings, including government hospitals, diagnostic laboratories, dairy farms, military farms, and private clinics. Performed clinical examinations, treatments, surgical assistance, and field consultations under professional supervision.\nNovember 2024\n\n\n\n\nResearch Assistant\nJoined the Epidemiology and Preventive Medicine Laboratory, Department of Medicine, Bangladesh Agricultural University. Conducted more than 3 years of full-time research on zoonotic pathogens in dairy cattle, including brucellosis, paratuberculosis, BVD, and Q fever, with focus on field diagnostics, Bayesian prevalence estimation, and risk factor modeling.\nJanuary 2023\n\n\n\n\nFounder – EduTricks Academy\nLaunched a free online educational platform through Facebook page and group to provide academic support, study strategies, and subject tutorials for secondary and higher-secondary students across Bangladesh. Reached more than 1,000 learners.\nJanuary 2022\n\n\n\n\nUndergraduate Studies – DVM\nStarted my Doctor of Veterinary Medicine (DVM) degree at Bangladesh Agricultural University.\nJanuary 2019\n\n\n\n\nMerit Scholarship – Higher Secondary Certificate (HSC)\nAwarded merit-based scholarship by the Board of Intermediate and Secondary Education, Dinajpur, Bangladesh, for outstanding performance in HSC examinations.\nFebruary 2018\n\n\n\n\nMerit Scholarship – Secondary School Certificate (SSC)\nAwarded merit-based scholarship by the Board of Intermediate and Secondary Education, Dinajpur, Bangladesh, for exceptional results in SSC examinations.\nJune 2016"
   }
 ]
