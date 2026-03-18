@@ -22,7 +22,7 @@ I have contributed significantly as first or equally contributing first author i
 <i class="fa-solid fa-check-circle" style="color: #28a745;"></i> **Published**
 
 - Kibria, A.M., **Islam, M.N.**, Alam, M.S., Adhikari, B.J., Islam, S., Rafeh, A.A., Hasan, R.S.M., Rahman, M.S., & Rahman, A.K.M.A. (2026).  
-  True prevalence and associated risk factors of bovine paratuberculosis antibodies in dairy herds in Bangladesh. *PLOS ONE*.  
+  Estimated true prevalence and associated risk factors of bovine paratuberculosis antibodies in dairy herds in Bangladesh. *PLOS ONE*.  
   [https://doi.org/10.1371/journal.pone.0334683](https://doi.org/10.1371/journal.pone.0334683)  
   **Equally contributing first author** — Contributed to study design, methodology development, Bayesian latent-class prevalence estimation, data analysis, visualization, and manuscript preparation.
 
