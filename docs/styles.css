@@ -199,11 +199,12 @@ body {
 }
 /* Mobile */
 @media (max-width: 900px) {
-  .home-layout {
-    flex-direction: column;
-    gap: 32px;
-    padding: 0 20px;
-  }
+.home-layout {
+  flex-direction: column;
+  gap: 32px;
+  padding: 0 20px;
+  margin: 20px 0 40px 0;
+}
 
   .home-left {
     width: 100%;
