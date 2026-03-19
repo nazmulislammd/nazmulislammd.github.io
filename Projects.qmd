@@ -2,7 +2,7 @@
 title: "Research Projects"
 ---
 
-## Current Research Projects
+## Current Projects
 
 I am passionate about applying advanced epidemiological and statistical tools to tackle zoonotic and infectious diseases at the human–animal–environment interface, with a focus on dairy cattle health in low-resource settings. My work integrates field diagnostics, Bayesian modeling, and One Health principles to generate actionable insights for disease control, antimicrobial stewardship, and sustainable livestock production. As an early-career researcher from Bangladesh Agricultural University, I am eager to collaborate with international teams to scale these approaches globally.
 
