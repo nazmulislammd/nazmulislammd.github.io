@@ -16,7 +16,7 @@ This ongoing project quantifies the true burden and transmission dynamics of pri
 - Identified farm-level risk factors (management practices, biosecurity, environmental exposures) via multivariable and Bayesian approaches.
 - Performed multiplex qPCR on fetal membranes from abortion cases to detect *Brucella spp.*, *Coxiella burnetii*, *Neospora caninum*, *Leptospira spp.*, and others.
 - Presented findings at the BSVER Annual Scientific Conference (2024).
-- Contributing to multiple under-review manuscripts in high-impact journals (e.g., *PLOS ONE*, *Veterinary Sciences*).
+- Contributing to multiple manuscripts in high-impact journals (e.g., *PLOS ONE*, *Veterinary Sciences*).
 
 This work bridges local impact (improved herd health for Bangladeshi smallholders) with global relevance (zoonotic risk in emerging dairy economies).
 
