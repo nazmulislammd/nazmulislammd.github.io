@@ -52,19 +52,19 @@ I have contributed as first author, equally contributing first author, or major 
   Economic burden and strategic control of ruminant fascioliasis in Bangladesh. *Journal of Helminthology*.
 
 - Alam, M.S., **Islam, M.N.**, Adhikari, B.J., Islam, S., Mahmud, R.S., Rahman, M.S., Ariful Islam, M., Aktaruzzaman, M., Meletis, L., Kostoulas, P., & Rahman, A.K.M.A. (2026).  
-  Bayesian hierarchical mixture modelling to derive probabilistic iELISA thresholds for bovine brucellosis in Bangladeshi dairy herds. *Animal Diseases*.
+  Bayesian hierarchical mixture modelling to derive probabilistic iELISA thresholds for bovine brucellosis in Bangladeshi dairy herds. *PLOS ONE*.
 
 - Aktaruzzaman, M., Ariful Islam, M., Shanta, S.A., Tahomina Akter, M., Hossain, M.T., Alam, M.S., **Islam, M.N.**, Meletis, L., Kostoulas, P., & Rahman, A.K.M.A. (2025).  
-  Bayesian Gaussian mixture modeling to determine somatic cell count thresholds for subclinical mastitis diagnosis in dairy cows. *PLOS ONE*.
+  Bayesian Gaussian mixture modeling to determine somatic cell count thresholds for subclinical mastitis diagnosis in dairy cows. *The Journal of Veterinary Medical Science*.
 
 - Aktaruzzaman, M., Tahomina Akter, M., Mazhar Islam, M., Ariful Islam, M., Hossain, M.T., Alam, M.S., **Islam, M.N.**, & Rahman, A.K.M.A. (2025).  
   Economic impact of subclinical mastitis in Bangladeshi crossbred dairy cattle. *Preventive Veterinary Medicine*.
 
 - Aktaruzzaman, M., Ariful Islam, M., Shanta, S.A., Tahomina Akter, M., Hossain, M.T., **Islam, M.N.**, Alam, M.S., & Rahman, A.K.M.A. (2025).  
-  Prevalence and cow-level risk factors for mild and severe subclinical mastitis in intensive and extensive dairy systems in Sirajganj, Bangladesh. *Veterinary Medicine International*.
+  Prevalence and cow-level risk factors for mild and severe subclinical mastitis in intensive and extensive dairy systems in Sirajganj, Bangladesh. *Veterinary Research Communications*.
 
 - Saha, U.K., **Islam, M.N.** (equally contributing first author), Chaudhary, P., Hassan Alif, M.K., Mim, S.N., & Rahman, M.S. (2026).  
-  Exploratory longitudinal ELISA antibody responses and hematological parameters after heat-inactivated *Brucella abortus* vaccination in cattle. *Acta Veterinaria Hungarica*.
+  Exploratory longitudinal ELISA antibody responses and hematological parameters after heat-inactivated *Brucella abortus* vaccination in cattle. *Bulgarian Journal of Veterinary Medicine*.
 
 - Saif, M.A., **Islam, M.N.**, Ferdous, M.J., Rahman, A.K.M.A., & Bari, F.Y. (2026).  
   Early-life feeding and management interventions on lamb survivability. *Bulgarian Journal of Veterinary Medicine*.
