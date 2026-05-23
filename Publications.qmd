@@ -13,13 +13,20 @@ format:
       text: |
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 ---
-Here you will find my peer-reviewed journal articles, manuscripts under review, conference proceedings, and presentations. My work focuses on the epidemiology of infectious diseases and production-related conditions in dairy cattle in Bangladesh, with emphasis on Bayesian methods, prevalence estimation, risk factor analysis, and zoonotic threats (brucellosis, paratuberculosis, BVD, Coxiella, and subclinical mastitis), as well as economic impact assessment.
+Here you will find my peer-reviewed journal articles, manuscripts under review, conference proceedings, and research presentations. My work focuses on veterinary epidemiology, infectious disease modelling, Bayesian prevalence estimation, risk factor analysis, and production-impact assessment in dairy cattle and other ruminant populations in Bangladesh.
 
-I have contributed significantly as first or equally contributing first author in most studies, leading study design, advanced statistical modeling (Bayesian latent-class, hierarchical, and mixture models; multivariable and multinomial regression), field diagnostics, and data visualization.
+My research applies Bayesian latent-class models, hierarchical and mixed-effects regression, multinomial disease-state modelling, mixture models, and applied epidemiological statistics to investigate zoonotic and production-limiting diseases, including brucellosis, paratuberculosis, bovine viral diarrhoea, *Coxiella burnetii*, subclinical mastitis, and fascioliasis.
+
+I have contributed as first author, equally contributing first author, or major analytical contributor across several studies, with roles spanning study design, field sampling, laboratory diagnostics, data curation, statistical analysis, Bayesian modelling, visualisation, and manuscript preparation.
 
 ## Published Journal Articles {.published}
 
 <i class="fa-solid fa-check-circle" style="color: #28a745;"></i> **Published**
+
+- Alam, M.S., **Islam, M.N.**, Adhikari, B.J., Islam, S., Mahmud, R.S., Rahman, M.S., Ariful Islam, M., Aktaruzzaman, M., & Rahman, A.K.M.A. (2026).  
+  Risk factors for latent and active brucellosis in dairy cattle: a Bayesian mixed-effects multinomial regression analysis in large-scale Bangladeshi herds. *Animal Diseases*, 6, 26.  
+  [https://doi.org/10.1186/s44149-026-00234-w](https://doi.org/10.1186/s44149-026-00234-w)  
+  **Major analytical and manuscript contributor** — Contributed to sample collection and laboratory analysis, data curation, statistical analyses, Bayesian mixed-effects multinomial modelling, and manuscript drafting.
 
 - Kibria, A.M., **Islam, M.N.**, Alam, M.S., Adhikari, B.J., Islam, S., Rafeh, A.A., Hasan, R.S.M., Rahman, M.S., & Rahman, A.K.M.A. (2026).  
   Estimated true prevalence and associated risk factors of bovine paratuberculosis antibodies in dairy herds in Bangladesh. *PLOS ONE*.  
@@ -38,16 +45,19 @@ I have contributed significantly as first or equally contributing first author i
 - **Islam, M.N.** (first author), Haque, M.Z., Alam, M.S., Islam, S., Adhikari, B.J., Rahman, M.S., & Rahman, A.K.M.A. (2026).  
   Bayesian estimation of the true prevalence of *Coxiella burnetii* milk antibodies and associated risk factors in dairy herds in Bangladesh. *Veterinary Medicine and Science*.
 
+- Ferdous, M.J., **Islam, M.N.** (equally contributing first author), Alam, M.S., Saif, M.A., Rahman, M.A., Aktaruzzaman, M., Rahman, M.S., & Rahman, A.K.M.A. (2026).  
+  Age-stratified transmission heterogeneity of bovine brucellosis in large commercial dairy herds in Bangladesh: a hierarchical Bayesian catalytic analysis. *Epidemiology & Infection*.
+
+- Anwarul Islam, **Islam, M.N.**, Ferdous, M.J., Alam, M.S., Rahman, M.A., Mahmud, R.S., Alam, M.M., & Rahman, A.K.M.A. (2026).  
+  Economic burden and strategic control of ruminant fascioliasis in Bangladesh. *Journal of Helminthology*.
+
 - Alam, M.S., **Islam, M.N.**, Adhikari, B.J., Islam, S., Mahmud, R.S., Rahman, M.S., Ariful Islam, M., Aktaruzzaman, M., Meletis, L., Kostoulas, P., & Rahman, A.K.M.A. (2026).  
   Bayesian hierarchical mixture modelling to derive probabilistic iELISA thresholds for bovine brucellosis in Bangladeshi dairy herds. *Animal Diseases*.
-
-- Alam, M.S., **Islam, M.N.**, Adhikari, B.J., Islam, S., Mahmud, R.S., Rahman, M.S., Ariful Islam, M., Aktaruzzaman, M., & Rahman, A.K.M.A. (2026).  
-  Risk factors for latent and active brucellosis in dairy cattle: a Bayesian mixed-effects multinomial regression analysis in large-scale Bangladeshi herds. *Epidemiology & Infection*.
 
 - Aktaruzzaman, M., Ariful Islam, M., Shanta, S.A., Tahomina Akter, M., Hossain, M.T., Alam, M.S., **Islam, M.N.**, Meletis, L., Kostoulas, P., & Rahman, A.K.M.A. (2025).  
   Bayesian Gaussian mixture modeling to determine somatic cell count thresholds for subclinical mastitis diagnosis in dairy cows. *PLOS ONE*.
 
-- Aktaruzzaman, M., M. Tahomina Akter, Mazhar Islam, M., Ariful Islam, M., Hossain, M.T., Alam, M.S., **Islam, M.N.**, & Rahman, A.K.M.A. (2025).  
+- Aktaruzzaman, M., Tahomina Akter, M., Mazhar Islam, M., Ariful Islam, M., Hossain, M.T., Alam, M.S., **Islam, M.N.**, & Rahman, A.K.M.A. (2025).  
   Economic impact of subclinical mastitis in Bangladeshi crossbred dairy cattle. *Preventive Veterinary Medicine*.
 
 - Aktaruzzaman, M., Ariful Islam, M., Shanta, S.A., Tahomina Akter, M., Hossain, M.T., **Islam, M.N.**, Alam, M.S., & Rahman, A.K.M.A. (2025).  
