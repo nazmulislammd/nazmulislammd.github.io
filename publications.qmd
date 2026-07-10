@@ -13,6 +13,12 @@ format:
       text: |
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 ---
+<div class="pub-stats">
+  <div class="pub-stat"><span class="pub-stat-number">6</span><span class="pub-stat-label">Published</span></div>
+  <div class="pub-stat"><span class="pub-stat-number">9</span><span class="pub-stat-label">Under Review</span></div>
+  <div class="pub-stat"><span class="pub-stat-number">3</span><span class="pub-stat-label">Conference Papers</span></div>
+  <div class="pub-stat"><span class="pub-stat-number">2</span><span class="pub-stat-label">Presentations</span></div>
+</div>
 Here you will find my peer-reviewed journal articles, manuscripts under review, conference proceedings, and research presentations. My work focuses on veterinary epidemiology, infectious disease modelling, Bayesian prevalence estimation, risk factor analysis, and production-impact assessment in dairy cattle and other ruminant populations in Bangladesh.
 
 My research applies Bayesian latent-class models, hierarchical and mixed-effects regression, multinomial disease-state modelling, mixture models, and applied epidemiological statistics to investigate zoonotic and production-limiting diseases, including brucellosis, paratuberculosis, bovine viral diarrhoea, *Coxiella burnetii*, subclinical mastitis, and fascioliasis.
@@ -23,30 +29,58 @@ I have contributed as first author, equally contributing first author, or major 
 
 <i class="fa-solid fa-check-circle" style="color: #28a745;"></i> **Published**
 
-- Alam, M.S., **Islam, M.N.**, Adhikari, B.J., Islam, S., Mahmud, R.S., Rahman, M.S., Ariful Islam, M., Aktaruzzaman, M., & Rahman, A.K.M.A. (2026).  
-  Risk factors for latent and active brucellosis in dairy cattle: a Bayesian mixed-effects multinomial regression analysis in large-scale Bangladeshi herds. *Animal Diseases*, 6, 26.  
-  [https://doi.org/10.1186/s44149-026-00234-w](https://doi.org/10.1186/s44149-026-00234-w)  
-  **Major analytical and manuscript contributor** — Contributed to sample collection and laboratory analysis, data curation, statistical analyses, Bayesian mixed-effects multinomial modelling, and manuscript drafting.
-
 - Kibria, A.M., **Islam, M.N.**, Alam, M.S., Adhikari, B.J., Islam, S., Rafeh, A.A., Hasan, R.S.M., Rahman, M.S., & Rahman, A.K.M.A. (2026).  
   Estimated true prevalence and associated risk factors of bovine paratuberculosis antibodies in dairy herds in Bangladesh. *PLOS ONE*.  
   [https://doi.org/10.1371/journal.pone.0334683](https://doi.org/10.1371/journal.pone.0334683)  
-  **Equally contributing first author** — Contributed to study design, methodology development, Bayesian latent-class prevalence estimation, data analysis, visualization, and manuscript preparation.
+  **Equally contributing first author** — Study design, methodology development, Bayesian latent-class prevalence estimation, data analysis, visualization, and manuscript preparation.
+
+- Alam, M.S., **Islam, M.N.**, Adhikari, B.J., Islam, S., Mahmud, R.S., Rahman, M.S., Ariful Islam, M., Aktaruzzaman, M., & Rahman, A.K.M.A. (2026).  
+  Risk factors for latent and active brucellosis in dairy cattle: a Bayesian mixed-effects multinomial regression analysis in large-scale Bangladeshi herds. *Animal Diseases*, 6, 26.  
+  [https://doi.org/10.1186/s44149-026-00234-w](https://doi.org/10.1186/s44149-026-00234-w)  
+  **Major analytical and manuscript contributor** — Sample collection and laboratory analysis, data curation, statistical analyses, Bayesian mixed-effects multinomial modelling, and manuscript drafting.
 
 - Mahmud Sajeeb, M.S., Alam, M.S., **Islam, M.N.**, Islam, M.M., Adhikari, B.J., Islam, S., Rahman, M.S., & Rahman, A.K.M.A. (2025).  
   Prevalence and risk factors of bovine viral diarrhea virus antibodies in dairy herds of Bangladesh. *Veterinary Sciences*, 12(8), 739.  
   [https://doi.org/10.3390/vetsci12080739](https://doi.org/10.3390/vetsci12080739)  
   **Equally contributing first author** — Study design, field sampling, ELISA diagnostics, multivariable regression analysis, visualization, and manuscript preparation.
 
+- Aktaruzzaman, M., Ariful Islam, M., Shanta, S.A., Tahomina Akter, M., Hossain, M.T., **Islam, M.N.**, Alam, M.S., & Rahman, A.K.M.A. (2026).  
+  Prevalence and cow-level risk factors for mild and severe subclinical mastitis in intensive and extensive dairy systems in Bangladesh. *Veterinary Research Communications*, 50, 447.  
+  [https://doi.org/10.1007/s11259-026-11387-x](https://doi.org/10.1007/s11259-026-11387-x)  
+  **Contributor** — Fieldwork, data curation, and laboratory analysis.
+
+- Abu Saif, M., **Islam, M.N.**, Rahman, A.K.M.A., Ferdous, M.J., Islam, R., & Bari, F.Y. (2026).  
+  Integrated immune and protein profiles predict growth in preweaning lambs independent of feeding regimen and maternal oxytocin administration. *Iraqi Journal of Veterinary Sciences*, 40(2), 397–403.  
+  [https://doi.org/10.33899/ijvs.2026.168586.4671](https://doi.org/10.33899/ijvs.2026.168586.4671)  
+  **Contributor** — Study design, methodology development, and manuscript preparation.
+
+- Abu Saif, M., **Islam, M.N.**, Ferdous, M.J., Rahman, A.K.M.A., & Bari, F.Y. (2026).  
+  Early-life feeding and management interventions on lamb survivability. *Bulgarian Journal of Veterinary Medicine* (online first).  
+  [https://doi.org/10.15547/bjvm.2026-0050](https://doi.org/10.15547/bjvm.2026-0050)  
+  **Contributor** — Study design, methodology development, formal analysis, and manuscript preparation.
+  
 ## Manuscripts Under Review {.under-review}
 
 <i class="fa-solid fa-hourglass-half" style="color: #fd7e14;"></i> **Under Review**
 
-- **Islam, M.N.** (first author), Haque, M.Z., Alam, M.S., Islam, S., Adhikari, B.J., Rahman, M.S., & Rahman, A.K.M.A. (2026).  
-  Bayesian estimation of the true prevalence of *Coxiella burnetii* milk antibodies and associated risk factors in dairy herds in Bangladesh. *Veterinary Medicine and Science*.
+### First or Equally Contributing First Author
 
-- Ferdous, M.J., **Islam, M.N.** (equally contributing first author), Alam, M.S., Saif, M.A., Rahman, M.A., Aktaruzzaman, M., Rahman, M.S., & Rahman, A.K.M.A. (2026).  
-  Age-stratified transmission heterogeneity of bovine brucellosis in large commercial dairy herds in Bangladesh: a hierarchical Bayesian catalytic analysis. *Epidemiology & Infection*.
+- **Islam, M.N.**, Ferdous, M.J., Ema, A.A., Haque, M.Z., Alam, M.S., Rahman, M.S., & Rahman, A.K.M.A. (2026).  
+  Contrasting age-related seroepidemiological signatures of Q fever and neosporosis in large-scale commercial dairy herds in Bangladesh: a paired hierarchical Bayesian catalytic analysis. *Preventive Veterinary Medicine*. *(First author)*
+
+- **Islam, M.N.**, Haque, M.Z., Alam, M.S., Islam, S., Adhikari, B.J., Rahman, M.S., & Rahman, A.K.M.A. (2026).  
+  Bayesian estimation of the true prevalence of *Coxiella burnetii* milk antibodies and associated risk factors in dairy herds in Bangladesh. *Veterinary Medicine and Science*. *(First author)*
+
+- Ferdous, M.J., **Islam, M.N.**, Alam, M.S., Saif, M.A., Rahman, M.A., Aktaruzzaman, M., Rahman, M.S., & Rahman, A.K.M.A. (2026).  
+  Age-stratified transmission heterogeneity of bovine brucellosis in large commercial dairy herds in Bangladesh: a hierarchical Bayesian catalytic analysis. *Epidemics*. *(Equally contributing first author)*
+
+- Saha, U.K., **Islam, M.N.**, Chaudhary, P., Hassan Alif, M.K., Mim, S.N., & Rahman, M.S. (2026).  
+  Exploratory longitudinal ELISA antibody responses and hematological parameters after heat-inactivated *Brucella abortus* vaccination in cattle. *Bulgarian Journal of Veterinary Medicine*. *(Equally contributing first author)*
+
+### Co-Author
+
+- Alam, M.S., **Islam, M.N.**, Adhikari, B.J., Islam, S., Rahman, M.S., Islam, M.A., Aktaruzzaman, M., & Rahman, A.K.M.A. (2026).  
+  Economic burden and cost-effectiveness of brucellosis control strategies in large commercial dairy herds in Bangladesh: a Bayesian decision-analytic study. *Preventive Veterinary Medicine*.
 
 - Anwarul Islam, **Islam, M.N.**, Ferdous, M.J., Alam, M.S., Rahman, M.A., Mahmud, R.S., Alam, M.M., & Rahman, A.K.M.A. (2026).  
   Economic burden and strategic control of ruminant fascioliasis in Bangladesh. *Journal of Helminthology*.
@@ -55,22 +89,10 @@ I have contributed as first author, equally contributing first author, or major 
   Bayesian hierarchical mixture modelling to derive probabilistic iELISA thresholds for bovine brucellosis in Bangladeshi dairy herds. *PLOS ONE*.
 
 - Aktaruzzaman, M., Ariful Islam, M., Shanta, S.A., Tahomina Akter, M., Hossain, M.T., Alam, M.S., **Islam, M.N.**, Meletis, L., Kostoulas, P., & Rahman, A.K.M.A. (2025).  
-  Bayesian Gaussian mixture modeling to determine somatic cell count thresholds for subclinical mastitis diagnosis in dairy cows. *The Journal of Veterinary Medical Science*.
+  Bayesian Gaussian mixture modelling to determine somatic cell count thresholds for subclinical mastitis diagnosis in dairy cows. *The Journal of Veterinary Medical Science*.
 
 - Aktaruzzaman, M., Tahomina Akter, M., Mazhar Islam, M., Ariful Islam, M., Hossain, M.T., Alam, M.S., **Islam, M.N.**, & Rahman, A.K.M.A. (2025).  
   Economic impact of subclinical mastitis in Bangladeshi crossbred dairy cattle. *Preventive Veterinary Medicine*.
-
-- Aktaruzzaman, M., Ariful Islam, M., Shanta, S.A., Tahomina Akter, M., Hossain, M.T., **Islam, M.N.**, Alam, M.S., & Rahman, A.K.M.A. (2025).  
-  Prevalence and cow-level risk factors for mild and severe subclinical mastitis in intensive and extensive dairy systems in Sirajganj, Bangladesh. *Veterinary Research Communications*.
-
-- Saha, U.K., **Islam, M.N.** (equally contributing first author), Chaudhary, P., Hassan Alif, M.K., Mim, S.N., & Rahman, M.S. (2026).  
-  Exploratory longitudinal ELISA antibody responses and hematological parameters after heat-inactivated *Brucella abortus* vaccination in cattle. *Bulgarian Journal of Veterinary Medicine*.
-
-- Saif, M.A., **Islam, M.N.**, Ferdous, M.J., Rahman, A.K.M.A., & Bari, F.Y. (2026).  
-  Early-life feeding and management interventions on lamb survivability. *Bulgarian Journal of Veterinary Medicine*.
-
-- Saif, M.A., **Islam, M.N.**, Ferdous, M.J., Rahman, A.K.M.A., & Bari, F.Y. (2026).  
-  Integrated immune and protein profiles predict growth in preweaning lambs independent of feeding regimen and maternal oxytocin administration. *Iraqi Journal of Veterinary Sciences*.
 
 ## Conference Proceedings & Papers
 

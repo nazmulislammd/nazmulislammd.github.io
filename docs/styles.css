@@ -556,3 +556,153 @@ body.dark-mode .timeline-item.right .content::after {
 #title-block-header {
   margin-bottom: 0.8rem;
 }
+/* Publications summary stats bar */
+.pub-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 1.5rem 0 2.5rem 0;
+}
+.pub-stat {
+  flex: 1 1 120px;
+  text-align: center;
+  padding: 1rem 0.75rem;
+  border: 1px solid #e3e6ea;
+  border-radius: 10px;
+  background: #f8f9fa;
+}
+.pub-stat-number {
+  display: block;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1;
+  color: #1f3a5f;
+}
+.pub-stat-label {
+  display: block;
+  margin-top: 0.4rem;
+  font-size: 0.85rem;
+  color: #5a6570;
+  letter-spacing: 0.02em;
+}
+/* Dark mode */
+body.dark-mode .pub-stat {
+  background: #1e2530;
+  border-color: #33404f;
+}
+body.dark-mode .pub-stat-number {
+  color: #7fb0e6;
+}
+body.dark-mode .pub-stat-label {
+  color: #a8b3c0;
+}
+/* Homepage current-research / thesis card */
+.thesis-card {
+  margin: 2rem 0 2.25rem;
+  padding: 1.4rem 1.5rem;
+  border-left: 4px solid #1f3a5f;
+  border-radius: 8px;
+  background: #f5f8fc;
+}
+.thesis-eyebrow {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  color: #1f3a5f;
+  margin-bottom: 0.55rem;
+}
+.thesis-title {
+  font-size: 1.12rem;
+  font-weight: 600;
+  line-height: 1.45;
+  color: #1a2733;
+  margin: 0 0 0.7rem 0;
+}
+.thesis-meta {
+  font-size: 0.9rem;
+  line-height: 1.55;
+  color: #5a6570;
+  margin: 0;
+}
+.thesis-meta a { color: #1f3a5f; font-weight: 600; }
+/* Dark mode */
+body.dark-mode .thesis-card {
+  background: #1a2028;
+  border-left-color: #7fb0e6;
+}
+body.dark-mode .thesis-eyebrow { color: #7fb0e6; }
+body.dark-mode .thesis-title { color: #e8edf2; }
+body.dark-mode .thesis-meta { color: #a8b3c0; }
+body.dark-mode .thesis-meta a { color: #7fb0e6; }
+/* Homepage right-column section headings (eyebrow style) */
+.home-right h2 {
+  font-size: 0.82rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.11em;
+  color: #1f3a5f;
+  margin: 2.4rem 0 1rem 0;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #e3e6ea;
+}
+body.dark-mode .home-right h2 {
+  color: #7fb0e6;
+  border-bottom-color: #33404f;
+}
+/* Homepage hero positioning line */
+.home-right .hero-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.4;
+  color: #1a2733;
+  margin: 0 0 1.4rem 0;
+  letter-spacing: -0.01em;
+}
+body.dark-mode .home-right .hero-title {
+  color: #e8edf2;
+}
+/* Unify content link accent to navy */
+.home-right p a,
+.home-right li a {
+  color: #1f3a5f;
+  font-weight: 600;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(31, 58, 95, 0.25);
+}
+.home-right p a:hover,
+.home-right li a:hover {
+  border-bottom-color: #1f3a5f;
+}
+body.dark-mode .home-right p a,
+body.dark-mode .home-right li a {
+  color: #7fb0e6;
+  border-bottom-color: rgba(127, 176, 230, 0.3);
+}
+body.dark-mode .home-right p a:hover,
+body.dark-mode .home-right li a:hover {
+  border-bottom-color: #7fb0e6;
+}
+/* Homepage right-column body polish */
+.home-right p {
+  font-size: 1.02rem;
+  line-height: 1.7;
+  color: #2b3742;
+  margin-bottom: 1.1rem;
+}
+.home-right ul {
+  margin-bottom: 0.5rem;
+}
+.home-right li {
+  font-size: 1.02rem;
+  line-height: 1.65;
+  margin-bottom: 0.6rem;
+}
+body.dark-mode .home-right p,
+body.dark-mode .home-right li {
+  color: #c4ccd4;
+}
+/* Keep the thesis card text sizes intact (override the above) */
+.home-right .thesis-title { font-size: 1.12rem; }
+.home-right .thesis-meta { font-size: 0.9rem; margin-bottom: 0; }
