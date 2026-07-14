@@ -12,15 +12,16 @@ I am passionate about applying advanced epidemiological and statistical tools to
 This ongoing project quantifies the true burden and transmission dynamics of priority zoonotic pathogens in intensive dairy systems — a critical yet understudied context in South Asia. Focus pathogens include brucellosis, paratuberculosis (Johne’s disease), bovine viral diarrhea (BVD), neosporosis, and Q fever (*Coxiella burnetii*). We use bulk milk screening and molecular diagnostics to address diagnostic imperfections and surveillance gaps.
 
 **Key contributions and outputs:**
-- Estimated herd- and cow-level true prevalence using indirect ELISA and real-time PCR on bulk milk samples.
-- Identified farm-level risk factors (management practices, biosecurity, environmental exposures) via multivariable and Bayesian approaches.
+- Estimated herd- and cow-level true prevalence using indirect ELISA and real-time PCR on bulk milk samples, with Rogan–Gladen correction for imperfect diagnostic tests.
+- Identified farm-level risk factors (management practices, biosecurity, environmental exposures) via multivariable and Bayesian mixed-effects regression.
+- Developed hierarchical Bayesian catalytic models fitted to age-stratified seroprevalence to estimate force of infection and basic reproduction number (R₀) for Q fever and neosporosis.
 - Performed multiplex qPCR on fetal membranes from abortion cases to detect *Brucella spp.*, *Coxiella burnetii*, *Neospora caninum*, *Leptospira spp.*, and others.
-- Presented findings at the BSVER Annual Scientific Conference (2024).
-- Contributing to multiple manuscripts in high-impact journals (e.g., *PLOS ONE*, *Veterinary Sciences*).
+- Presented findings at the BSVER Annual Scientific Conference (2024) and the 1st International Online Conference on Veterinary Sciences (IOCVS 2025).
+- Published in *PLOS ONE*, *Veterinary Sciences*, and *Animal Diseases*; additional manuscripts under review in *Preventive Veterinary Medicine* and *Veterinary Medicine and Science*.
 
 This work bridges local impact (improved herd health for Bangladeshi smallholders) with global relevance (zoonotic risk in emerging dairy economies).
 
-**Skills & Methods:** Indirect ELISA · Real-time qPCR · DNA extraction · Bayesian prevalence estimation · Risk factor analysis · Scientific visualization (R, BioRender, Adobe Illustrator) · Zoonotic disease surveillance · Dairy herd health monitoring
+**Skills & Methods:** Indirect ELISA · Real-time qPCR · DNA extraction · Bayesian mixed-effects and multinomial regression · Hierarchical Bayesian catalytic modelling (force of infection, R₀) · Latent-class prevalence estimation · Risk factor analysis · R (rstan, brms, tidyverse) and Stan · Reproducible workflows (R Markdown, Git/GitHub) · Zoonotic disease surveillance · Dairy herd health monitoring
 
 ### 2. Evaluating Locally Formulated Total Mixed Rations (TMR) for Beef Cattle  
 **Jan 2025 – Present**  
