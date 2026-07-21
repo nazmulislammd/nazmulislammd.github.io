@@ -53,7 +53,7 @@ I have contributed as first author, equally contributing first author, or major 
 
 - Saha, U.K., **Islam, M.N.**, Chaudhary, P., Hassan Alif, M.K., Mim, S.N., & Rahman, M.S. (2026).  
   Age-related antibody kinetics and haematological safety after immunisation with a locally prepared heat-inactivated *Brucella abortus* vaccine candidate in Bangladeshi crossbred dairy cattle. *Bulgarian Journal of Veterinary Medicine* (online first).  
-  [https://doi.org/10.15547/bjvm.2026-0070](https://doi.org/10.15547/bjvm.2026-0070)  
+  DOI: 10.15547/bjvm.2026-0070 · [Official online-first PDF](https://bjvm.trakia-uni.bg/2026-0070%20OnFirst.pdf)  
   **Equally contributing first author** — Experimental design, sample collection, ELISA and haematological analysis, and manuscript preparation.
 
 - Abu Saif, M., **Islam, M.N.**, Rahman, A.K.M.A., Ferdous, M.J., Islam, R., & Bari, F.Y. (2026).  
@@ -63,7 +63,7 @@ I have contributed as first author, equally contributing first author, or major 
 
 - Abu Saif, M., **Islam, M.N.**, Ferdous, M.J., Rahman, A.K.M.A., & Bari, F.Y. (2026).  
   Early-life feeding and management interventions on lamb survivability. *Bulgarian Journal of Veterinary Medicine* (online first).  
-  [https://doi.org/10.15547/bjvm.2026-0050](https://doi.org/10.15547/bjvm.2026-0050)  
+  DOI: 10.15547/bjvm.2026-0050 · [Official online-first PDF](https://bjvm.trakia-uni.bg/2026-0050%20online%20first.pdf)  
   **Contributor** — Study design, methodology development, formal analysis, and manuscript preparation.
 
 
