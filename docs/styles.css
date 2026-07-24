@@ -706,3 +706,49 @@ body.dark-mode .home-right li {
 /* Keep the thesis card text sizes intact (override the above) */
 .home-right .thesis-title { font-size: 1.12rem; }
 .home-right .thesis-meta { font-size: 0.9rem; margin-bottom: 0; }
+/* Homepage research coverage */
+.coverage-card {
+  padding: 1rem 1.2rem;
+  border-left: 4px solid #1f3a5f;
+  border-radius: 8px;
+  background: #f5f8fc;
+}
+
+.coverage-card p {
+  margin: 0 0 0.8rem 0;
+  font-size: 0.98rem;
+}
+
+.coverage-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+}
+
+.coverage-links a {
+  padding: 0.35rem 0.65rem;
+  border: 1px solid #c8d3df;
+  border-radius: 5px;
+  color: #1f3a5f;
+  font-size: 0.82rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.coverage-links a:hover {
+  background: #e7eef6;
+}
+
+body.dark-mode .coverage-card {
+  background: #1a2028;
+  border-left-color: #7fb0e6;
+}
+
+body.dark-mode .coverage-links a {
+  color: #7fb0e6;
+  border-color: #33404f;
+}
+
+body.dark-mode .coverage-links a:hover {
+  background: #253040;
+}
