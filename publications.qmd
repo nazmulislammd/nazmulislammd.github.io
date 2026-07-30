@@ -14,8 +14,7 @@ format:
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 ---
 <div class="pub-stats">
-<div class="pub-stat"><span class="pub-stat-number">7</span><span class="pub-stat-label">Published</span></div>
-<div class="pub-stat"><span class="pub-stat-number">1</span><span class="pub-stat-label">In Press</span></div>
+<div class="pub-stat"><span class="pub-stat-number">8</span><span class="pub-stat-label">Published</span></div>
 <div class="pub-stat"><span class="pub-stat-number">7</span><span class="pub-stat-label">Under Review</span></div>
 <div class="pub-stat"><span class="pub-stat-number">3</span><span class="pub-stat-label">Conference Papers</span></div>
 <div class="pub-stat"><span class="pub-stat-number">2</span><span class="pub-stat-label">Presentations</span></div>
@@ -35,6 +34,11 @@ I have contributed as first author, equally contributing first author, or major 
   Estimated true prevalence and associated risk factors of bovine paratuberculosis antibodies in dairy herds in Bangladesh. *PLOS ONE*.  
   [https://doi.org/10.1371/journal.pone.0334683](https://doi.org/10.1371/journal.pone.0334683)  
   **Equally contributing first author** — Study design, methodology development, Bayesian latent-class prevalence estimation, data analysis, visualization, and manuscript preparation.
+  
+- Alam, M.S., **Islam, M.N.**, Adhikari, B.J., Islam, S., Mahmud Hasan, R.S., Rahman, M.S., Ariful Islam, M., Aktaruzzaman, M., Meletis, L., Kostoulas, P., & Rahman, A.K.M.A. (2026).  
+  Bayesian hierarchical mixture modelling to derive probabilistic iELISA thresholds for bovine brucellosis in endemic dairy systems. *PLOS ONE*, 21(7), e0347719.  
+  [https://doi.org/10.1371/journal.pone.0347719](https://doi.org/10.1371/journal.pone.0347719)  
+  **Contributor** — Data curation, formal analysis, methodology, software, and original manuscript drafting.
 
 - Alam, M.S., **Islam, M.N.**, Adhikari, B.J., Islam, S., Mahmud, R.S., Rahman, M.S., Ariful Islam, M., Aktaruzzaman, M., & Rahman, A.K.M.A. (2026).  
   Risk factors for latent and active brucellosis in dairy cattle: a Bayesian mixed-effects multinomial regression analysis in large-scale Bangladeshi herds. *Animal Diseases*, 6, 26.  
@@ -65,15 +69,6 @@ I have contributed as first author, equally contributing first author, or major 
   Early-life feeding and management interventions on lamb survivability. *Bulgarian Journal of Veterinary Medicine* (online first).  
   DOI: 10.15547/bjvm.2026-0050 · [Official online-first PDF](https://bjvm.trakia-uni.bg/2026-0050%20online%20first.pdf)  
   **Contributor** — Study design, methodology development, formal analysis, and manuscript preparation.
-
-
-## In Press {.in-press}
-
-<i class="fa-solid fa-file-circle-check" style="color: #0d6efd;"></i> **Accepted for Publication**
-
-- Alam, M.S., **Islam, M.N.**, Adhikari, B.J., Islam, S., Mahmud, R.S., Rahman, M.S., Ariful Islam, M., Aktaruzzaman, M., Meletis, L., Kostoulas, P., & Rahman, A.K.M.A. (2026).  
-  Bayesian hierarchical mixture modelling to derive probabilistic iELISA thresholds for bovine brucellosis in endemic dairy systems. *PLOS ONE*. Accepted for publication; in press.  
-  **Contributor** — Study design, sample collection, laboratory testing, data curation, formal analysis, and original manuscript drafting.
 
 
 ## Manuscripts Under Review {.under-review}
