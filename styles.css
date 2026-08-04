@@ -790,3 +790,103 @@ body.dark-mode .coverage-links a:hover {
 .coverage-video-link a:hover .coverage-play {
   background: rgba(0, 0, 0, 0.92);
 }
+/* ===== Homepage mobile layout ===== */
+@media (max-width: 768px) {
+  #quarto-content,
+  main.content,
+  main.content.column-page,
+  #quarto-document-content {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  main.content.column-page {
+    width: calc(100% - 24px) !important;
+  }
+
+  .navbar > .container-fluid {
+    padding-left: 14px !important;
+    padding-right: 14px !important;
+  }
+
+  .home-layout {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 26px;
+    margin: 20px 0 40px 0;
+    padding: 0;
+  }
+
+  .home-left,
+  .home-right {
+    width: 100%;
+    max-width: 100%;
+    flex: none;
+  }
+
+  .profile-photo {
+    width: 165px;
+    height: 165px;
+  }
+
+  .home-right .hero-title {
+    font-size: 1.35rem;
+    line-height: 1.35;
+  }
+
+  .home-right p,
+  .home-right li {
+    font-size: 0.96rem;
+    line-height: 1.6;
+  }
+
+  .thesis-card,
+  .coverage-card {
+    width: 100%;
+    padding: 1rem;
+    box-sizing: border-box;
+  }
+
+  .coverage-video-link {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .coverage-video-link img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+  }
+
+  .coverage-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.45rem;
+  }
+
+  .coverage-links a {
+    font-size: 0.78rem;
+    padding: 0.35rem 0.55rem;
+  }
+
+  .pub-stats {
+    gap: 0.65rem;
+  }
+
+  .pub-stat {
+    flex: 1 1 calc(50% - 0.65rem);
+  }
+}
+
+@media (max-width: 420px) {
+  .coverage-links a {
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+  }
+
+  .pub-stat {
+    flex-basis: 100%;
+  }
+}
