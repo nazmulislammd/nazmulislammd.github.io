@@ -752,3 +752,41 @@ body.dark-mode .coverage-links a {
 body.dark-mode .coverage-links a:hover {
   background: #253040;
 }
+.coverage-video-link {
+  width: 100%;
+  max-width: 620px;
+  margin: 1rem 0;
+}
+
+.coverage-video-link a {
+  position: relative;
+  display: block;
+  border-bottom: none !important;
+}
+
+.coverage-video-link img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.coverage-play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: grid;
+  place-items: center;
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.78);
+  color: #ffffff;
+  font-size: 1.2rem;
+}
+
+.coverage-video-link a:hover .coverage-play {
+  background: rgba(0, 0, 0, 0.92);
+}

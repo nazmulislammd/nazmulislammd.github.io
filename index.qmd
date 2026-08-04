@@ -55,12 +55,23 @@ page-layout: full
 
 :::: {.coverage-card}
 
-**Our Bayesian brucellosis research was featured across multiple national news outlets in Bangladesh.** 
-The coverage highlighted risk factors, milk-production losses, and related control-economic findings from large commercial dairy herds.
-The coverage highlighted risk factors, milk-production losses, and related control-economic findings from large commercial dairy herds.
+**Our Bayesian brucellosis research was featured by Somoy TV, a national television news channel in Bangladesh, and across multiple news outlets.** The coverage highlighted risk factors, milk-production losses, and related control-economic findings from large commercial dairy herds.
+
+<div class="coverage-video-link">
+<a href="https://www.youtube.com/watch?v=z-08npz2H74"
+   target="_blank"
+   rel="noopener noreferrer"
+   aria-label="Watch the Somoy TV feature on YouTube">
+<img src="images/somoy-tv-feature.png"
+     alt="Somoy TV coverage of our Bayesian brucellosis research">
+<span class="coverage-play"><i class="fa-solid fa-play"></i></span>
+</a>
+</div>
 
 ::: {.coverage-links}
 [Published Study](https://doi.org/10.1186/s44149-026-00234-w){target="_blank"}
+
+[Somoy TV Feature](https://www.youtube.com/watch?v=z-08npz2H74){target="_blank"}
 
 [JagoNews24](https://www.jagonews24.com/m/campus/news/1140849){target="_blank"}
 
