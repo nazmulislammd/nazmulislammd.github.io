@@ -15,7 +15,7 @@ format:
 ---
 <div class="pub-stats">
 <div class="pub-stat"><span class="pub-stat-number">8</span><span class="pub-stat-label">Published</span></div>
-<div class="pub-stat"><span class="pub-stat-number">7</span><span class="pub-stat-label">Under Review</span></div>
+<div class="pub-stat"><span class="pub-stat-number">6</span><span class="pub-stat-label">Under Review</span></div>
 <div class="pub-stat"><span class="pub-stat-number">3</span><span class="pub-stat-label">Conference Papers</span></div>
 <div class="pub-stat"><span class="pub-stat-number">2</span><span class="pub-stat-label">Presentations</span></div>
 </div>
@@ -77,9 +77,6 @@ I have contributed as first author, equally contributing first author, or major 
 
 ### First or Equally Contributing First Author
 
-- **Islam, M.N.**, Ferdous, M.J., Ema, A.A., Haque, M.Z., Alam, M.S., Rahman, M.S., & Rahman, A.K.M.A. (2026).  
-  Contrasting age-related seroepidemiological signatures of Q fever and neosporosis in large-scale commercial dairy herds in Bangladesh: a paired hierarchical Bayesian catalytic analysis. *Preventive Veterinary Medicine*. *(First author)*
-
 - **Islam, M.N.**, Haque, M.Z., Alam, M.S., Islam, S., Adhikari, B.J., Rahman, M.S., & Rahman, A.K.M.A. (2026).  
   Bayesian estimation of the true prevalence of *Coxiella burnetii* milk antibodies and associated risk factors in dairy herds in Bangladesh. *Veterinary Medicine and Science*. *(First author)*
 
@@ -100,6 +97,15 @@ I have contributed as first author, equally contributing first author, or major 
 
 - Aktaruzzaman, M., Tahomina Akter, M., Mazhar Islam, M., Ariful Islam, M., Hossain, M.T., Alam, M.S., **Islam, M.N.**, & Rahman, A.K.M.A. (2025).  
   Economic impact of subclinical mastitis in Bangladeshi crossbred dairy cattle. *Preventive Veterinary Medicine*.
+
+## Manuscript in Preparation {.in-preparation}
+
+<i class="fa-solid fa-pen-to-square" style="color: #6f42c1;"></i> **In Preparation**
+
+### First Author
+
+- **Islam, M.N.**, Ferdous, M.J., Ema, A.A., Haque, M.Z., Alam, M.S., Rahman, M.S., & Rahman, A.K.M.A. (2026).  
+  Contrasting age-related seroepidemiological signatures of Q fever and neosporosis in large-scale commercial dairy herds in Bangladesh: a paired hierarchical Bayesian catalytic analysis. *(First author)*
 
 ## Conference Proceedings & Papers
 
