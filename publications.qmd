@@ -4,72 +4,80 @@ body-classes: "publications-page"
 format:
   html:
     toc: true
-    toc-location: right          # Right margin (default, but explicit)
-    toc-title: "On this page"    # Matches your screenshot/circle
-    toc-depth: 2                 # Shows ## headings (major sections)
-    toc-expand: true             # Fully expanded by default for quick scan
-    css: styles.css              # Keep if you have custom styles
+    toc-location: right
+    toc-title: "On this page"
+    toc-depth: 2
+    toc-expand: true
+    css: styles.css
     include-in-header: 
       text: |
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 ---
 <div class="pub-stats">
-<div class="pub-stat"><span class="pub-stat-number">8</span><span class="pub-stat-label">Published</span></div>
-<div class="pub-stat"><span class="pub-stat-number">6</span><span class="pub-stat-label">Under Review</span></div>
+<div class="pub-stat"><span class="pub-stat-number">9</span><span class="pub-stat-label">Published</span></div>
+<div class="pub-stat"><span class="pub-stat-number">5</span><span class="pub-stat-label">Under Review</span></div>
 <div class="pub-stat"><span class="pub-stat-number">3</span><span class="pub-stat-label">Conference Papers</span></div>
-<div class="pub-stat"><span class="pub-stat-number">2</span><span class="pub-stat-label">Presentations</span></div>
+<div class="pub-stat"><span class="pub-stat-number">3</span><span class="pub-stat-label">Presentations</span></div>
 </div>
 
-Here you will find my peer-reviewed journal articles, manuscripts under review, conference proceedings, and research presentations. My work focuses on veterinary epidemiology, infectious disease modelling, Bayesian prevalence estimation, risk factor analysis, and production-impact assessment in dairy cattle and other ruminant populations in Bangladesh.
+This page lists my peer-reviewed articles, manuscripts under review, conference papers and presentations. Most of this work estimates how common infectious diseases are in Bangladeshi dairy herds when diagnostic tests are imperfect, what drives infection, how it spreads with age and time, and what it costs farmers.
 
-My research applies Bayesian latent-class models, hierarchical and mixed-effects regression, multinomial disease-state modelling, mixture models, and applied epidemiological statistics to investigate zoonotic and production-limiting diseases, including brucellosis, paratuberculosis, bovine viral diarrhoea, *Coxiella burnetii*, subclinical mastitis, and fascioliasis.
+The diseases covered include brucellosis, paratuberculosis, Q fever (*Coxiella burnetii*), neosporosis, bovine viral diarrhoea, subclinical mastitis and fascioliasis. The main methods are Bayesian latent-class models, hierarchical catalytic (force-of-infection) models, mixture models for diagnostic cut-offs, mixed-effects regression and decision-analytic economic models.
 
-I have contributed as first author, equally contributing first author, or major analytical contributor across several studies, with roles spanning study design, field sampling, laboratory diagnostics, data curation, statistical analysis, Bayesian modelling, visualisation, and manuscript preparation.
+My role on each paper is noted below the reference.
 
 ## Published Journal Articles {.published}
 
 <i class="fa-solid fa-check-circle" style="color: #28a745;"></i> **Published**
 
+### First or Equally Contributing First Author
+
 - Kibria, A.M., **Islam, M.N.**, Alam, M.S., Adhikari, B.J., Islam, S., Rafeh, A.A., Hasan, R.S.M., Rahman, M.S., & Rahman, A.K.M.A. (2026).  
   Estimated true prevalence and associated risk factors of bovine paratuberculosis antibodies in dairy herds in Bangladesh. *PLOS ONE*.  
   [https://doi.org/10.1371/journal.pone.0334683](https://doi.org/10.1371/journal.pone.0334683)  
-  **Equally contributing first author** — Study design, methodology development, Bayesian latent-class prevalence estimation, data analysis, visualization, and manuscript preparation.
-  
-- Alam, M.S., **Islam, M.N.**, Adhikari, B.J., Islam, S., Mahmud Hasan, R.S., Rahman, M.S., Ariful Islam, M., Aktaruzzaman, M., Meletis, L., Kostoulas, P., & Rahman, A.K.M.A. (2026).  
-  Bayesian hierarchical mixture modelling to derive probabilistic iELISA thresholds for bovine brucellosis in endemic dairy systems. *PLOS ONE*, 21(7), e0347719.  
-  [https://doi.org/10.1371/journal.pone.0347719](https://doi.org/10.1371/journal.pone.0347719)  
-  **Contributor** — Data curation, formal analysis, methodology, software, and original manuscript drafting.
-
-- Alam, M.S., **Islam, M.N.**, Adhikari, B.J., Islam, S., Mahmud, R.S., Rahman, M.S., Ariful Islam, M., Aktaruzzaman, M., & Rahman, A.K.M.A. (2026).  
-  Risk factors for latent and active brucellosis in dairy cattle: a Bayesian mixed-effects multinomial regression analysis in large-scale Bangladeshi herds. *Animal Diseases*, 6, 26.  
-  [https://doi.org/10.1186/s44149-026-00234-w](https://doi.org/10.1186/s44149-026-00234-w)  
-  **Contributor** — Sample collection, laboratory analysis, data curation, statistical analysis, Bayesian mixed-effects multinomial modelling, and manuscript drafting.
+  **Equally contributing first author** — Study design, Bayesian latent-class prevalence estimation, data analysis, visualization and manuscript preparation.
 
 - Mahmud Sajeeb, M.S., Alam, M.S., **Islam, M.N.**, Islam, M.M., Adhikari, B.J., Islam, S., Rahman, M.S., & Rahman, A.K.M.A. (2025).  
   Prevalence and risk factors of bovine viral diarrhea virus antibodies in dairy herds of Bangladesh. *Veterinary Sciences*, 12(8), 739.  
   [https://doi.org/10.3390/vetsci12080739](https://doi.org/10.3390/vetsci12080739)  
-  **Equally contributing first author** — Study design, field sampling, ELISA diagnostics, multivariable regression analysis, visualization, and manuscript preparation.
-
-- Aktaruzzaman, M., Ariful Islam, M., Shanta, S.A., Tahomina Akter, M., Hossain, M.T., **Islam, M.N.**, Alam, M.S., & Rahman, A.K.M.A. (2026).  
-  Prevalence and cow-level risk factors for mild and severe subclinical mastitis in intensive and extensive dairy systems in Bangladesh. *Veterinary Research Communications*, 50, 447.  
-  [https://doi.org/10.1007/s11259-026-11387-x](https://doi.org/10.1007/s11259-026-11387-x)  
-  **Contributor** — Fieldwork, data curation, and laboratory analysis.
+  **Equally contributing first author** — Study design, field sampling, ELISA diagnostics, multivariable regression analysis, visualization and manuscript preparation.
 
 - Saha, U.K., **Islam, M.N.**, Chaudhary, P., Hassan Alif, M.K., Mim, S.N., & Rahman, M.S. (2026).  
   Age-related antibody kinetics and haematological safety after immunisation with a locally prepared heat-inactivated *Brucella abortus* vaccine candidate in Bangladeshi crossbred dairy cattle. *Bulgarian Journal of Veterinary Medicine* (online first).  
   DOI: 10.15547/bjvm.2026-0070 · [Official online-first PDF](https://bjvm.trakia-uni.bg/2026-0070%20OnFirst.pdf)  
   **Equally contributing first author** — Experimental design, sample collection, ELISA and haematological analysis, and manuscript preparation.
 
+### Co-Author
+
+- Alam, M.S., **Islam, M.N.**, Adhikari, B.J., Islam, S., Mahmud Hasan, R.S., Rahman, M.S., Ariful Islam, M., Aktaruzzaman, M., Meletis, L., Kostoulas, P., & Rahman, A.K.M.A. (2026).  
+  Bayesian hierarchical mixture modelling to derive probabilistic iELISA thresholds for bovine brucellosis in endemic dairy systems. *PLOS ONE*, 21(7), e0347719.  
+  [https://doi.org/10.1371/journal.pone.0347719](https://doi.org/10.1371/journal.pone.0347719)  
+  **Co-author** — Data curation, formal analysis, methodology, software and original draft.
+
+- Alam, M.S., **Islam, M.N.**, Adhikari, B.J., Islam, S., Mahmud, R.S., Rahman, M.S., Ariful Islam, M., Aktaruzzaman, M., & Rahman, A.K.M.A. (2026).  
+  Risk factors for latent and active brucellosis in dairy cattle: a Bayesian mixed-effects multinomial regression analysis in large-scale Bangladeshi herds. *Animal Diseases*, 6, 26.  
+  [https://doi.org/10.1186/s44149-026-00234-w](https://doi.org/10.1186/s44149-026-00234-w)  
+  **Co-author** — Sample collection, laboratory analysis, data curation, Bayesian mixed-effects multinomial modelling and manuscript drafting.
+
+- Alam, M.S., **Islam, M.N.**, Adhikari, B.J., Islam, S., Rahman, M.S., Islam, M.A., Aktaruzzaman, M., & Rahman, A.K.M.A. (2026).  
+  Economic burden and cost-effectiveness of brucellosis control strategies in large commercial dairy herds in Bangladesh: a Bayesian decision-analytic study. *Preventive Veterinary Medicine*.  
+  [https://doi.org/10.1016/j.prevetmed.2026.107014](https://doi.org/10.1016/j.prevetmed.2026.107014)  
+  **Co-author** — Data curation, formal analysis, methodology, software, investigation and original draft.
+
+- Aktaruzzaman, M., Ariful Islam, M., Shanta, S.A., Tahomina Akter, M., Hossain, M.T., **Islam, M.N.**, Alam, M.S., & Rahman, A.K.M.A. (2026).  
+  Prevalence and cow-level risk factors for mild and severe subclinical mastitis in intensive and extensive dairy systems in Bangladesh. *Veterinary Research Communications*, 50, 447.  
+  [https://doi.org/10.1007/s11259-026-11387-x](https://doi.org/10.1007/s11259-026-11387-x)  
+  **Co-author** — Fieldwork, data curation and laboratory analysis.
+
 - Abu Saif, M., **Islam, M.N.**, Rahman, A.K.M.A., Ferdous, M.J., Islam, R., & Bari, F.Y. (2026).  
   Integrated immune and protein profiles predict growth in preweaning lambs independent of feeding regimen and maternal oxytocin administration. *Iraqi Journal of Veterinary Sciences*, 40(2), 397–403.  
   [https://doi.org/10.33899/ijvs.2026.168586.4671](https://doi.org/10.33899/ijvs.2026.168586.4671)  
-  **Contributor** — Study design, methodology development, and manuscript preparation.
+  **Co-author** — Study design, methodology and manuscript preparation.
 
 - Abu Saif, M., **Islam, M.N.**, Ferdous, M.J., Rahman, A.K.M.A., & Bari, F.Y. (2026).  
   Early-life feeding and management interventions on lamb survivability. *Bulgarian Journal of Veterinary Medicine* (online first).  
   DOI: 10.15547/bjvm.2026-0050 · [Official online-first PDF](https://bjvm.trakia-uni.bg/2026-0050%20online%20first.pdf)  
-  **Contributor** — Study design, methodology development, formal analysis, and manuscript preparation.
-
+  **Co-author** — Study design, methodology, formal analysis and manuscript preparation.
 
 ## Manuscripts Under Review {.under-review}
 
@@ -81,13 +89,9 @@ I have contributed as first author, equally contributing first author, or major 
   Bayesian estimation of the true prevalence of *Coxiella burnetii* milk antibodies and associated risk factors in dairy herds in Bangladesh. *Veterinary Medicine and Science*. *(First author)*
 
 - Ferdous, M.J., **Islam, M.N.**, Alam, M.S., Saif, M.A., Rahman, M.A., Aktaruzzaman, M., Rahman, M.S., & Rahman, A.K.M.A. (2026).  
-  Age-stratified transmission heterogeneity of bovine brucellosis in large commercial dairy herds in Bangladesh: a hierarchical Bayesian catalytic analysis. *Epidemics*. *(Equally contributing first author)*
-
+  Age-stratified transmission dynamics of bovine brucellosis in large commercial dairy herds in Bangladesh: a hierarchical Bayesian catalytic analysis. *Epidemics*. *(Equally contributing first author)*
 
 ### Co-Author
-
-- Alam, M.S., **Islam, M.N.**, Adhikari, B.J., Islam, S., Rahman, M.S., Islam, M.A., Aktaruzzaman, M., & Rahman, A.K.M.A. (2026).  
-  Economic burden and cost-effectiveness of brucellosis control strategies in large commercial dairy herds in Bangladesh: a Bayesian decision-analytic study. *Preventive Veterinary Medicine*.
 
 - Anwarul Islam, **Islam, M.N.**, Ferdous, M.J., Alam, M.S., Rahman, M.A., Mahmud, R.S., Alam, M.M., & Rahman, A.K.M.A. (2026).  
   A probabilistic decision-analytic model of the economic burden and strategic control of ruminant fascioliasis in Bangladesh. *Veterinary Parasitology: Regional Studies and Reports*.
@@ -102,27 +106,29 @@ I have contributed as first author, equally contributing first author, or major 
 
 <i class="fa-solid fa-pen-to-square" style="color: #6f42c1;"></i> **In Preparation**
 
-### First Author
+- **Islam, M.N.**, Ferdous, M.J., Ema, A.A., Haque, M.Z., Alam, M.S., Rahman, M.S., & Rahman, A.K.M.A.  
+  Herd-level force of infection of *Coxiella burnetii* in large commercial dairy herds in Bangladesh: a hierarchical Bayesian serocatalytic analysis with concurrent *Neospora caninum* serology. *(First author)*
 
-- **Islam, M.N.**, Ferdous, M.J., Ema, A.A., Haque, M.Z., Alam, M.S., Rahman, M.S., & Rahman, A.K.M.A. (2026).  
-  Contrasting age-related seroepidemiological signatures of Q fever and neosporosis in large-scale commercial dairy herds in Bangladesh: a paired hierarchical Bayesian catalytic analysis. *(First author)*
+## Conference Papers
 
-## Conference Proceedings & Papers
-
-- **Islam, M.**; Alam, M.; Islam, S.; Adhikari, B.; Rahman, A. (2025).  
-  Feasibility of on-farm somatic cell count screening for subclinical mastitis: Prevalence and risk factors in a commercial dairy herd in Bangladesh. In *Proceedings of the 1st International Online Conference on Veterinary Sciences*, 3–5 December 2025, MDPI: Basel, Switzerland.  
+- **Islam, M.N.**, Alam, M.S., Islam, S., Adhikari, B.J., & Rahman, A.K.M.A. (2025).  
+  Feasibility of on-farm somatic cell count screening for subclinical mastitis: prevalence and risk factors in a commercial dairy herd in Bangladesh. In *Proceedings of the 1st International Online Conference on Veterinary Sciences (IOCVS 2025)*, 3–5 December 2025. MDPI, Basel, Switzerland.  
   [https://sciforum.net/paper/view/27422](https://sciforum.net/paper/view/27422)
 
-- Alam, M. S., **Islam, M. N.**, Rafeh, A. A., Adhikari, B. J., Kibria, M. A., Mahmud, M. S., Ema, A. A., Islam, S., Rahman, M. S., Rahman, A. K. M. A. (2025).  
-  Herd-level prevalence of brucellosis, paratuberculosis, neosporosis, and bovine viral diarrhea in large dairy herds in Bangladesh. *BAU Research Progress*, 35.
+- Alam, M.S., **Islam, M.N.**, Rafeh, A.A., Adhikari, B.J., Kibria, M.A., Mahmud, M.S., Ema, A.A., Islam, S., Rahman, M.S., & Rahman, A.K.M.A. (2025).  
+  Herd-level prevalence of brucellosis, paratuberculosis, neosporosis and bovine viral diarrhea in large dairy herds in Bangladesh. *BAU Research Progress*, 35.
 
-- Alam, M. S., **Islam, M. N.**, Rafeh, A. A., Rahman, M. S., Islam, M. A., & Rahman, A. K. M. (2024).  
-  Herd-level prevalence of brucellosis in large dairy herds in Bangladesh. *Proceedings of the BSVER Annual Scientific Conference 30*, Bangladesh Agricultural University, Mymensingh, February 24-25, 2024.
+- Alam, M.S., **Islam, M.N.**, Rafeh, A.A., Rahman, M.S., Islam, M.A., & Rahman, A.K.M.A. (2024).  
+  Herd-level prevalence of brucellosis in large dairy herds in Bangladesh. In *Proceedings of the BSVER Annual Scientific Conference 30*, Bangladesh Agricultural University, Mymensingh, 24–25 February 2024.
 
 ## Conference Presentations & Posters
 
-- **Feasibility of On-Farm Somatic Cell Count Screening for Subclinical Mastitis: Prevalence and Risk Factors in a Commercial Dairy Herd in Bangladesh.**  
-  Presented at IOCVS 2025, 4 December 2025. [DOI: 10.13140/RG.2.2.16208.16642](https://doi.org/10.13140/RG.2.2.16208.16642).
+- **Prevalence of *Neospora caninum* antibodies and associated risk factors in dairy herds in Bangladesh.**  
+  Oral presentation, 2nd International Online Conference on Veterinary Sciences (IOCVS 2026), MDPI, Basel, Switzerland.  
+  [https://sciforum.net/paper/33349](https://sciforum.net/paper/33349)
 
-- **Prevalence and Epidemiology of Bovine Brucellosis in Large Dairy Farms of Bangladesh.**  
-  Research poster on prevalence, risk factors, and control strategies presented at the BSVER Annual Scientific Conference 2024, Bangladesh Agricultural University, Mymensingh, February 24-25, 2024.
+- **Feasibility of on-farm somatic cell count screening for subclinical mastitis: prevalence and risk factors in a commercial dairy herd in Bangladesh.**  
+  Oral presentation, IOCVS 2025, 4 December 2025. [DOI: 10.13140/RG.2.2.16208.16642](https://doi.org/10.13140/RG.2.2.16208.16642)
+
+- **Prevalence and epidemiology of bovine brucellosis in large dairy farms of Bangladesh.**  
+  Poster on prevalence, risk factors and control strategies, BSVER Annual Scientific Conference 2024, Bangladesh Agricultural University, Mymensingh, 24–25 February 2024.

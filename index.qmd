@@ -10,7 +10,7 @@ page-layout: full
 <img src="images/myphoto.jpg" alt="Md Nazmul Islam" class="profile-photo">
 
 <h2>Md Nazmul Islam</h2>
-<p>MS Student in Medicine</p>
+<p>DVM · MS Candidate in Medicine</p>
 
 <div class="profile-links">
   <p><i class="fa-solid fa-location-dot"></i> Bangladesh</p>
@@ -26,28 +26,29 @@ page-layout: full
 :::
 
 ::: home-right
-<p class="hero-title">Veterinary epidemiologist building Bayesian models for zoonotic disease surveillance and control in dairy systems.</p>
+<p class="hero-title">Veterinary epidemiologist using Bayesian models to estimate how livestock diseases spread and where control will work best.</p>
 
 <p>I am a Doctor of Veterinary Medicine (DVM) graduate and an MS candidate in Medicine at the Department of Medicine, Bangladesh Agricultural University.</p>
 
-<p>My research focuses on veterinary epidemiology, zoonotic infectious diseases in livestock, and One Health approaches, integrating Bayesian statistical modeling, field diagnostics, and epidemiological risk analysis to support improved disease surveillance and control in dairy production systems.</p>
+<p>My research uses Bayesian statistics to answer practical questions about livestock disease: how common an infection really is when diagnostic tests are imperfect, how fast it spreads within herds, where it is likely to go next, and which control measures are worth their cost. Most of my work so far has been on dairy cattle (brucellosis, paratuberculosis, Q fever, neosporosis, bovine viral diarrhoea and subclinical mastitis). My MS thesis now applies these methods to African swine fever in free-ranging pigs.</p>
 
-<p>Working under the supervision of <a href="https://vm.bau.edu.bd/teachers/VM1004" target="_blank"><strong>A.K.M. Anisur Rahman</strong></a>, I combine practical field and laboratory experience with advanced analytical tools such as R for Bayesian analysis, ELISA/qPCR diagnostics, and QGIS-based spatial analysis to produce robust, reproducible epidemiological evidence.</p>
+<p>I work in the Epidemiology &amp; Preventive Medicine Lab under <a href="https://vm.bau.edu.bd/teachers/VM1004" target="_blank"><strong>A.K.M. Anisur Rahman</strong></a>. My work combines farm sampling and laboratory diagnostics (ELISA, PCR) with model building in R and Stan and disease mapping in QGIS.</p>
 
 <div class="thesis-card">
   <span class="thesis-eyebrow">Current Research · MS Thesis (In Progress)</span>
-  <p class="thesis-title">Transmission Dynamics, Intervention Simulation, and Economic Burden of Q Fever and Neosporosis in Large-Scale Commercial Dairy Herds of Bangladesh: A Hierarchical Bayesian Approach</p>
+  <p class="thesis-title">Bayesian Quantitative Risk Assessment of African Swine Fever Spread among Scavenging Pig Populations in Bangladesh</p>
+  <p>African swine fever (genotype II) reached Bangladesh in 2023 and 2024, where most pigs are kept by marginalised communities in free-ranging and nomadic systems. Following the WOAH risk analysis framework, I am estimating within-herd R₀ from outbreak data, the yearly probability that the virus reaches new districts, how much spread could go undetected, and which controls (border checks, heat-treating swill, faster reporting) would reduce risk most.</p>
   <p class="thesis-meta">Master of Science in Medicine · April 2025 – Present · Department of Medicine, Bangladesh Agricultural University<br>
   Supervisor: <a href="https://vm.bau.edu.bd/teachers/VM1004" target="_blank">Prof. Dr. A.K.M. Anisur Rahman</a> · CGPA 3.80 / 4.00 (first semester)</p>
 </div>
 
-<p>You can explore my publications, working papers, research projects, public engagement activities, and teaching contributions by navigating the sections of this website.</p>
+<p>You can find my publications, research projects, data visualizations and CV through the menu above.</p>
 
 <h2>Key Highlights</h2>
 <ul>
-  <li><strong>Eight peer-reviewed journal articles</strong> published, including three as first or equally contributing first author; and <strong>six manuscripts under review</strong> in journals including <em>Preventive Veterinary Medicine</em>, <em>Veterinary Medicine and Science</em>, and <em>Epidemics</em>.</li>
-  <li>Applied <strong>Bayesian prevalence estimation, catalytic transmission modelling, and risk-factor analysis</strong> to brucellosis, paratuberculosis, Q fever, neosporosis, bovine viral diarrhoea, and subclinical mastitis in large-scale Bangladeshi dairy herds.</li>
-  <li><strong>Leading an independent global epidemiology programme on human brucellosis</strong>, applying Bayesian meta-synthesis, spatiotemporal mapping, and One Health frameworks with a multidisciplinary team.</li>
+  <li><strong>Nine peer-reviewed journal articles</strong> published, three as first or equally contributing first author, and <strong>five manuscripts under review</strong>, including in <em>Epidemics</em>, <em>Preventive Veterinary Medicine</em> and <em>Veterinary Medicine and Science</em>.</li>
+  <li>Applied <strong>Bayesian latent-class prevalence estimation, catalytic force-of-infection models, mixture-model test cut-offs and decision-analytic economic models</strong> to six infectious diseases in large Bangladeshi dairy herds.</li>
+  <li><strong>Leading an independent global research programme on human brucellosis</strong> with a ten-member team, using Bayesian meta-analysis and spatiotemporal mapping.</li>
   <li>Recipient of the <strong>National Science and Technology (NST) Fellowship 2026</strong>.</li>
 </ul>
 
@@ -55,7 +56,7 @@ page-layout: full
 
 :::: {.coverage-card}
 
-**Our Bayesian brucellosis research was featured by Somoy TV, a national television news channel in Bangladesh, and across multiple news outlets.** The coverage highlighted risk factors, milk-production losses, and related control-economic findings from large commercial dairy herds.
+**Our brucellosis research was featured by Somoy TV, a national television news channel in Bangladesh, and by several national news outlets.** The coverage focused on risk factors, milk-production losses and the economics of control in large commercial dairy herds.
 
 <div class="coverage-video-link">
 <a href="https://www.youtube.com/watch?v=z-08npz2H74"
@@ -63,13 +64,15 @@ page-layout: full
    rel="noopener noreferrer"
    aria-label="Watch the Somoy TV feature on YouTube">
 <img src="images/somoy-tv-feature.png"
-     alt="Somoy TV coverage of our Bayesian brucellosis research">
+     alt="Somoy TV coverage of our brucellosis research">
 <span class="coverage-play"><i class="fa-solid fa-play"></i></span>
 </a>
 </div>
 
 ::: {.coverage-links}
-[Published Study](https://doi.org/10.1186/s44149-026-00234-w){target="_blank"}
+[Risk-Factor Study](https://doi.org/10.1186/s44149-026-00234-w){target="_blank"}
+
+[Economic Study](https://doi.org/10.1016/j.prevetmed.2026.107014){target="_blank"}
 
 [Somoy TV Feature](https://www.youtube.com/watch?v=z-08npz2H74){target="_blank"}
 
@@ -84,11 +87,11 @@ page-layout: full
 
 <h2>Research Interests</h2>
 <ul>
-  <li>Veterinary epidemiology and zoonotic/infectious disease dynamics</li>
-  <li>Bayesian and quantitative epidemiological modelling</li>
-  <li>Diagnostic-test evaluation and disease surveillance</li>
-  <li>Dairy herd health and production-impact assessment</li>
-  <li>One Health approaches in South Asian and LMIC settings</li>
+  <li>Veterinary epidemiology and infectious disease transmission dynamics</li>
+  <li>Bayesian quantitative risk assessment of transboundary and zoonotic animal diseases</li>
+  <li>Diagnostic-test evaluation and surveillance under uncertainty</li>
+  <li>Livestock health and production-impact assessment</li>
+  <li>One Health in South Asia and other low- and middle-income countries</li>
 </ul>
 :::
 :::::
